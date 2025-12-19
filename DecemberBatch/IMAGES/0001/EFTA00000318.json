@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000318.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a storage area or closet. On the left, there are stacks of white cardboard boxes and clear plastic storage bins. In the center, there is a white low cabinet or sideboard. On top of this cabinet, there are four large clear plastic zippered storage bags containing patterned textiles (possibly blankets or comforters). In the foreground, another stack of white cardboard boxes sits on the floor. The walls are a neutral beige color.",
+    "layout": "Interior photograph of a storage space.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000318",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000318",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000318"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000318' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage area with boxes and textile bags",
+    "date": null,
+    "references": [
+      "EFTA00000318"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be an evidentiary photograph from an investigation, indicated by the Bates stamp numbering. The OCR provided in the prompt included some noise ('411441t, 1') which is not clearly visible as text in the image itself, though there are dark tape markings on the white boxes that might be misread by OCR.",
+  "file_path": "IMAGES\\0001\\EFTA00000318.pdf",
+  "document_id": "EFTA00000318",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:21:58.170142Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

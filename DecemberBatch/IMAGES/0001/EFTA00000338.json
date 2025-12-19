@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000338.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a small workspace or desk area set up inside what appears to be a walk-in closet or a converted storage space. The area contains a white desk with a white swivel chair. Above the desk is a chrome clothing rod with garments hanging in plastic dry-cleaning bags on the right side. To the left is a white shelving unit with drawers and storage boxes. On the floor are white wicker baskets and some flat, folded items leaning against the wall. The walls are a beige or tan color with a subtle pattern.",
+    "layout": "The image is a landscape-oriented photograph. The desk is centered, with storage units on the left and hanging clothes on the right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000338",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000338",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000338"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000338' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a workspace/closet area",
+    "date": null,
+    "references": [
+      "EFTA00000338"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be evidence or documentation from an investigation, indicated by the Bates stamp at the bottom.",
+  "file_path": "IMAGES\\0001\\EFTA00000338.pdf",
+  "document_id": "EFTA00000338",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:24:16.415197Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

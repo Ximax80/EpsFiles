@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000316.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a storage area or closet containing several pieces of luggage and garment bags. On the floor, there are several suitcases: a prominent blue hard-shell suitcase, two black suitcases, and a beige vintage-style suitcase. Under a white shelf, another black suitcase is partially visible. On top of the white shelf, there are several black garment bags or soft-sided cases stacked against the wall. A white cabinet or side panel is visible on the left. The walls are off-white, and there is a small square access panel on the wall. A single light bulb is mounted on the ceiling/upper wall area.",
+    "layout": "Interior photograph of a storage space with items arranged on the floor and a shelf.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000316",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000316",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000316"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000316' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage of luggage and garment bags",
+    "date": null,
+    "references": [
+      "EFTA00000316"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photographic exhibit, likely part of an investigation, as indicated by the Bates stamp numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000316.pdf",
+  "document_id": "EFTA00000316",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:21:44.922873Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

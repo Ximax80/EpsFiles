@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000297.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The room features vibrant purple walls and a white crown molding. A large bed is the central focus, dressed with white pillows and a grey and black faux-fur striped throw blanket. The headboard is ornate with a scalloped pink velvet border and a striped fabric center. Two matching floor lamps with red shades flank the bed. To the left, there are two windows with white curtains that have a thin blue decorative border. The floor appears to have yellow carpeting.",
+    "layout": "Interior room shot with a bed centered against a wall.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000297",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000297",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000297"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000297' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00000297"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used as evidence or documentation in a legal or investigative context, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000297.pdf",
+  "document_id": "EFTA00000297",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:37.215670Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

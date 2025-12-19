@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000294.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an open closet. The closet contains a top shelf with a large grey and black duffel bag and some white items (possibly linens or pillows). Below the shelf is a hanging rod with several garments including white shirts, a dark coat, and a tan jacket. On the floor of the closet, which has yellow carpeting, there are shoes and some white shopping bags or boxes. The closet doors are white with gold-colored knobs. To the right, another door frame and hardware are visible.",
+    "layout": "Interior shot of a closet through an open doorway.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000294",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000294",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000294"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Alphanumeric footer stamp: EFTA00000294"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a closet",
+    "date": null,
+    "references": [
+      "EFTA00000294"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, likely part of a larger set of investigative materials given the 'EFTA' prefix on the document number.",
+  "file_path": "IMAGES\\0001\\EFTA00000294.pdf",
+  "document_id": "EFTA00000294",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:17.224885Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

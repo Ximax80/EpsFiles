@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000292.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a room featuring purple walls, white crown molding, and white baseboards. The floor is covered in a mustard-yellow or gold-colored carpet. There are three doorways visible: one on the left leading to a dark room (possibly a bedroom), a central doorway leading to a bathroom with a white toilet and tiled floor visible, and a white door on the right with a full-length mirror and a brass doorknob. A ceiling light fixture is partially visible at the top center. An electrical outlet is visible on the baseboard in the center.",
+    "layout": "Interior architectural shot showing a hallway or transitional space connecting multiple rooms.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000292",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000292",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000292"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000292' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000292"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used as evidence or documentation in a legal or investigative proceeding, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000292.pdf",
+  "document_id": "EFTA00000292",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:04.390225Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

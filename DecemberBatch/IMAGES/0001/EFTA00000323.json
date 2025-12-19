@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000323.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a room featuring a window and a door. The window is a white-framed, multi-pane casement style with a dark view outside, suggesting it is nighttime. To the left of the window, a long, cream-colored curtain hangs from a dark rod. To the right, a white door is partially open, revealing a gold-toned doorknob and a small circular lock above it. A white label with the letters 'FF' is taped to the door. The walls are a light gray or off-white color.",
+    "layout": "The image is a horizontal photograph. The window is centered, flanked by a curtain on the left and a door on the right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "FF\nEFTA00000323",
+    "text_regions": [
+      {
+        "region": "label_on_door",
+        "text": "FF",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000323",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000323"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Label on door with 'FF'",
+      "Electronic footer 'EFTA00000323'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room view with window and door",
+    "date": null,
+    "references": [
+      "EFTA00000323"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be part of an evidentiary or investigative collection, indicated by the 'FF' label and the 'EFTA' serial number footer.",
+  "file_path": "IMAGES\\0001\\EFTA00000323.pdf",
+  "document_id": "EFTA00000323",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:22:29.688421Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

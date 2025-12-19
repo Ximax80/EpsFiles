@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000300.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The room features vibrant purple walls and yellow carpeting. A bed is the central focus, made with white sheets and a black and white striped faux-fur or patterned throw blanket. The headboard is ornate with a scalloped pink border and multi-colored striped fabric center. To the right of the bed is a dark bedside table holding a blue stained-glass Tiffany-style lamp and some papers. A wall-mounted lamp with a red shade is visible on the left side of the headboard, and another similar lamp is positioned behind the bedside table. A white door frame is visible on the far right.",
+    "layout": "Interior room shot, landscape orientation.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000300",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000300",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000300"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/document identifier at bottom right: EFTA00000300"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior bedroom photograph",
+    "date": null,
+    "references": [
+      "EFTA00000300"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a clear photograph likely used as evidence or documentation in a legal or investigative context, as indicated by the Bates stamp 'EFTA00000300'.",
+  "file_path": "IMAGES\\0001\\EFTA00000300.pdf",
+  "document_id": "EFTA00000300",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:57.285555Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

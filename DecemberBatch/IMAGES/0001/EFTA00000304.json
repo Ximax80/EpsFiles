@@ -1,0 +1,71 @@
+{
+  "file_name": "EFTA00000304.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken through an open doorway looking into a small kitchen or kitchenette area. The kitchen features white cabinetry, a stainless steel sink with a high-arc faucet, a white countertop, and a stainless steel dishwasher. A window with multiple panes is centered above the sink, showing a dark exterior and a reflection of an interior light fixture. On the counter, there is a dish rack, soap dispensers, a roll of paper towels, and a toaster. A white door is visible on the left side of the frame, partially open, with a small white sign or label attached to it. The walls and trim are white.",
+    "layout": "Interior architectural shot framed by a doorway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "I \nEFTA00000304",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000304",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "I",
+        "type": "printed"
+      },
+      {
+        "region": "label on door",
+        "text": "[unclear: CO]",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000304"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates-style production number EFTA00000304"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a kitchen/kitchenette",
+    "date": null,
+    "references": [
+      "EFTA00000304"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.9,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The photograph appears to be part of a larger evidentiary production, indicated by the 'EFTA' prefix on the document number. A small sign is taped to the door on the left, but the text is partially obscured and difficult to read with certainty.",
+  "file_path": "IMAGES\\0001\\EFTA00000304.pdf",
+  "document_id": "EFTA00000304",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:20:24.585622Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

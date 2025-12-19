@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000298.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The walls are painted a vibrant purple. A dark wood dresser sits against the wall, topped with a large gold-framed mirror, a flat-screen television, a small stuffed animal (lion), a tissue box, and some plastic-wrapped items. To the left of the dresser is a black wooden chair. To the right, white curtains with thin blue vertical stripes frame a window. An air conditioning unit is visible in the window. In the foreground, a bed with a black, white, and grey striped faux-fur throw is partially visible. A white air purifier or heater is on the floor near the curtains.",
+    "layout": "Interior room shot with furniture and decor items.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000298",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000298",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000298"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic Bates stamp 'EFTA00000298' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00000298"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph likely used as evidence or documentation, indicated by the Bates numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000298.pdf",
+  "document_id": "EFTA00000298",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:44.028421Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000299.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The walls are painted a vibrant purple/periwinkle color with white crown molding. In the foreground, a bed is partially visible with a black and white striped faux-fur throw blanket. To the right, there is a grey wooden dresser holding a Vizio television, a gold-framed mirror, a small stuffed lion, and some tissues. Two black wooden chairs are positioned against the wall between the dresser and an open doorway. The doorway leads to a hallway or another room with white doors and gold-colored hardware. A lamp with a stained-glass style shade is visible in the reflection of the mirror.",
+    "layout": "Interior room shot with furniture and an open doorway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "VIZIO\nEFTA00000299",
+    "text_regions": [
+      {
+        "region": "object_label",
+        "text": "VIZIO",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000299",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "VIZIO"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000299"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic watermark/identifier: EFTA00000299"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000299"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used as evidence or documentation in a legal or investigative context, as indicated by the EFTA tracking number.",
+  "file_path": "IMAGES\\0001\\EFTA00000299.pdf",
+  "document_id": "EFTA00000299",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:19:50.734824Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

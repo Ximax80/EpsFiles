@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000305.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from inside a room looking towards an open white door. A white piece of paper with the large printed letters 'DD' is taped to the edge of the door. The room beyond the door is dimly lit, showing a beige wall, a dark desk or table, a white lamp, and some stacked papers or books. There is a small circular door handle or lock visible on the door frame.",
+    "layout": "The image is split vertically by the white door on the left and the dark room interior on the right.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "DD\nEFTA00000305",
+    "text_regions": [
+      {
+        "region": "label on door",
+        "text": "DD",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000305",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000305"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence label marked 'DD' taped to door"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Crime scene or investigative photography",
+    "date": null,
+    "references": [
+      "EFTA00000305"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The paper labeled 'DD' appears to be an evidence marker or room identifier used during an investigation. The text below 'DD' on the paper is too small and blurry to read reliably but appears to be a grid or form.",
+  "file_path": "IMAGES\\0001\\EFTA00000305.pdf",
+  "document_id": "EFTA00000305",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:20:31.112344Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000329.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a hallway or room looking through an open doorway into a bathroom. The bathroom has white tiled floors, a white rug, a small wooden stool holding folded white towels, and a toilet. The walls inside the bathroom are off-white. The wall outside the bathroom is painted a dark navy or black. A portion of a grey chair is visible in the foreground to the right. The door is white with silver hardware.",
+    "layout": "Interior architectural photograph with a view through a doorway.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000329",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000329",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000329"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000329' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000329"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph likely from an investigation, indicated by the Bates numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000329.pdf",
+  "document_id": "EFTA00000329",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:23:10.296778Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

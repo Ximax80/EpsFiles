@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000334.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a storage area or closet. In the center is a white 2x4 cubby shelving unit (Kallax style). The top of the unit holds two stacks of four thin white boxes each, and a yellow Kodak Ektagraphic slide projector box. The cubbies contain white storage bins with small labels. To the left of the unit, there are framed pictures leaning against the wall and several shopping bags (one purple, one white) on the floor. To the right, a portion of a white dresser or built-in cabinet with drawers and more storage boxes is visible. The floor has a light-colored patterned carpet.",
+    "layout": "Interior storage space with shelving and boxes.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "Kodak\nEktagraphic\nslide projector\nOFFICE\nSUPPLIES\nEFTA00000334",
+    "text_regions": [
+      {
+        "region": "object_label_yellow_box",
+        "text": "Kodak\nEktagraphic\nslide projector",
+        "type": "printed"
+      },
+      {
+        "region": "object_label_white_bin",
+        "text": "OFFICE\nSUPPLIES",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000334",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Kodak"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000334"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000334"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage area with boxes and equipment",
+    "date": null,
+    "references": [
+      "EFTA00000334"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.9,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The small labels on the white bins in the cubby unit contain text that is too small and blurry to read reliably, though they appear to be typed labels. One label on the far right cabinet clearly reads 'OFFICE SUPPLIES'.",
+  "file_path": "IMAGES\\0001\\EFTA00000334.pdf",
+  "document_id": "EFTA00000334",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:23:44.767295Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

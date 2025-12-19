@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000309.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The room features a large bed with a white duvet and multiple white pillows, backed by a tall, tufted orange/tan headboard. To the right of the bed is a wooden nightstand with two shelves containing magazines and a black lamp with a large white rectangular shade. To the left of the bed is another nightstand with a similar lamp. The windows are covered with white and yellow striped curtains. A cream-colored armchair with fringe is visible on the left side of the room, next to a dark wooden dresser or TV stand. The carpet is a yellowish-gold color. A smoke detector is visible on the ceiling.",
+    "layout": "Interior bedroom shot, landscape orientation.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000309",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000309",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000309"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000309' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00000309"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used for evidentiary or documentation purposes, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000309.pdf",
+  "document_id": "EFTA00000309",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:20:58.983383Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

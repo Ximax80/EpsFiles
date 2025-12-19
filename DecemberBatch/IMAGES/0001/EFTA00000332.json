@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000332.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an open white door leading into a walk-in closet or storage room. A white paper sign with the large letters 'GG' is taped to the door. Inside the room, there is a large white built-in shelving unit filled with uniform white storage boxes and drawers. To the right of the built-in unit, a small gray rolling cart is visible, holding various items including what appear to be rolls of paper or blueprints.",
+    "layout": "Interior shot looking through a doorway into a storage area.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "GG\nEFTA00000332",
+    "text_regions": [
+      {
+        "region": "label_on_door",
+        "text": "GG",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000332",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000332"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence label 'GG' taped to the door",
+      "Bates stamp EFTA00000332"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage room or closet with evidence marker",
+    "date": null,
+    "references": [
+      "EFTA00000332"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The sign on the door appears to be an evidence marker used during a search or investigation. The paper also contains smaller text and a grid/table below the 'GG', but it is too blurry to read reliably.",
+  "file_path": "IMAGES\\0001\\EFTA00000332.pdf",
+  "document_id": "EFTA00000332",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:23:30.617157Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

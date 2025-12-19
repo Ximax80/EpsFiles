@@ -1,0 +1,71 @@
+{
+  "file_name": "EFTA00000303.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a kitchen interior. The scene shows a stainless steel gas stove with a tan towel hanging on the oven handle, white cabinetry, a white countertop, a small toaster oven, a white wire dish rack, and a stainless steel sink with a faucet. Several bottles of soap (including Mrs. Meyer's brand) are next to the sink. A white door with a brass knob is on the left. A white paper label with the letters 'CC' is taped to the upper left cabinet/door area.",
+    "layout": "Interior kitchen shot, eye-level perspective.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "CC\nEFTA00000303\nMEYER'S\nCLEAN DAY",
+    "text_regions": [
+      {
+        "region": "label",
+        "text": "CC",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000303",
+        "type": "printed"
+      },
+      {
+        "region": "object_label",
+        "text": "MEYER'S CLEAN DAY",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000303"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence or exhibit label marked 'CC' taped to the door/cabinet."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Kitchen interior documentation",
+    "date": null,
+    "references": [
+      "EFTA00000303"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be a piece of evidence documentation from an investigation, indicated by the 'CC' label and the 'EFTA' tracking number at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000303.pdf",
+  "document_id": "EFTA00000303",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:20:17.709332Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

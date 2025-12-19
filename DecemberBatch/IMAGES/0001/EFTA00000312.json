@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000312.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small utility or mechanical closet. Inside, there is a large metal HVAC unit or ductwork system. Several pipes with white insulation and yellow valves are visible near the ceiling. A white painted duct or enclosure extends from the wall. On the floor, there is a drain and a white plastic pump sprayer with a black hose. The room has a concrete floor and beige walls. An open white door is visible on the left side of the frame.",
+    "layout": "Interior photograph showing a mechanical room through an open doorway.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "IL \nEFTA00000312",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000312",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "IL",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000312"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000312"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Mechanical/HVAC closet documentation",
+    "date": null,
+    "references": [
+      "EFTA00000312"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'IL' appears faintly in the bottom left margin area. The primary text is the Bates stamp identifier in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000312.pdf",
+  "document_id": "EFTA00000312",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:21:18.291277Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

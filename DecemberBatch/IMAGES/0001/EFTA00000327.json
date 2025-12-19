@@ -1,0 +1,63 @@
+{
+  "file_name": "EFTA00000327.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an office or study room. The room features light-colored walls and a patterned carpet. In the center-left, there is a glass-topped desk with a silver-colored computer (Apple iMac), a desk chair, and various office supplies. To the left of the desk is a large printer or plotter. In the background, there is another desk with a printer and files. To the right, there are two bright orange chairs and a black object on the floor. Two tall, black floor lamps are positioned against the back wall, flanking an open white door. The lighting is warm, coming from the floor lamps and overhead sources.",
+    "layout": "Interior room shot showing a workspace and seating area.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000327",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000327",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Apple"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000327"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000327"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of an office space",
+    "date": null,
+    "references": [
+      "EFTA00000327"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a standard interior photograph likely taken for documentation purposes. The only text present is the Bates stamp at the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000327.pdf",
+  "document_id": "EFTA00000327",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:22:57.329400Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

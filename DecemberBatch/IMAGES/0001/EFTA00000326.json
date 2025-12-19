@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000326.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a modern, well-lit office or study. The room features a large glass-top desk in the foreground equipped with an Apple iMac, a white keyboard, a mouse, a white telephone, and various desk accessories. Two bright orange chairs are positioned behind the desk. In the background, there is a large, built-in white shelving unit filled with books and framed pictures. To the right, a small round black table stands on a light-colored patterned carpet. Two tall, black cylindrical floor lamps are positioned against the left wall, casting light upwards. A white door is visible in the center-left background.",
+    "layout": "Landscape photograph showing a wide-angle view of an office interior.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000326",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000326",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000326"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000326' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of an office space",
+    "date": null,
+    "references": [
+      "EFTA00000326"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document production, as evidenced by the Bates stamp. No textual content is present within the room scene itself other than illegible book spines.",
+  "file_path": "IMAGES\\0001\\EFTA00000326.pdf",
+  "document_id": "EFTA00000326",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:22:50.215396Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

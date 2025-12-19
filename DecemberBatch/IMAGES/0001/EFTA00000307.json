@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000307.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The room features a bed with white linens in the foreground, a dark wood desk with a white lamp and various items on it, two orange chairs, a white armchair with a pet bed on it, and a dark dresser with a large flat-screen television. A doorway is visible on the left side of the frame, showing a glimpse of another room with yellow carpeting. A green and grey patterned tube (possibly a pet tunnel) is on the floor under the desk. The walls are a light cream color with crown molding.",
+    "layout": "Landscape photograph showing a wide view of a bedroom.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "DD\nEFTA00000307",
+    "text_regions": [
+      {
+        "region": "label",
+        "text": "DD",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000307",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000307"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Label 'DD' attached to the door frame",
+      "Bates stamp 'EFTA00000307' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000307"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely from an investigation, as indicated by the 'DD' marker and the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000307.pdf",
+  "document_id": "EFTA00000307",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:20:44.938953Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
