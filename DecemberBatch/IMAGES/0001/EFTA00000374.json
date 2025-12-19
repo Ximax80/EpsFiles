@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000374.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from inside a room looking out through an open set of French doors onto a balcony or terrace at night. The left door is white-framed with glass panes and is closed. The right door is dark-framed (possibly dark grey or black) and is swung open. Outside, there is a large rectangular grey planter containing a bush with pink flowers. The ground of the terrace appears to be light-colored stone or concrete tiles. The background beyond the terrace is dark, indicating nighttime.",
+    "layout": "The image is a landscape-oriented photograph with a white border. A document reference number is printed in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000374",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000374",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000374"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates-style document identification number 'EFTA00000374' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photograph of a balcony/terrace through open doors",
+    "date": null,
+    "references": [
+      "EFTA00000374"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photographic exhibit likely part of a larger investigative file, as indicated by the EFTA prefix on the document number.",
+  "file_path": "IMAGES\\0001\\EFTA00000374.pdf",
+  "document_id": "EFTA00000374",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:28:24.391498Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

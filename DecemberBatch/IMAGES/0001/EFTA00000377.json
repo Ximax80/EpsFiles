@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000377.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a set of indoor stairs. The stairs are covered in a grey, patterned carpet. There is a wooden handrail on the left side supported by blue-painted metal balusters. The walls are painted an off-white or light cream color. A blue-painted baseboard runs along the wall following the incline of the stairs. A small portion of a ceiling light fixture is visible at the top center. An electrical outlet is visible on the wall near the landing.",
+    "layout": "Vertical orientation showing a perspective view looking up a staircase.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000377",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000377",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000377"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000377"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior staircase",
+    "date": null,
+    "references": [
+      "EFTA00000377"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, identified by the Bates stamp in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000377.pdf",
+  "document_id": "EFTA00000377",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:28:44.102151Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

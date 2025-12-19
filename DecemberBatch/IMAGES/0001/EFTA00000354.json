@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000354.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a storage area, likely a basement or utility room. Two black three-drawer lateral filing cabinets are the central focus. The right cabinet has its top drawer pulled open. On top of the cabinets are various items including a FedEx Express box, rolled-up documents, a red plastic milk crate filled with papers, and other loose documents. To the left of the cabinets is a rack holding numerous hanging file folders. In the foreground, a large cardboard box is partially visible. The background shows white doors, a metal duct system, and a white support pillar on the right. Yellow sticky notes are attached to the front of several drawers.",
+    "layout": "The image is a wide-angle photograph of a storage space with filing cabinets and boxes.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "FedEx Express\nEFTA00000354",
+    "text_regions": [
+      {
+        "region": "label on box",
+        "text": "FedEx Express",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000354",
+        "type": "printed"
+      },
+      {
+        "region": "sticky notes on drawers",
+        "text": "[unclear: handwritten text on yellow sticky notes]",
+        "type": "handwritten"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "FedEx"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000354"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000354"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage area containing filing cabinets and boxes",
+    "date": null,
+    "references": [
+      "EFTA00000354"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.9,
+    "structured_data": 0.95,
+    "overall": 0.92
+  },
+  "notes": "The text on the yellow sticky notes is visible but too blurry to transcribe accurately. The image appears to be evidence documentation from an investigation.",
+  "file_path": "IMAGES\\0001\\EFTA00000354.pdf",
+  "document_id": "EFTA00000354",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:26:07.296977Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

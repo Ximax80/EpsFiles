@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000357.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a storage area or basement. In the center is a metal wire shelving unit stacked with various rolled items, including rugs, carpets, and what appears to be a white mattress or large foam pad wrapped in plastic. Below the shelving unit are several large cardboard boxes or furniture pieces partially covered in white padding and plastic. To the left, a brown chair has a yellow measuring tape resting on its seat. In the foreground, there is a light green plastic bin. The background shows white walls, a door, and a window with white blinds. A large metal duct or structural beam is visible on the right side.",
+    "layout": "Interior storage space photograph with a watermark in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000357",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000357",
+        "type": "printed"
+      },
+      {
+        "region": "label",
+        "text": "[unclear: 05-19]",
+        "type": "handwritten"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000357"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Digital watermark/Bates stamp: EFTA00000357",
+      "Yellow tape/labels on boxes and bin"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage area containing rugs, furniture, and equipment",
+    "date": null,
+    "references": [
+      "EFTA00000357"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The text on the yellow labels is mostly illegible due to distance and lighting, though one on the green bin appears to have a handwritten date or code '05-19'. The primary text is the Bates stamp 'EFTA00000357'.",
+  "file_path": "IMAGES\\0001\\EFTA00000357.pdf",
+  "document_id": "EFTA00000357",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:26:28.292208Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

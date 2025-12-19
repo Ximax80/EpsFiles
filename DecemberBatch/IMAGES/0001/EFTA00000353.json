@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000353.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a mechanical room or utility space, likely an HVAC or boiler room. The image shows a complex network of insulated pipes (white), copper piping, electrical conduits, and large metal ductwork. A grey electrical control panel is mounted on a metal frame in the center. In the background, a large blue mechanical unit with a pulley wheel is visible. A grey bucket sits on the floor. To the left, there is a dark blue or black curved panel with some yellow markings. A white cabinet is on the far right.",
+    "layout": "Industrial mechanical room interior",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "HEATING\nEFTA00000353",
+    "text_regions": [
+      {
+        "region": "pipe_label",
+        "text": "HEATING",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000353",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000353"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000353",
+      "Pipe label: HEATING"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Mechanical room/HVAC infrastructure",
+    "date": null,
+    "references": [
+      "EFTA00000353"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'HEATING' is partially visible on a yellow label on a pipe at the top of the frame. There are some illegible handwritten markings in yellow on the dark blue panel on the left.",
+  "file_path": "IMAGES\\0001\\EFTA00000353.pdf",
+  "document_id": "EFTA00000353",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:26:00.482039Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

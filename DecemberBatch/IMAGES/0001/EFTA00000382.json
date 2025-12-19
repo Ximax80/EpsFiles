@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000382.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph looking down a carpeted staircase. The stairs lead to a landing with grey carpeting. On the wall at the bottom of the stairs, there is a red fire extinguisher mounted next to a white pipe. To the right of the extinguisher is a recessed wall cabinet containing what appears to be fire hoses or emergency equipment behind a glass or mesh door. The staircase has a blue-painted metal railing with a wooden handrail. The walls are white, and there are some dark scuff marks or smudges on the wall to the left of the stairs.",
+    "layout": "Vertical perspective shot from the top of a stairwell looking down.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000382",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000382",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000382"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000382"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior stairwell with fire safety equipment",
+    "date": null,
+    "references": [
+      "EFTA00000382"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely part of a larger investigation file as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000382.pdf",
+  "document_id": "EFTA00000382",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:29:18.572050Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

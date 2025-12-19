@@ -1,0 +1,86 @@
+{
+  "file_name": "EFTA00000360.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a storage closet or small room filled with various boxes and equipment. The room has light-colored walls and flooring. Two wooden shelves are mounted on the wall, supported by metal brackets. The shelves and floor are cluttered with cardboard boxes, many of which are labeled 'PHILIPS'. There are also boxes for 'U.S. LOCK' locksets, lighting fixtures, and other miscellaneous items. A black metal pole or pipe runs vertically from the floor to the bottom shelf. The door to the room is open on the right side of the frame, showing a silver door handle.",
+    "layout": "Interior storage space with shelving units along the back and left walls.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "PHILIPS\nPHILIPS\nHalogen\nPHILIPS\nPHILIPS\nU.S. LOCK\nUS2010 SERIES\nLOCKSET\nU.S. LOCK\nWATCO\n12-PACK\nWATCO\n12-PACK\nWATCO\n12-PACK\nEFTA00000360",
+    "text_regions": [
+      {
+        "region": "body_left_shelf_boxes",
+        "text": "PHILIPS\nPHILIPS\nHalogen",
+        "type": "printed"
+      },
+      {
+        "region": "body_right_shelf_boxes",
+        "text": "U.S. LOCK\nUS2010 SERIES\nLOCKSET\nU.S. LOCK",
+        "type": "printed"
+      },
+      {
+        "region": "body_top_shelf_boxes",
+        "text": "WATCO\n12-PACK\nWATCO\n12-PACK\nWATCO\n12-PACK",
+        "type": "printed"
+      },
+      {
+        "region": "body_floor_boxes",
+        "text": "PHILIPS\nPHILIPS",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000360",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "PHILIPS",
+      "U.S. LOCK",
+      "WATCO"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000360",
+      "US2010 SERIES"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000360 in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage room contents",
+    "date": null,
+    "references": [
+      "EFTA00000360"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image is a clear photograph of a storage area. The text extracted is primarily from product packaging and a Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000360.pdf",
+  "document_id": "EFTA00000360",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:26:51.522092Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

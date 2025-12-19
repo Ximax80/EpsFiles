@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000364.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a hallway or transition space within a residence. The room features light-colored (possibly off-white or cream) walls with a textured finish. There are three visible doorways: one on the left (partially cut off), one in the center with an open white paneled door showing hinges, and one further down the hall to the right. To the far right, a glass-paned door is visible. The floor is light-colored wood in a parquet or chevron pattern. On the left wall, there is a white rectangular control panel or switch plate. A portion of a white table or counter is visible in the bottom right foreground.",
+    "layout": "Interior architectural shot showing multiple doorways and a hallway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000364",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000364",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000364"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000364' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000364"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used as evidence or documentation in a legal or investigative proceeding, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000364.pdf",
+  "document_id": "EFTA00000364",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:27:18.150558Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

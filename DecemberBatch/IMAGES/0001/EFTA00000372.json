@@ -1,0 +1,63 @@
+{
+  "file_name": "EFTA00000372.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a modern, luxuriously furnished room. The room features a large white sofa with dark wood framing, a matching white ottoman/bench in the foreground with fur throws, and a desk area in the background with a computer monitor (Apple iMac). The walls are decorated with mirrored or metallic panels with a grid pattern. There is a large mirror on the right wall reflecting the room. The floor is covered with a light-colored patterned rug over wood flooring.",
+    "layout": "Landscape orientation showing a wide view of a living/office space.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000372",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000372",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Apple"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000372"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000372' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000372"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 0.95,
+    "overall": 0.98
+  },
+  "notes": "The OCR provided in the prompt ('El .-‘1•7 • • -') appears to be noise or misinterpretation of visual elements; the only legible text in the image is the Bates stamp 'EFTA00000372'. The room contains an Apple iMac computer.",
+  "file_path": "IMAGES\\0001\\EFTA00000372.pdf",
+  "document_id": "EFTA00000372",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:28:11.849504Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

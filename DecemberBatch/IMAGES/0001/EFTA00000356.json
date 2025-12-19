@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000356.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a cluttered storage room or office space. In the foreground, there is a large black rectangular object (possibly a safe or equipment case) with metal pins protruding from the top. To its right is a round silver pedestal table. Behind these items are two chairs covered with light gray fabric or plastic sheets. The room contains various boxes, a black suitcase on top of a white cabinet, and items wrapped in clear plastic hanging from the ceiling or stacked. A large metal duct or structural pillar is visible on the left side.",
+    "layout": "Interior storage space photograph with a document reference number in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000356",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000356",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000356"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number 'EFTA00000356' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage room contents",
+    "date": null,
+    "references": [
+      "EFTA00000356"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be an evidentiary photograph from an investigation, likely related to the storage of items in a private or government facility. The text 'EFTA00000356' is a tracking or Bates number.",
+  "file_path": "IMAGES\\0001\\EFTA00000356.pdf",
+  "document_id": "EFTA00000356",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:26:20.913582Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

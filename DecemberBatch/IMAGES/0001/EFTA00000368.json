@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000368.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken through an open doorway looking into a small kitchen or kitchenette area. The kitchen features light-colored (off-white or cream) cabinetry, a granite or stone countertop with a brown/tan speckled pattern, and a stainless steel dishwasher. A stainless steel sink with a high-arc faucet is visible. On the counter, there is a coffee maker, a small white object (possibly a clock or scale), a jar, and a roll of paper towels. A stainless steel trash can sits on the light wood flooring in the foreground. The ceiling has recessed lighting.",
+    "layout": "The image is framed by a white door and doorframe in the foreground, creating a 'view through a doorway' perspective.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000368",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000368",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000368"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000368' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a kitchen area",
+    "date": null,
+    "references": [
+      "EFTA00000368"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph included in a document production, identified by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000368.pdf",
+  "document_id": "EFTA00000368",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:27:44.804034Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

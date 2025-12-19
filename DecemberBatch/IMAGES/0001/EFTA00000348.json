@@ -1,0 +1,72 @@
+{
+  "file_name": "EFTA00000348.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a basement or utility room area. In the foreground, a white sheet of paper with a large black 'HH' symbol is taped to a vertical door frame or wall corner. Behind it, the room contains large blue industrial machinery (possibly blowers or fans), white insulated pipes running across the ceiling, and rows of lockers in the background. The lighting is dim, suggesting an indoor utility space.",
+    "layout": "The image is a landscape photograph. A document is the focal point on the right-center, while the background shows industrial infrastructure.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "HH\nSearch Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)\nEFTA00000348",
+    "text_regions": [
+      {
+        "region": "document_center",
+        "text": "HH",
+        "type": "printed"
+      },
+      {
+        "region": "document_table_header",
+        "text": "Search Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000348",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000348"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Large black 'HH' symbol",
+      "Bates stamp: EFTA00000348"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph of a search log/marker",
+    "sender": null,
+    "recipient": null,
+    "subject": "Search and seizure or site inspection documentation",
+    "date": null,
+    "references": [
+      "EFTA00000348"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.9,
+    "structured_data": 0.85,
+    "overall": 0.9
+  },
+  "notes": "The document taped to the wall appears to be a 'Search Personnel' log used during a site search or inspection. The 'HH' likely designates a specific room or area code within the facility being searched. The table on the document is blank.",
+  "file_path": "IMAGES\\0001\\EFTA00000348.pdf",
+  "document_id": "EFTA00000348",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:25:23.503727Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

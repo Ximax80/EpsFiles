@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000378.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior stairwell landing. The image shows a set of carpeted stairs leading upwards with a wooden and metal railing on the left. On the wall at the landing, there are two fire extinguishers mounted below a sign that reads 'ROOF LEVEL'. Below the extinguishers is a white electronic box with wires hanging down, including a power plug that is not connected to an outlet. A red fire suppression pipe runs horizontally across the upper part of the wall. There is a ceiling light, a smoke detector, and a recessed panel on the right wall.",
+    "layout": "Vertical orientation showing a corner of a stairwell.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "ROOF LEVEL\nelm\nEFTA00000378",
+    "text_regions": [
+      {
+        "region": "wall_sign",
+        "text": "ROOF LEVEL",
+        "type": "printed"
+      },
+      {
+        "region": "electronic_device",
+        "text": "elm",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000378",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "ROOF LEVEL"
+    ],
+    "document_numbers": [
+      "EFTA00000378"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000378"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of building stairwell at roof level",
+    "date": null,
+    "references": [
+      "EFTA00000378"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image is a forensic or investigative photograph, likely part of a larger set of evidence as indicated by the Bates stamp. The electronic device 'elm' appears to be a battery backup or emergency lighting control unit with an unplugged power cord.",
+  "file_path": "IMAGES\\0001\\EFTA00000378.pdf",
+  "document_id": "EFTA00000378",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:28:51.406655Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

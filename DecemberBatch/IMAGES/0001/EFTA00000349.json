@@ -1,0 +1,74 @@
+{
+  "file_name": "EFTA00000349.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an industrial or mechanical room, likely a basement or utility space. The image features large blue industrial fans or blowers labeled 'EF-1'. White insulated pipes run across the ceiling. One pipe has a yellow label that reads 'HEATING WATER SUP'. There is a white rectangular duct structure in the foreground with rolls of material (possibly insulation or floor mats) resting on top. A black multi-drawer cabinet is visible against the back wall. A wooden stand or easel is on the right side of the frame.",
+    "layout": "Industrial utility room interior with mechanical equipment and piping.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "HEATING WATER SUP\nEF-1\nEFTA00000349",
+    "text_regions": [
+      {
+        "region": "pipe label",
+        "text": "HEATING WATER SUP",
+        "type": "printed"
+      },
+      {
+        "region": "equipment label",
+        "text": "EF-1",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000349",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000349",
+      "EF-1"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "EFTA00000349 (Bates stamp or document identifier)",
+      "HEATING WATER SUP (Pipe label)",
+      "EF-1 (Equipment identifier)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Industrial/Mechanical Room Equipment",
+    "date": null,
+    "references": [
+      "EFTA00000349"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be a piece of evidence or documentation from an investigation, indicated by the 'EFTA' prefix on the document number. The text 'EF-1' likely stands for 'Exhaust Fan 1'.",
+  "file_path": "IMAGES\\0001\\EFTA00000349.pdf",
+  "document_id": "EFTA00000349",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:25:30.783917Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

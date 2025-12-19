@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000343.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a carpeted staircase leading upwards. The stairs are covered in a grey, patterned carpet. To the left is a wooden handrail. On the wall at the top of the stairs, there are two fire extinguishers mounted: one red and one black. Above them is a sign that reads '6TH FLOOR'. There is also a framed object or window on the right wall, though its contents are obscured by glare.",
+    "layout": "Vertical perspective looking up a stairwell.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "6TH FLOOR\nEFTA00000343",
+    "text_regions": [
+      {
+        "region": "wall sign",
+        "text": "6TH FLOOR",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000343",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "6TH FLOOR"
+    ],
+    "document_numbers": [
+      "EFTA00000343"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000343"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a building staircase",
+    "date": null,
+    "references": [
+      "EFTA00000343"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a clear photograph likely used as evidence or documentation in an investigation. The Bates stamp indicates it is part of a larger legal or committee production.",
+  "file_path": "IMAGES\\0001\\EFTA00000343.pdf",
+  "document_id": "EFTA00000343",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:24:49.818979Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
