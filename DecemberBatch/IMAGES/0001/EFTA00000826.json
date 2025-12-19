@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000826.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-quality photograph of an interior room featuring a grand wooden staircase with ornate wrought iron railings. The room has white walls, a marble floor with dark diamond accents, and a painted ceiling mural depicting a cloudy sky. The room is furnished with three plush, cream-colored armchairs arranged around a small, ornate circular table with a chessboard on top. A long dark sideboard sits against the wall under the stairs, holding several pieces of modern white sculpture and a dark, organic-shaped object. A white fabric sculpture or decorative element hangs from the ceiling near the top of the stairs.",
+    "layout": "Landscape orientation showing a foyer or living area with a staircase as the central architectural feature.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000826",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000826",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000826"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000826 in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000826"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp EFTA00000826.",
+  "file_path": "IMAGES\\0001\\EFTA00000826.pdf",
+  "document_id": "EFTA00000826",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:44:08.101732Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

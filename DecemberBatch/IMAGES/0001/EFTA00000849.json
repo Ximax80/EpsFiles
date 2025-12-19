@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000849.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A close-up photograph of a pair of wooden double doors showing significant damage around the latch and lock area. The wood is splintered and gouged where the strike plate would normally be located on the left door and around the lock mechanism on the right door. The right door features a brass-colored lock cylinder with the brand name 'medeco' and a decorative, textured brass-colored doorknob. A long, vertical brass-colored push plate is visible on the left door.",
+    "layout": "Vertical close-up shot centered on the meeting point of two wooden doors.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "medeco\nEFTA00000849",
+    "text_regions": [
+      {
+        "region": "lock_cylinder",
+        "text": "medeco",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000849",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "medeco"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000849"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic Bates stamp: EFTA00000849"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Evidence of forced entry or damage to wooden doors",
+    "date": null,
+    "references": [
+      "EFTA00000849"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be forensic or investigative evidence documentation showing damage to a door frame and locking mechanism. The text 'medeco' is a brand name on the lock cylinder.",
+  "file_path": "IMAGES\\0001\\EFTA00000849.pdf",
+  "document_id": "EFTA00000849",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:00.504490Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

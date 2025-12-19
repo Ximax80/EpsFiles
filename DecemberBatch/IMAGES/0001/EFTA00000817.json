@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000817.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small office or workspace corner. The room has beige walls and grey carpet. On the left, a white door is partially visible. Next to it stands a large silver ribbed suitcase with a yellow sticky note on it. In the center, there is a small white desk with a white modern office chair. On the desk are several electronic devices, including what appear to be multiple cordless phone handsets in a charging base, a calculator, and some rolled-up papers. Above the desk, a white wall-mounted mail organizer labeled 'MAIL' holds several envelopes. To the right of the mail organizer is a digital wall clock displaying '6:02'. On the far right, another white door frame is visible.",
+    "layout": "Interior room shot, corner view",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "MAIL\n6:02 32\n11/14 TH 73\nEFTA00000817",
+    "text_regions": [
+      {
+        "region": "mail organizer",
+        "text": "MAIL",
+        "type": "printed"
+      },
+      {
+        "region": "digital clock",
+        "text": "6:02 32\n11/14 TH 73",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000817",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2023-11-14"
+    ],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000817"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic Bates stamp: EFTA00000817"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of workspace/office",
+    "date": "2023-11-14",
+    "references": [
+      "EFTA00000817"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The date on the clock (11/14) is assumed to be November 14th based on standard digital clock formats. The '73' likely refers to the temperature in Fahrenheit. The Bates stamp 'EFTA00000817' indicates this is part of a formal document production.",
+  "file_path": "IMAGES\\0001\\EFTA00000817.pdf",
+  "document_id": "EFTA00000817",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:43:04.868055Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

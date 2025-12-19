@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000822.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph taken from the top of a wooden staircase looking down into a luxurious foyer or living area. The stairs have polished wood treads. To the right is an ornate wrought-iron railing with gold-colored accents. The floor below is a light-colored tile or marble with dark diamond-shaped insets. In the background, there is a white marble fireplace with gold decorative flourishes, a gold-colored console table with a lamp and small sculptures, and a large mirror with a gold frame. Another similar console table and lamp are partially visible to the right.",
+    "layout": "Interior architectural shot with a downward perspective.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000822",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000822",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000822"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000822"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000822"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph of a home interior, likely part of an evidentiary record or real estate documentation, identified by the Bates stamp in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000822.pdf",
+  "document_id": "EFTA00000822",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:43:40.113881Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

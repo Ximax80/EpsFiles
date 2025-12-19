@@ -1,0 +1,72 @@
+{
+  "file_name": "EFTA00000835.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a large, ornate, double-leaf wooden door set within a stone archway. The doors feature rectangular paneling and a diamond-patterned lower section. Above the door is a semi-circular transom window with a circular pane in the center. An ornate black metal lantern hangs from the top of the archway in front of the transom. The surrounding walls are made of light-colored stone blocks. There is a small metal plate or buzzer system on the right stone pillar and some faint markings on the left pillar.",
+    "layout": "Centered vertical shot of an entrance.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "JE\nI\nEFTA00000835",
+    "text_regions": [
+      {
+        "region": "margin_left",
+        "text": "JE",
+        "type": "printed"
+      },
+      {
+        "region": "margin_top_left",
+        "text": "I",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000835",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000835"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000835' at bottom right",
+      "Faint 'JE' marking on left stone pillar"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Exterior view of a wooden door entrance",
+    "date": null,
+    "references": [
+      "EFTA00000835"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be evidence or documentation related to a specific location, identified by the Bates stamp EFTA00000835.",
+  "file_path": "IMAGES\\0001\\EFTA00000835.pdf",
+  "document_id": "EFTA00000835",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:45:16.668510Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

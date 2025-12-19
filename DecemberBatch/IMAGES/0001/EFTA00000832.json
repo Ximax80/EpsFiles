@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000832.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a dressing room or vanity area. The room features ornate, cream-colored paneled walls with decorative carvings. A large built-in vanity desk with a marble or light-colored top is centered, featuring multiple drawers and a large mirror behind it. On the desk are various items including two lamps with pleated shades, small sculptures, a white box, and grooming supplies. A white salon-style chair and a pink striped chair are in the foreground. To the right, there is a dark-colored ottoman or storage chest with several black boxes and a brown envelope resting on it. The lighting appears to be from an internal flash, creating a bright spot in the mirror on the right.",
+    "layout": "Interior room shot with furniture and personal items.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "L \nEFTA00000832",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000832",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "L",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000832"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000832"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000832"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a forensic or evidentiary photograph, likely from a legal or investigative file, as indicated by the Bates stamp 'EFTA00000832'.",
+  "file_path": "IMAGES\\0001\\EFTA00000832.pdf",
+  "document_id": "EFTA00000832",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:44:53.968728Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

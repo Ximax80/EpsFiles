@@ -1,0 +1,95 @@
+{
+  "file_name": "EFTA00000837.pdf",
+  "image_analysis": {
+    "type": "document",
+    "description": "A photograph of an FBI photo identification card (Form FD-674a) placed on a textured, possibly stone or tile, surface. The card contains handwritten details regarding a case and location.",
+    "layout": "Standardized form layout with a header, labeled fields for Date, Case ID, Photographer, and Location, and an official seal on the right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "FD-674a (7-24-2017)\nDATE 07 / 11 / 2019\nCASE ID 31E-NY-3027571\nPHOTOGRAPHER [REDACTED]\nLOCATION 9 East 71st Street, New York, NY 10021\nDEPARTMENT OF JUSTICE\nFEDERAL BUREAU OF INVESTIGATION\nFBI\nEFTA00000837",
+    "text_regions": [
+      {
+        "region": "header",
+        "text": "FD-674a (7-24-2017)",
+        "type": "printed"
+      },
+      {
+        "region": "body_labels",
+        "text": "DATE\nCASE ID\nPHOTOGRAPHER\nLOCATION",
+        "type": "printed"
+      },
+      {
+        "region": "body_content",
+        "text": "07 / 11 / 2019\n31E-NY-3027571\n9 East 71st Street, New York, NY 10021",
+        "type": "handwritten"
+      },
+      {
+        "region": "stamp",
+        "text": "DEPARTMENT OF JUSTICE\nFEDERAL BUREAU OF INVESTIGATION\nFBI",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000837",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2017-07-24",
+      "2019-07-11"
+    ],
+    "people": [],
+    "organizations": [
+      "Department of Justice",
+      "Federal Bureau of Investigation",
+      "FBI"
+    ],
+    "locations": [
+      "9 East 71st Street, New York, NY 10021"
+    ],
+    "document_numbers": [
+      "FD-674a",
+      "31E-NY-3027571",
+      "EFTA00000837"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": [
+        "9 East 71st Street, New York, NY 10021"
+      ]
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "FBI Seal (Department of Justice, Federal Bureau of Investigation)",
+      "Black redaction box over Photographer name"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "form",
+    "sender": "Federal Bureau of Investigation",
+    "recipient": null,
+    "subject": "Photo Identification Card for Evidence/Scene Documentation",
+    "date": "2019-07-11",
+    "references": [
+      "31E-NY-3027571"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.98,
+    "structured_data": 1.0,
+    "overall": 0.99
+  },
+  "notes": "The photographer's name is obscured by a black redaction box. The OCR provided in the prompt for the location was slightly inaccurate; the manual extraction '9 East 71st Street' is clearly visible in the image.",
+  "file_path": "IMAGES\\0001\\EFTA00000837.pdf",
+  "document_id": "EFTA00000837",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:45:31.316376Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

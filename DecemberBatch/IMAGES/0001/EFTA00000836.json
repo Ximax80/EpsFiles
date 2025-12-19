@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000836.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph of a large, ornate double wooden door set into a light-colored stone facade. The doors feature rectangular panels and a diamond-patterned parquet design at the bottom. Above the doors is a semi-circular transom window with a circular pane in the center. A lit, vintage-style lantern hangs from the archway. To the right of the door, there is a small intercom or doorbell panel and a brass plaque. The ground in front is a stone step.",
+    "layout": "Vertical orientation focusing on the entrance of a building.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "JE\nEFTA00000836",
+    "text_regions": [
+      {
+        "region": "margin",
+        "text": "JE",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000836",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000836"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000836",
+      "Small printed letters 'JE' on the left stone wall"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Entrance of a building",
+    "date": null,
+    "references": [
+      "EFTA00000836"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp at the bottom right. The 'JE' marking on the left wall appears to be a small label or graffiti.",
+  "file_path": "IMAGES\\0001\\EFTA00000836.pdf",
+  "document_id": "EFTA00000836",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:45:23.357652Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

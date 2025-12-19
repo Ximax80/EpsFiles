@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000831.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a doorway looking into a dressing room or walk-in closet area. In the foreground, there is a pink and red patterned armchair. Further back, a white modern-style chair with decorative metal arms is visible. In the center of the room, there is a dark, box-like ottoman or trunk with some items on top and a yellow bag resting against its side. The room features built-in cabinetry, mirrors, and a patterned carpet. A doorway with a gold-toned handle is visible on the right side of the frame.",
+    "layout": "Interior room shot with a doorway framing the right side and an armchair in the left foreground.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000831",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000831",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000831"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000831"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000831"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph likely taken during an investigation or inventory process, as indicated by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000831.pdf",
+  "document_id": "EFTA00000831",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:44:46.677190Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

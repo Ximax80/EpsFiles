@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000858.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an interior entryway or foyer. The scene features a large, arched double wooden door at the end of a short hallway. The walls are made of light-colored stone blocks. On both the left and right walls, large framed landscape paintings in an East Asian style are mounted on black metal hanging systems. To the left of the door, there is a red portable work light on a tripod. To the right of the door, there is a vertical panel with several small screens or intercom units. In the foreground, there are stone steps leading down to a black floor mat in front of the door. Metal handrails are visible on both sides of the stairs.",
+    "layout": "Symmetrical interior shot looking towards a central door from a slightly elevated position on a staircase.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "Ihe \nEFTA00000858",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000858",
+        "type": "printed"
+      },
+      {
+        "region": "top_left (unclear)",
+        "text": "Ihe",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000858"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000858' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or building entryway",
+    "date": null,
+    "references": [
+      "EFTA00000858"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'Ihe' appears to be a partial or artifactual OCR capture from the top left corner where lighting/shadows hit the molding. The primary text is the Bates stamp at the bottom.",
+  "file_path": "IMAGES\\0001\\EFTA00000858.pdf",
+  "document_id": "EFTA00000858",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:48:04.653801Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

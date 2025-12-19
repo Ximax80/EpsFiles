@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000827.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph showing a gilded, ornate console table with a marble top. A white evidence marker with a large black letter 'D' is taped to the front edge of the table. Underneath the table, two small, brownish, rounded sculptures or objects are visible on the floor. On top of the marble surface, a portion of a picture frame and a decorative base of an object (possibly a clock or statue) are visible. The floor is light-colored tile with dark diamond-shaped accents.",
+    "layout": "The photograph is taken from a slightly elevated, side-angle perspective looking down at the furniture. The evidence marker is the central focus.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "D\nEFTA00000827",
+    "text_regions": [
+      {
+        "region": "evidence_marker",
+        "text": "D",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000827",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000827"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence marker 'D'",
+      "Bates stamp 'EFTA00000827'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Evidence documentation of a room interior and furniture",
+    "date": null,
+    "references": [
+      "EFTA00000827"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The white paper marked 'D' appears to be a standard evidence marker used during a search or investigation. The text on the marker below the 'D' is too small and blurry to read reliably, though it appears to be a form with lines for data entry.",
+  "file_path": "IMAGES\\0001\\EFTA00000827.pdf",
+  "document_id": "EFTA00000827",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:44:15.556505Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

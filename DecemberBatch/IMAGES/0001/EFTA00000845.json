@@ -1,0 +1,96 @@
+{
+  "file_name": "EFTA00000845.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A street-level photograph taken in New York City. The image shows the corner of Madison Avenue and East 71st Street. On the left is a Ralph Lauren storefront with a blue awning. In the center, street signs indicate 'Madison Av' and 'E 71 St' along with 'ONE WAY' signs. In the background, a brownstone building with gothic-style windows (likely a church) is visible. On the right, a yellow and blue Sabrett hot dog stand umbrella is prominent. A white USPS delivery truck is partially visible in the background with the text 'We Deliver For You' and 'www.usps.com'.",
+    "layout": "Outdoor street scene with multiple layers of depth: storefront in foreground left, street signs and pole in center, church in background, and vendor umbrella in foreground right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "RALPH LAUREN\nMadison Av\nE 71 St\nONE WAY\nONE WAY\nSABRETT\nWE'RE ON A ROLL !!!\nWe Deliver For You\nwww.usps.com\nEFTA00000845",
+    "text_regions": [
+      {
+        "region": "storefront_awning",
+        "text": "RALPH LAUREN",
+        "type": "printed"
+      },
+      {
+        "region": "street_signs",
+        "text": "Madison Av\nE 71 St",
+        "type": "printed"
+      },
+      {
+        "region": "traffic_signs",
+        "text": "ONE WAY\nONE WAY",
+        "type": "printed"
+      },
+      {
+        "region": "vendor_umbrella",
+        "text": "SABRETT\nWE'RE ON A ROLL !!!",
+        "type": "printed"
+      },
+      {
+        "region": "vehicle_text",
+        "text": "We Deliver For You\nwww.usps.com",
+        "type": "printed"
+      },
+      {
+        "region": "footer_watermark",
+        "text": "EFTA00000845",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Ralph Lauren",
+      "Sabrett",
+      "USPS (United States Postal Service)"
+    ],
+    "locations": [
+      "Madison Av",
+      "E 71 St",
+      "New York City"
+    ],
+    "document_numbers": [
+      "EFTA00000845"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": [
+        "Madison Av & E 71 St"
+      ]
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic footer/watermark: EFTA00000845"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Street scene at Madison Avenue and East 71st Street",
+    "date": null,
+    "references": [
+      "EFTA00000845"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.98,
+    "structured_data": 0.95,
+    "overall": 0.97
+  },
+  "notes": "The image is a clear photograph used as evidence or documentation, likely part of a larger investigative file as indicated by the EFTA prefix on the document number.",
+  "file_path": "IMAGES\\0001\\EFTA00000845.pdf",
+  "document_id": "EFTA00000845",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:46:30.145023Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

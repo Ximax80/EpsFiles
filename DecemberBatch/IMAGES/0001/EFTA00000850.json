@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000850.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior staircase leading to a set of large, ornate double doors. The walls are made of light-colored stone blocks. To the left, there is a large framed landscape painting. A metal handrail runs along the left side of the stairs. To the right, there is another handrail and a doorway leading to another room. An umbrella stand with umbrellas is visible near the main doors. The ceiling has recessed lighting creating a warm glow.",
+    "layout": "Vertical orientation showing a perspective view from the bottom of a staircase looking up toward a landing and a set of doors.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "N \nEFTA00000850",
+    "text_regions": [
+      {
+        "region": "margin",
+        "text": "N",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000850",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000850"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number: EFTA00000850"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior architectural photograph",
+    "date": null,
+    "references": [
+      "EFTA00000850"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document collection, identified by the Bates stamp EFTA00000850.",
+  "file_path": "IMAGES\\0001\\EFTA00000850.pdf",
+  "document_id": "EFTA00000850",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:07.028548Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

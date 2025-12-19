@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000853.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a building. On the right is a large, ornate wooden door with a long, vertical brass handle and a smaller brass doorknob. The door has several locks and a piece of blue painter's tape near the bottom. To the left of the door is a wall made of light-colored, rectangular stone blocks. In the upper left corner, a portion of a framed artwork with Asian calligraphy is visible. At the bottom left, a red object and a black mat are partially visible on the floor.",
+    "layout": "Vertical composition showing a door and adjacent wall.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "P \nEFTA00000853",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000853",
+        "type": "printed"
+      },
+      {
+        "region": "top_left_margin",
+        "text": "P",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000853"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000853",
+      "Blue tape on door"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a door and wall",
+    "date": null,
+    "references": [
+      "EFTA00000853"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be an evidentiary photograph from an investigation, indicated by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000853.pdf",
+  "document_id": "EFTA00000853",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:29.014130Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

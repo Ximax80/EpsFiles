@@ -1,0 +1,75 @@
+{
+  "file_name": "EFTA00000839.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of the exterior of a limestone building, likely a townhouse or embassy. The image features a large, arched wooden double door as the central entrance, flanked by two arched windows with black security bars. Two thin trees stand in front of the building. In the foreground, two vehicles are parked: a dark blue Audi sedan on the left and a silver Toyota RAV4 SUV on the right. The building has ornate stone carvings above the door and a decorative wrought-iron balcony on the floor above. There are visible white spots across the image, which appear to be rain or snow artifacts.",
+    "layout": "Exterior street-level view",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000839",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000839",
+        "type": "printed"
+      },
+      {
+        "region": "car_detail",
+        "text": "LIMITED",
+        "type": "printed"
+      },
+      {
+        "region": "signage",
+        "text": "[unclear: red sign on door]",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Toyota",
+      "Audi",
+      "Michelin"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000839"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000839"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Building exterior with parked vehicles",
+    "date": null,
+    "references": [
+      "EFTA00000839"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The image contains a Bates stamp 'EFTA00000839' indicating it is part of a legal or investigative production. The red sign on the lower left door is illegible due to distance and resolution. The white spots are likely environmental (precipitation) or lens artifacts.",
+  "file_path": "IMAGES\\0001\\EFTA00000839.pdf",
+  "document_id": "EFTA00000839",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:45:45.077605Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

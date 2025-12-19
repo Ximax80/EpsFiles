@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000859.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken through an open doorway into a room. The foreground shows a stone-tiled or paneled wall with a light switch. The doorway reveals a room with beige walls and dark, pinstriped carpeting. On the wall directly facing the doorway hangs a large painting of a woman in a blue dress sitting in a chair. A white baseboard and an electrical outlet are visible at the bottom of the wall. The door itself is open, showing hinges and a handle.",
+    "layout": "Interior architectural shot looking from a hallway into a room.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": ",\nL\nEFTA00000859",
+    "text_regions": [
+      {
+        "region": "margin",
+        "text": ",\nL",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000859",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000859"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000859"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a room with a painting",
+    "date": null,
+    "references": [
+      "EFTA00000859"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The text 'L' and ',' appear to be artifacts or partial characters from the OCR process or edge markings on the original document scan. The primary identifier is the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000859.pdf",
+  "document_id": "EFTA00000859",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:48:11.689698Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

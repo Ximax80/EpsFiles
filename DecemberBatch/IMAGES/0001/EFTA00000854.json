@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000854.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a grand entryway or hallway. The scene features a large, arched, double-leaf wooden door at the end of a corridor. The walls are made of light-colored stone blocks. On both the left and right walls, large framed landscape paintings in a traditional East Asian style are mounted. A set of stairs leads down towards the door, with a metal handrail on the left. A black floor mat is placed in front of the door. To the left of the door, there is a red tripod-like object, possibly a piece of equipment or a stand. On the right wall near the door, there is a vertical panel with several switches or controls.",
+    "layout": "Symmetrical composition centered on a large arched wooden door at the end of a hallway, viewed from the top of a short flight of stairs.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "I\nEFTA00000854",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000854",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "I",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000854"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000854"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or building entryway",
+    "date": null,
+    "references": [
+      "EFTA00000854"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'I' appears to be a stray character or part of a larger document header not fully visible. The primary text is the Bates stamp 'EFTA00000854' at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000854.pdf",
+  "document_id": "EFTA00000854",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:36.423757Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

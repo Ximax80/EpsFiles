@@ -1,0 +1,5 @@
+{
+  "file_name": "EFTA00000830.pdf",
+  "error": "Failed to parse LLM response as JSON",
+  "raw_response": "{\n  \"file_name\": \"EFTA00000830\",\n  \"image_analysis\": {\n    \"type\": \"photograph\",\n    \"description\": \"A photograph showing a person's hands holding several legal documents. The person is wearing a dark blue t-shirt and blue jeans. The background includes a pink patterned armchair and a wooden door or wall paneling. The documents appear to be official court forms, specifically an 'APPLICATION FOR A SEARCH AND SEIZURE WARRANT'.\",\n    \"layout\": \"The person holds three overlapping documents. The top document is a printed court form. The documents underneath appear to be receipts or inventory lists with handwritten entries.\",\n    \"quality\": \"medium\",\n    \"orientation\": \"landscape\"\n  },\n  \"text_extraction\": {\n    \"full_text\": \"UNITED STATES DISTRICT COURT\\nfor the\\nSouthern District of New York\\nAPPLICATION FOR A SEARCH AND SEIZURE WARRANT\\nIn the Matter of the Search of\\n(Briefly describe the property to be searched\\nor identify the person by name and address)\\nCase No.\\nI, a federal law enf"
+}

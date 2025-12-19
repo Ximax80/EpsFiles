@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000857.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior staircase and wall. A large, horizontal Japanese-style landscape painting of Mount Fuji is mounted on a light-colored stone block wall. The painting is held by a black metal frame and hanging system. To the right is a large, arched wooden door. In the foreground, a metal handrail runs alongside a set of stone stairs leading downwards. A red tripod-mounted light or piece of equipment is visible in the corner near the door. A black mat is on the floor at the base of the stairs.",
+    "layout": "Interior architectural shot showing a wall, staircase, and doorway.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000857",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000857",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000857"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/document identifier at bottom right: EFTA00000857"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or building featuring artwork",
+    "date": null,
+    "references": [
+      "EFTA00000857"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates stamp EFTA00000857. The artwork depicted is a traditional Japanese ink wash style painting (suibokuga) of Mount Fuji.",
+  "file_path": "IMAGES\\0001\\EFTA00000857.pdf",
+  "document_id": "EFTA00000857",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:57.700851Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

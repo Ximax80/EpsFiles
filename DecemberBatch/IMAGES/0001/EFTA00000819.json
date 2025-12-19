@@ -1,0 +1,75 @@
+{
+  "file_name": "EFTA00000819.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a white paper sign taped to a light-colored, textured wall or door. To the right, a portion of a painting is visible, depicting a person in a blue dress reclining on a sofa. The photograph appears to be taken indoors, possibly during a search or investigation.",
+    "layout": "The image is dominated by the wall on the left with a paper sign. The right side shows a partial view of a painting and a doorway or wall edge.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "A\nSearch Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)\nEFTA00000819",
+    "text_regions": [
+      {
+        "region": "sign_header",
+        "text": "A",
+        "type": "printed"
+      },
+      {
+        "region": "sign_table_headers",
+        "text": "Search Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)",
+        "type": "printed"
+      },
+      {
+        "region": "footer_watermark",
+        "text": "EFTA00000819",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "FBI"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000819"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Large letter 'A' printed on paper",
+      "Faint FBI seal visible behind the letter 'A'",
+      "Table for search personnel information"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph of a search marker",
+    "sender": null,
+    "recipient": null,
+    "subject": "Evidence or search area marking",
+    "date": null,
+    "references": [
+      "EFTA00000819"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.93
+  },
+  "notes": "The paper sign appears to be an official FBI search log or room marker, indicated by the faint seal behind the letter 'A'. The painting in the background is partially visible and appears to be a portrait of a woman.",
+  "file_path": "IMAGES\\0001\\EFTA00000819.pdf",
+  "document_id": "EFTA00000819",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:43:20.313427Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

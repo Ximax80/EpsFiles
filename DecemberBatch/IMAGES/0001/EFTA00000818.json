@@ -1,0 +1,81 @@
+{
+  "file_name": "EFTA00000818.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a white closet or storage area filled with shipping and packing supplies. On the top shelf, there are two large clear plastic bags filled with white packing peanuts. The middle shelf contains various rolls of tape (blue, black, and clear) and some flat items. The bottom section contains several large cardboard boxes and rolls of paper. A large FedEx 'LARGE' box is on the left, and a FedEx 'MEDIUM' box is on the right. Several rolls of brown and pink packing paper are standing upright in the center, some in a dark blue plastic bin.",
+    "layout": "The image shows a three-tiered storage space (closet) with shelves and a floor area.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "FedEx®\nLARGE\n39751\nPER UNIT\nBOX\nFedEx®\nMEDIUM\nBOX\nPART NUMBER\n139382\n10 PER UNIT\nU/I BOX\n139752F10\nEFTA00000818",
+    "text_regions": [
+      {
+        "region": "left_box",
+        "text": "FedEx®\nLARGE\n39751\nPER UNIT\nBOX",
+        "type": "printed"
+      },
+      {
+        "region": "right_box",
+        "text": "FedEx®\nMEDIUM\nBOX\nPART NUMBER\n139382\n10 PER UNIT\nU/I BOX",
+        "type": "printed"
+      },
+      {
+        "region": "right_box_side",
+        "text": "139752F10",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000818",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "FedEx"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000818",
+      "39751",
+      "139382",
+      "139752F10"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "EFTA00000818 (Bates stamp/identifier)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage of shipping supplies",
+    "date": null,
+    "references": [
+      "EFTA00000818"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph of a closet containing packing materials, likely taken during an investigation or evidence collection process as indicated by the EFTA prefix on the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000818.pdf",
+  "document_id": "EFTA00000818",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:43:12.591382Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

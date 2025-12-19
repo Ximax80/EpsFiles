@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000842.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A street-level photograph of a large, ornate stone building, likely a townhouse or embassy, in an urban setting. The building features large arched windows with black iron grilles and a prominent wooden double-door entrance. Several cars are parked along the curb in the foreground, including a grey SUV, a black sedan, and a white station wagon. There is construction equipment in the lower right, including orange plastic barriers and orange safety netting. Two individuals with their faces redacted (blacked out) are walking toward the building's entrance. A person in a blue shirt is visible behind the construction netting. Large leafy trees line the sidewalk.",
+    "layout": "Landscape orientation photograph with a footer containing a document reference number.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "• \nEFTA00000842",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000842",
+        "type": "typed"
+      },
+      {
+        "region": "margin",
+        "text": "•",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000842"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number: EFTA00000842"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Surveillance or evidentiary photograph of a building exterior",
+    "date": null,
+    "references": [
+      "EFTA00000842"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The faces of the two primary subjects walking toward the building have been intentionally redacted with black boxes. The location appears to be an upscale urban neighborhood, possibly New York City given the architecture and street layout. The text 'EFTA00000842' is a Bates stamp used for document tracking in legal or investigative contexts.",
+  "file_path": "IMAGES\\0001\\EFTA00000842.pdf",
+  "document_id": "EFTA00000842",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:46:06.377240Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

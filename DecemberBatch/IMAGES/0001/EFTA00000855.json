@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000855.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a grand entryway or foyer. On the left is a large, arched dark wood door with a circular window at the top. To the right of the door, a large horizontal landscape painting in an East Asian style (possibly a screen or scroll) is mounted on a light-colored stone block wall using a black metal hanging system. Below the painting is a staircase leading downwards, equipped with a simple metal handrail. A black floor mat is positioned in front of the door. Small electronic panels or switches are visible on the wall between the door and the painting.",
+    "layout": "Interior architectural shot showing a doorway, wall art, and a staircase.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000855",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000855",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000855"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000855' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or building",
+    "date": null,
+    "references": [
+      "EFTA00000855"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates stamp. No text is visible within the scene itself other than the electronic panels which are too small to read.",
+  "file_path": "IMAGES\\0001\\EFTA00000855.pdf",
+  "document_id": "EFTA00000855",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:47:43.523078Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
