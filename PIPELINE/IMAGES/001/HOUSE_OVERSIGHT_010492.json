@@ -1,0 +1,144 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010492.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A two-page spread from a book or magazine featuring several photographs with accompanying captions. The images include a private jet, a framed photo of politicians, a large mansion, Jeffrey Epstein with various individuals, and a group of four women. The layout is a collage style common in biographical or investigative publications.",
+    "layout": "Two-page spread with multiple image blocks and text captions. The left page has three main sections (top, middle, bottom) and the right page has four main sections.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "Epstein's longtime pilot, Larry Visoski, was at the controls as Epstein's Gulfstream left Teterboro Airport in New Jersey, January 2016. (Jae Donnelly)\n\nScott—\nYou're amazing! Charlie Crist\n\nA framed photo of Florida governor Charlie Crist and Scott Rothstein in Rothstein's office in Fort Lauderdale, autographed by Charlie Crist: Scott— You are amazing! Charlie Crist (Carline Jean © Sun Sentinel / ZUMA-PRESS.com)\n\nEpstein's current residence, the storied building formerly known as the Herbert N. Straus Mansion, on East 71st Street just off Central Park, was acquired by Leslie Wexner in 1989. (Laura Hanifin)\n\nEpstein, a longtime benefactor, with an unidentified friend, attended the 2014 New York Academy of Art's Tribeca Ball, presented by Van Cleef & Arpels, at the New York Academy of Art on April 7, 2014, in New York City. (Billy Farrell / BFAnvc.com)\n\nStephen Hawking, photographed in March 2006 aboard an Atlantis submarine that was custom-fitted by Epstein to accommodate his wheelchair. Hawking was attending the conference \"Confronting Gravity,\" \"a workshop to explore fundamental questions in physics and cosmology,\" sponsored by the J. Epstein VI Foundation and the Center for Education and Research in Cosmology and Astrophysics (CERCA) at Case Western Reserve University, at the Ritz Carlton, St. Thomas, USVI. (Courtesy CERCA, Case Western University)\n\nNadia Marcinkova, Michele Tagliani, Sarah Kellen, and Teala Davies, photographed at the New York Academy of Art's Tribeca Ball, April 14, 2004 (Rob Rich / SocietyAllure.com)\n\nHOUSE_OVERSIGHT_010492",
+    "text_regions": [
+      {
+        "region": "caption_top_left",
+        "text": "Epstein's longtime pilot, Larry Visoski, was at the controls as Epstein's Gulfstream left Teterboro Airport in New Jersey, January 2016. (Jae Donnelly)",
+        "type": "printed"
+      },
+      {
+        "region": "handwritten_note_top_center",
+        "text": "Scott—\nYou're amazing! Charlie Crist",
+        "type": "handwritten"
+      },
+      {
+        "region": "caption_top_right",
+        "text": "A framed photo of Florida governor Charlie Crist and Scott Rothstein in Rothstein's office in Fort Lauderdale, autographed by Charlie Crist: Scott— You are amazing! Charlie Crist (Carline Jean © Sun Sentinel / ZUMA-PRESS.com)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_middle_right",
+        "text": "Epstein's current residence, the storied building formerly known as the Herbert N. Straus Mansion, on East 71st Street just off Central Park, was acquired by Leslie Wexner in 1989. (Laura Hanifin)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_center_right",
+        "text": "Epstein, a longtime benefactor, with an unidentified friend, attended the 2014 New York Academy of Art's Tribeca Ball, presented by Van Cleef & Arpels, at the New York Academy of Art on April 7, 2014, in New York City. (Billy Farrell / BFAnvc.com)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_bottom_left",
+        "text": "Stephen Hawking, photographed in March 2006 aboard an Atlantis submarine that was custom-fitted by Epstein to accommodate his wheelchair. Hawking was attending the conference \"Confronting Gravity,\" \"a workshop to explore fundamental questions in physics and cosmology,\" sponsored by the J. Epstein VI Foundation and the Center for Education and Research in Cosmology and Astrophysics (CERCA) at Case Western Reserve University, at the Ritz Carlton, St. Thomas, USVI. (Courtesy CERCA, Case Western University)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_bottom_right",
+        "text": "Nadia Marcinkova, Michele Tagliani, Sarah Kellen, and Teala Davies, photographed at the New York Academy of Art's Tribeca Ball, April 14, 2004 (Rob Rich / SocietyAllure.com)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010492",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2016-01-01",
+      "1989-01-01",
+      "2014-04-07",
+      "2006-03-01",
+      "2004-04-14"
+    ],
+    "people": [
+      "Larry Visoski",
+      "Jeffrey Epstein",
+      "Charlie Crist",
+      "Scott Rothstein",
+      "Herbert N. Straus",
+      "Leslie Wexner",
+      "Stephen Hawking",
+      "Nadia Marcinkova",
+      "Michele Tagliani",
+      "Sarah Kellen",
+      "Teala Davies",
+      "Jae Donnelly",
+      "Carline Jean",
+      "Laura Hanifin",
+      "Billy Farrell",
+      "Rob Rich"
+    ],
+    "organizations": [
+      "Sun Sentinel",
+      "ZUMA-PRESS.com",
+      "New York Academy of Art",
+      "Van Cleef & Arpels",
+      "BFAnvc.com",
+      "J. Epstein VI Foundation",
+      "Center for Education and Research in Cosmology and Astrophysics",
+      "CERCA",
+      "Case Western Reserve University",
+      "SocietyAllure.com"
+    ],
+    "locations": [
+      "Teterboro Airport",
+      "New Jersey",
+      "Fort Lauderdale",
+      "Herbert N. Straus Mansion",
+      "East 71st Street",
+      "Central Park",
+      "New York City",
+      "Ritz Carlton, St. Thomas, USVI"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010492"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": [
+        "East 71st Street, New York City"
+      ]
+    },
+    "signatures": [
+      "Charlie Crist"
+    ],
+    "stamps_or_markings": [
+      "Bates stamp: HOUSE_OVERSIGHT_010492"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "book_excerpt",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photographic evidence related to Jeffrey Epstein",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010492"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.98,
+    "structured_data": 0.95,
+    "overall": 0.97
+  },
+  "notes": "The document appears to be a page from a book or report submitted as evidence to the House Oversight Committee, indicated by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010492.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010492",
+  "house_oversight_id": "010492",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:07.741149Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

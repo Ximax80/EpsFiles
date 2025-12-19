@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000213.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a luxurious hallway or corridor. The walls and doors are made of dark wood with intricate inlaid geometric patterns (circles and squares). A blue patterned carpet runs down the length of the hallway. On the left wall, there is a large ornate gold-framed picture, though the central image has been redacted with a black box. Above it is a smaller framed picture. To the right, a large wooden door is partially open, revealing a continuation of the hallway with a hanging lantern light fixture. Further down the hall, more doorways are visible, leading into deeper parts of the building. On the far right, an elevator call button panel is visible on the wood paneling.",
+    "layout": "Interior architectural photograph showing a perspective view down a long corridor.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000213",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000213",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000213"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000213' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or building",
+    "date": null,
+    "references": [
+      "EFTA00000213"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The main image in the gold frame has been intentionally redacted with a black rectangle. The image appears to be part of a legal or investigative production given the Bates numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000213.pdf",
+  "document_id": "EFTA00000213",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:10:03.302309Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

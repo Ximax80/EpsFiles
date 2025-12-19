@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000198.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small bathroom or water closet. The room features cream-colored paneled walls. A modern white toilet with a bidet-style lid is centered. To the left, there is a toilet paper stand holding two rolls and a toilet brush. To the right, a wall-mounted toilet paper holder and a towel rack with white towels are visible. Two framed pictures hang on the walls; the one on the left shows a beach scene with palm trees and a vehicle, while the one on the right is partially visible. Both pictures have black redaction squares covering portions of the image.",
+    "layout": "Interior shot of a bathroom stall/closet",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000198",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000198",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000198"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000198"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000198"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph contains black redaction squares over the artwork on the walls. The Bates stamp is located in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000198.pdf",
+  "document_id": "EFTA00000198",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:20.886008Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000069.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle interior photograph of a narrow hallway or pantry area. The space features dark wood paneling and cabinetry on the left, a white wall in the center, and a dark wood door with a circular porthole-style window. The floor is covered with a tan, vertically striped carpet. A simple dome light fixture is mounted on the ceiling. To the left, there is a built-in cabinet with glass doors and drawers below a marble countertop. The door at the end of the hall appears to be a swinging door, indicated by the floor-mounted hinge/stop.",
+    "layout": "Vertical interior shot focusing on a doorway at the end of a short corridor.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000069",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000069",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000069"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000069' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a residence or office space",
+    "date": null,
+    "references": [
+      "EFTA00000069"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp EFTA00000069. It appears to show a butler's pantry or similar utility corridor in a high-end residence.",
+  "file_path": "IMAGES\\0001\\EFTA00000069.pdf",
+  "document_id": "EFTA00000069",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:53:21.346027Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

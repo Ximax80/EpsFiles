@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000193.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an indoor construction or renovation site. The scene features blue metal scaffolding structures, an orange and silver extension ladder (brand 'KELLER'), and walls covered in translucent plastic sheeting. The floor is covered with brown protective paper or boards. In the center, there is a pile of supplies including a cardboard box, white buckets, and white bags. The lighting is artificial and appears to be from a camera flash.",
+    "layout": "Interior construction site with scaffolding and equipment.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "KELLER\n25\n1025\nC1225\nC1425\nA1025\nA1225\nA1425\nQTY. 146\nEFTA00000193",
+    "text_regions": [
+      {
+        "region": "ladder_brand",
+        "text": "KELLER",
+        "type": "printed"
+      },
+      {
+        "region": "box_label",
+        "text": "25\n1025\nC1225\nC1425\nA1025\nA1225\nA1425\nQTY. 146",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000193",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "KELLER"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000193"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000193"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Construction or renovation site documentation",
+    "date": null,
+    "references": [
+      "EFTA00000193"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The text on the box appears to be inventory or part numbers. The 'EFTA' number is a Bates stamp commonly used in legal or investigative document production.",
+  "file_path": "IMAGES\\0001\\EFTA00000193.pdf",
+  "document_id": "EFTA00000193",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:45.634533Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

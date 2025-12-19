@@ -1,0 +1,69 @@
+{
+  "file_name": "EFTA00000011.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a large Japanese folding screen (byōbu) mounted on a light-colored stone or tiled wall. The screen depicts a landscape featuring a large, snow-capped mountain (likely Mount Fuji) in the background, with a foreground of water, trees, and small landmasses in a traditional ink-wash style. The screen is framed in dark wood and is suspended by a black metal hanging apparatus consisting of a horizontal bar and vertical rods. There is a small red seal and black calligraphy on the far right panel.",
+    "layout": "Landscape orientation, centered on the artwork. The wall has a grid-like pattern of rectangular tiles.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000011",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000011",
+        "type": "typed"
+      },
+      {
+        "region": "artwork_signature",
+        "text": "[unclear: Japanese calligraphy]",
+        "type": "handwritten"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000011"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [
+      "Artist seal and calligraphy on the right side of the screen"
+    ],
+    "stamps_or_markings": [
+      "Red square artist seal on the artwork",
+      "Digital watermark/identifier 'EFTA00000011' at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Japanese folding screen artwork",
+    "date": null,
+    "references": [
+      "EFTA00000011"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The text 'EFTA00000011' is a Bates-style tracking number added to the image for documentation purposes. The actual artwork contains Japanese characters and a seal that are part of the original piece but are not legible enough for transcription.",
+  "file_path": "IMAGES\\0001\\EFTA00000011.pdf",
+  "document_id": "EFTA00000011",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:46:09.658668Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

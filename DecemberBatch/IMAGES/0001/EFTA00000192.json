@@ -1,0 +1,72 @@
+{
+  "file_name": "EFTA00000192.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a construction or renovation site. The scene shows plastic sheeting (polyethylene) taped to walls and structures, possibly for containment or dust protection. A metal pole or scaffolding bar runs diagonally across the frame. Attached to this bar is a white card with a large black letter 'T' and a table for search personnel. To the right, a blue metal scaffolding frame is visible.",
+    "layout": "The image is a landscape-oriented photograph with a central focus on a white identification card attached to a scaffolding bar.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "T\nSearch Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)\nEFTA00000192",
+    "text_regions": [
+      {
+        "region": "central_card_header",
+        "text": "T",
+        "type": "printed"
+      },
+      {
+        "region": "central_card_table_headers",
+        "text": "Search Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)",
+        "type": "printed"
+      },
+      {
+        "region": "footer_right",
+        "text": "EFTA00000192",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000192"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Large black letter 'T' on the card",
+      "Faint circular seal or watermark visible behind the 'T'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph of a search/evidence marker",
+    "sender": null,
+    "recipient": null,
+    "subject": "Search and containment area documentation",
+    "date": null,
+    "references": [
+      "EFTA00000192"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The card appears to be a 'Search Area' or 'Evidence' marker used during an investigation or site inspection. The table on the card is blank, indicating it has not been filled out or this is the initial state of the marker.",
+  "file_path": "IMAGES\\0001\\EFTA00000192.pdf",
+  "document_id": "EFTA00000192",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:38.025569Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

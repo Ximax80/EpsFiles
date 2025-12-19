@@ -1,0 +1,111 @@
+{
+  "file_name": "EFTA00000019.pdf",
+  "image_analysis": {
+    "type": "document",
+    "description": "A photograph of a printed table on a white sheet of paper, which appears to be taped or affixed to a dark, possibly metallic, surface with horizontal slats. There is some handwriting at the bottom right of the page.",
+    "layout": "Tabular structure with columns for Job Code, Client Name, Job Type, Service Description, Special Instructions, and Start Date.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "Job Code Client Name Job Type Service Description Special Instructions Start Date\n5135 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 09-Apr-2018\n5136 Merwin Dela Cruz - J. Epstein Tower Cleaning Cleaning & Disinfection - Cooling Tower 25-Apr-2018\n5135.1 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 07-May-2018\n4849.1 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella Completion Notes did the 90 day tower inspection and legionella test. 23-May-2018\n5135.2 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 11-Jun-2018\n5135.3 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 09-Jul-2018\n5135.4 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 13-Aug-2018\n4849.2 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella 90 day tower inspection and legionella test. 21-Aug-2018\n5135.5 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 10-Sep-2018\n5135.6 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 08-Oct-2018\n5136.1 Merwin Dela Cruz - J. Epstein Tower Cleaning Cleaning & Disinfection - Cooling Tower 15-Oct-2018\n5137 Merwin Dela Cruz - J. Epstein Inspection Annual Cooling Tower - Inspection 22-Oct-2018\n5135.7 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 12-Nov-2018\n4849.3 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella 90 day tower inspection and legionella test. 19-Nov-2018\n5135.8 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 10-Dec-2018\n5211 2230\nEFTA00000019",
+    "text_regions": [
+      {
+        "region": "header",
+        "text": "Job Code Client Name Job Type Service Description Special Instructions Start Date",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "5135 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 09-Apr-2018\n5136 Merwin Dela Cruz - J. Epstein Tower Cleaning Cleaning & Disinfection - Cooling Tower 25-Apr-2018\n5135.1 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 07-May-2018\n4849.1 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella Completion Notes did the 90 day tower inspection and legionella test. 23-May-2018\n5135.2 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 11-Jun-2018\n5135.3 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 09-Jul-2018\n5135.4 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 13-Aug-2018\n4849.2 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella 90 day tower inspection and legionella test. 21-Aug-2018\n5135.5 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 10-Sep-2018\n5135.6 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 08-Oct-2018\n5136.1 Merwin Dela Cruz - J. Epstein Tower Cleaning Cleaning & Disinfection - Cooling Tower 15-Oct-2018\n5137 Merwin Dela Cruz - J. Epstein Inspection Annual Cooling Tower - Inspection 22-Oct-2018\n5135.7 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 12-Nov-2018\n4849.3 Merwin Dela Cruz - J. Epstein Legionella Test Cooling Tower - Legionella 90 day tower inspection and legionella test. 19-Nov-2018\n5135.8 Merwin Dela Cruz - J. Epstein Water Treatment Cooling Tower - Monthly Maintenance perform water treatment on Cooling tower Include PSR with water levels and readings 10-Dec-2018",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "5211 2230",
+        "type": "handwritten"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000019",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2018-04-09",
+      "2018-04-25",
+      "2018-05-07",
+      "2018-05-23",
+      "2018-06-11",
+      "2018-07-09",
+      "2018-08-13",
+      "2018-08-21",
+      "2018-09-10",
+      "2018-10-08",
+      "2018-10-15",
+      "2018-10-22",
+      "2018-11-12",
+      "2018-11-19",
+      "2018-12-10"
+    ],
+    "people": [
+      "Merwin Dela Cruz",
+      "J. Epstein"
+    ],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "5135",
+      "5136",
+      "5135.1",
+      "4849.1",
+      "5135.2",
+      "5135.3",
+      "5135.4",
+      "4849.2",
+      "5135.5",
+      "5135.6",
+      "5136.1",
+      "5137",
+      "5135.7",
+      "4849.3",
+      "5135.8",
+      "EFTA00000019"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Handwritten numbers '5211 2230' at the bottom right, written upside down relative to the table.",
+      "Electronic footer 'EFTA00000019'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "form",
+    "sender": null,
+    "recipient": null,
+    "subject": "Maintenance Schedule for Cooling Tower",
+    "date": "2018",
+    "references": [
+      "EFTA00000019"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.98,
+    "overall": 0.96
+  },
+  "notes": "The document is a maintenance schedule or log for a client named Merwin Dela Cruz - J. Epstein. The handwritten numbers at the bottom are oriented 180 degrees from the rest of the text.",
+  "file_path": "IMAGES\\0001\\EFTA00000019.pdf",
+  "document_id": "EFTA00000019",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:47:15.608679Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

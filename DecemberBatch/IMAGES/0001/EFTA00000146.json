@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000146.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph of a lavishly decorated office or study. In the foreground is a large, dark wood desk cluttered with items including a computer monitor, keyboard, mouse, various desk lamps, picture frames, a box of tissues, and loose papers. The background features a seating area with ornate chairs and a sofa, a large patterned rug, wood-paneled walls, and a large crystal chandelier hanging from a dark blue ceiling. Tall white curtains flank a window or alcove. The overall aesthetic is classical and opulent.",
+    "layout": "Interior room photograph with a desk in the immediate foreground and a lounge area in the background.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000146",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000146",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000146"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Document ID: EFTA00000146"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of an office/study",
+    "date": null,
+    "references": [
+      "EFTA00000146"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp EFTA00000146. The room appears to be a private office within a residence or high-end commercial space.",
+  "file_path": "IMAGES\\0001\\EFTA00000146.pdf",
+  "document_id": "EFTA00000146",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:02:16.047317Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "file_name": "EFTA00000021.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken through a doorway into a small storage or utility room. The room is cluttered with various items including tools, boxes, and cleaning supplies. There is a black countertop with a sink drain visible underneath. Above the counter are white cabinets, and one ceiling tile is missing, revealing wires and structural components. A yellow power drill is prominent on the counter. On the floor, there are several bags, a tool kit, and a spool of wire.",
+    "layout": "Interior room shot framed by a doorway.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000021",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000021",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "The Home Depot (logo on bag)"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000021"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000021' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a utility or storage room with tools and supplies",
+    "date": null,
+    "references": [
+      "EFTA00000021"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The photograph appears to be part of an evidentiary or investigative collection, as indicated by the Bates stamp. The room contains various brands of tools and supplies (e.g., Ryobi drill, Home Depot bag) but no legible text other than the document reference number.",
+  "file_path": "IMAGES\\0001\\EFTA00000021.pdf",
+  "document_id": "EFTA00000021",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:47:30.431674Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

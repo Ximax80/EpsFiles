@@ -1,0 +1,71 @@
+{
+  "file_name": "EFTA00000016.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a security or monitoring workstation. The scene includes a white L-shaped desk with two black mesh office chairs. On the desk are three small computer monitors, and mounted above them on the wall is a large array of four flat-screen televisions/monitors in a 2x2 grid. Various items are on the desk, including a keyboard, two mice, a box of tissues, a bottle of vitamins (labeled 'womens'), a water bottle (labeled 'VOSS'), and some papers. To the right, on the wall, there is a security control panel with lights and a red fire alarm pull station. A grey curtain covers a window on the left side of the image.",
+    "layout": "Interior office/monitoring room setting with a desk in the foreground and a wall-mounted monitor array in the background.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000016\nVOSS\nwomen's",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000016",
+        "type": "typed"
+      },
+      {
+        "region": "desk_items",
+        "text": "VOSS",
+        "type": "printed"
+      },
+      {
+        "region": "desk_items",
+        "text": "women's",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000016"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Document ID: EFTA00000016"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Security monitoring workstation",
+    "date": null,
+    "references": [
+      "EFTA00000016"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph of a room, likely a security office. The only significant text is the Bates stamp at the bottom right and brand names on items on the desk. The control panel on the wall has small labels that are illegible at this resolution.",
+  "file_path": "IMAGES\\0001\\EFTA00000016.pdf",
+  "document_id": "EFTA00000016",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:46:46.648691Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

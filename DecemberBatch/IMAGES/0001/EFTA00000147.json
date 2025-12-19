@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000147.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a dimly lit, ornate office or study. In the foreground, a large wooden desk is visible, cluttered with items including a computer monitor, a tablet, a lamp with a white shade, and various papers. The room features dark wood paneling, large tapestries on the walls, and a large crystal chandelier hanging from the ceiling. There are several other lamps providing warm, low light. In the background, there is a seating area with a white sofa and a small table. A golden, abstract sculpture is partially visible in the extreme left foreground, out of focus.",
+    "layout": "Landscape photograph with a desk in the foreground and a living/study area in the background.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000147",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000147",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000147"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000147"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of an office or study",
+    "date": null,
+    "references": [
+      "EFTA00000147"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph likely taken as evidence or documentation, as indicated by the Bates stamp. The lighting is low, making some background details difficult to discern clearly.",
+  "file_path": "IMAGES\\0001\\EFTA00000147.pdf",
+  "document_id": "EFTA00000147",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:02:22.772829Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

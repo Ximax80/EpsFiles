@@ -1,0 +1,111 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010494.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A photograph of two open pages from a book titled 'FILTHY RICH'. The left page contains two photographs with captions. The top photo shows the interior of a cockpit with two people. The bottom photo shows a man standing in front of a building. The right page contains printed text and the page number 151.",
+    "layout": "Two-page book spread. Left page has vertical text on the far left margin, two images with captions. Right page has a header, body text, and a footer page number.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "nerly Kellen/\n1) and husband,\n[d]river Brian Vickers,\nhe red carpet at the 141st\nthe Kentucky Derby\nll Downs in Louisville,\n(Jeff Moreland / Icon\nvia AP Images)\n\nGood flight!\n\nMichael and Janet Reiter at the Palm\nBeach Police Foundation Policemen's\nBall at Mar-a-Lago, January\n2012 (Debbie Schatz / Palm Beach\nDaily News / ZUMAPRESS.com)\n\nlice\nrey,\nhan\naily\nom)\n\nFILTHY RICH\n\nguests are like pygmies next to the nearby twice-life-size sculp-\nture of a naked African warrior.\"\n\nThe journalist had confirmed that several prominent names—\nMort Zuckerman, the famous real estate mogul and publisher;\nMicrosoft executive Nathan Myhrvold; and Donald Trump\namong them—had dined at the residence. She'd interviewed\nseveral of Epstein's friends and ex-friends: Nobel Prize-winning\nscientists, financiers who worked with Epstein at Bear Stearns.\nShe'd handled Steven Hoffenberg with aplomb. And, working\nwith Vanity Fair's editors, she'd figured out ways to slip even more\ninformation between the lines, in ways that would allow readers\nto form their own questions about Epstein's finances.\n\nIn that respect, she'd fulfilled her original assignment perfectly.\nWhat Carter needed to figure out was what to do with the\nartist, her sister, and their mother's story. But before he could\nswipe his key card to let himself into the magazine's offices, Car-\nter saw a man standing in the reception area.\n\nThe man was motionless. He'd been waiting for Carter.\nIt was Jeffrey Epstein. Nonplussed, Carter invited him into\nhis office.\n\nEpstein denied the claims involving underage women. No crimi-\nnal charges had been filed. And so Vanity Fair decided not to\ninclude the claims in Ward's article. But, according to Ward,\nwhen her editor Doug Stumpf called her, she cried.\n\nShe'd worked so hard on the piece, gotten so stressed out that\none of her twins had begun to grow more slowly than the other.\nOn doctor's orders, she'd been put on bed rest.\n\n151\n\nHOUSE_OVERSIGHT_010494",
+    "text_regions": [
+      {
+        "region": "header",
+        "text": "FILTHY RICH",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "guests are like pygmies next to the nearby twice-life-size sculp-\nture of a naked African warrior.\"\n\nThe journalist had confirmed that several prominent names—\nMort Zuckerman, the famous real estate mogul and publisher;\nMicrosoft executive Nathan Myhrvold; and Donald Trump\namong them—had dined at the residence. She'd interviewed\nseveral of Epstein's friends and ex-friends: Nobel Prize-winning\nscientists, financiers who worked with Epstein at Bear Stearns.\nShe'd handled Steven Hoffenberg with aplomb. And, working\nwith Vanity Fair's editors, she'd figured out ways to slip even more\ninformation between the lines, in ways that would allow readers\nto form their own questions about Epstein's finances.\n\nIn that respect, she'd fulfilled her original assignment perfectly.\nWhat Carter needed to figure out was what to do with the\nartist, her sister, and their mother's story. But before he could\nswipe his key card to let himself into the magazine's offices, Car-\nter saw a man standing in the reception area.\n\nThe man was motionless. He'd been waiting for Carter.\nIt was Jeffrey Epstein. Nonplussed, Carter invited him into\nhis office.\n\nEpstein denied the claims involving underage women. No crimi-\nnal charges had been filed. And so Vanity Fair decided not to\ninclude the claims in Ward's article. But, according to Ward,\nwhen her editor Doug Stumpf called her, she cried.\n\nShe'd worked so hard on the piece, gotten so stressed out that\none of her twins had begun to grow more slowly than the other.\nOn doctor's orders, she'd been put on bed rest.",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "151",
+        "type": "printed"
+      },
+      {
+        "region": "margin_left",
+        "text": "nerly Kellen/\n1) and husband,\n[d]river Brian Vickers,\nhe red carpet at the 141st\nthe Kentucky Derby\nll Downs in Louisville,\n(Jeff Moreland / Icon\nvia AP Images)\n\nGood flight!\n\nMichael and Janet Reiter at the Palm\nBeach Police Foundation Policemen's\nBall at Mar-a-Lago, January\n2012 (Debbie Schatz / Palm Beach\nDaily News / ZUMAPRESS.com)\n\nlice\nrey,\nhan\naily\nom)",
+        "type": "printed"
+      },
+      {
+        "region": "stamp",
+        "text": "HOUSE_OVERSIGHT_010494",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2012-01"
+    ],
+    "people": [
+      "Brian Vickers",
+      "Jeff Moreland",
+      "Michael Reiter",
+      "Janet Reiter",
+      "Debbie Schatz",
+      "Mort Zuckerman",
+      "Nathan Myhrvold",
+      "Donald Trump",
+      "Jeffrey Epstein",
+      "Steven Hoffenberg",
+      "Carter",
+      "Ward",
+      "Doug Stumpf"
+    ],
+    "organizations": [
+      "Kentucky Derby",
+      "AP Images",
+      "Palm Beach Police Foundation",
+      "Palm Beach Daily News",
+      "ZUMAPRESS.com",
+      "Microsoft",
+      "Bear Stearns",
+      "Vanity Fair"
+    ],
+    "locations": [
+      "Louisville",
+      "Mar-a-Lago",
+      "Palm Beach"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010494"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "HOUSE_OVERSIGHT_010494 (Bates stamp)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "book pages",
+    "sender": null,
+    "recipient": null,
+    "subject": "Jeffrey Epstein and Vanity Fair investigation",
+    "date": "2012-01",
+    "references": [
+      "HOUSE_OVERSIGHT_010494"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.98,
+    "overall": 0.96
+  },
+  "notes": "The text on the far left margin is partially cut off. The book appears to be 'Filthy Rich' by James Patterson and John Connolly (based on the header and content).",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010494.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010494",
+  "house_oversight_id": "010494",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:31.104483Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

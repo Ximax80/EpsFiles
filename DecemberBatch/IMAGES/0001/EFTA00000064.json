@@ -1,0 +1,71 @@
+{
+  "file_name": "EFTA00000064.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a doorway looking into a room. The foreground is dominated by a large, polished wood door with a diamond-shaped inlay and decorative vertical grooves. A white piece of paper with a large letter 'F' is taped to the door. Through the doorway, a dining or sitting area is visible. It features a table covered with a floral cloth, leopard-print chairs, beige curtains, and various decorative items including a large metallic gong-like object on a stand, a framed photograph, and floral arrangements. The lighting appears to be from a camera flash.",
+    "layout": "Interior room view framed by a doorway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "F\nEFTA00000064",
+    "text_regions": [
+      {
+        "region": "label",
+        "text": "F",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000064",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000064"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "White label with letter 'F' taped to door",
+      "Digital watermark/identifier 'EFTA00000064' at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph with evidence marker",
+    "date": null,
+    "references": [
+      "EFTA00000064"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be an evidentiary photograph from an investigation, indicated by the 'F' marker and the EFTA tracking number.",
+  "file_path": "IMAGES\\0001\\EFTA00000064.pdf",
+  "document_id": "EFTA00000064",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:52:44.369848Z",
+    "model": "gemini-3-flash-preview"
+  }
+}  "processing_metadata": {
+    "processed_at": "2025-12-19T21:52:44.369848Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

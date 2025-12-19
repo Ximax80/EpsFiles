@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000068.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a formal dining room. The room features a large rectangular dining table covered with a floral-patterned tablecloth. Surrounding the table are several chairs upholstered in a leopard-print fabric. The walls are decorated with a mural depicting stylized clouds or mountains. There are two large windows with heavy, cream-colored drapes. On the far wall, there is a dark wood sideboard or buffet holding numerous framed photographs and a small gong. A candelabra is visible on the left, and a vase of flowers sits on the table.",
+    "layout": "Landscape orientation, interior shot of a room.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000068",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000068",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000068"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000068' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a dining room",
+    "date": null,
+    "references": [
+      "EFTA00000068"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The OCR provided in the prompt appears to be garbled noise/artifacts and does not correspond to visible text in the image, with the exception of the Bates stamp. The image itself contains no legible text other than the document reference number.",
+  "file_path": "IMAGES\\0001\\EFTA00000068.pdf",
+  "document_id": "EFTA00000068",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:53:13.905630Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

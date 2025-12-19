@@ -1,0 +1,124 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010482.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A two-page spread from a book or magazine featuring several photographs and text related to Jeffrey Epstein. The images include Epstein with Adrianna Ross, a prison cell, Epstein with a lawyer in a courthouse, a close-up portrait of Epstein, an aerial view of a facility called 'The Stockade', a screenshot of a sex offender registry entry, and an aerial view of Little Saint James island.",
+    "layout": "Multi-column layout with integrated photographs and captions. The left page has three images and three text blocks. The right page has four images and four text blocks.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "gation\naphed\nw York\noncert\nRising,\nMarch\nPatrick\nMullen)\n\nJeffrey Epstein, photographed\nwith Adrianna Ross, attend-\ning the launch of Radar\nmagazine held at the Hotel\nQT in New York City, May\n2005 (Neil Rasmus / Patrick-\nMcMullan.com / Sipa Press)\n\nf's Office\nin (Palm\nf's Office)\n\nThe Stockade, where Epstein\nserved his sentence, photographed\nhere in 2006, was located at 673\nFairgrounds Road in West Palm\nBeach, Florida. At the time, it was\nused as a minimum- and medium-\nsecurity facility housing women and\njuveniles, as well as male inmates\non a work-release program. (Smith\nAerial Photos)\n\nEpstein pleaded guilty to state\nsolicitation charges and served\nthirteen months of an eighteen-\nmonth sentence, with liberal\nwork-release privileges, in a\nsolitary cell at the Palm Beach\nCounty Stockade similar to the\none pictured here. (Courtesy\nCDC Special Management, Palm\nBeach Sheriff's Office)\n\nCOURTRO\n\nEpstein and lawyer at the West\nPalm Beach courthouse in June\n2008 to enter a plea nearly two\nyears after being charged (Uma\nSanghvi / The Palm Beach Post /\nZUMAPRESS.com)\n\nJeffrey Epstein's entry in\nthe National Sex Offender\nRegistry (National Sex\nOffender Registry)\n\nFlorida Department of Law Enforcement - Sexual Offender / Predator Flyer\nJEFFREY E EPSTEIN\nJEFFREY EPSTEIN\nDate Of Photo: 03/25/2013\n\nEpstein's Little Saint James\nisland, U.S. Virgin Islands: a\nprivately owned cay (nicknamed\nLittle Saint Jeff's) whose owner\nlocals affectionately refer to\nas Richie Rich (© Chris Bott /\nSplash News / Corbis)\n\nHOUSE_OVERSIGHT_010482",
+    "text_regions": [
+      {
+        "region": "body",
+        "text": "Epstein pleaded guilty to state solicitation charges and served thirteen months of an eighteen-month sentence, with liberal work-release privileges, in a solitary cell at the Palm Beach County Stockade similar to the one pictured here. (Courtesy CDC Special Management, Palm Beach Sheriff's Office)",
+        "type": "printed"
+      },
+      {
+        "region": "caption",
+        "text": "Jeffrey Epstein, photographed with Adrianna Ross, attending the launch of Radar magazine held at the Hotel QT in New York City, May 2005 (Neil Rasmus / Patrick-McMullan.com / Sipa Press)",
+        "type": "printed"
+      },
+      {
+        "region": "caption",
+        "text": "Epstein and lawyer at the West Palm Beach courthouse in June 2008 to enter a plea nearly two years after being charged (Uma Sanghvi / The Palm Beach Post / ZUMAPRESS.com)",
+        "type": "printed"
+      },
+      {
+        "region": "caption",
+        "text": "The Stockade, where Epstein served his sentence, photographed here in 2006, was located at 673 Fairgrounds Road in West Palm Beach, Florida. At the time, it was used as a minimum- and medium-security facility housing women and juveniles, as well as male inmates on a work-release program. (Smith Aerial Photos)",
+        "type": "printed"
+      },
+      {
+        "region": "caption",
+        "text": "Jeffrey Epstein's entry in the National Sex Offender Registry (National Sex Offender Registry)",
+        "type": "printed"
+      },
+      {
+        "region": "caption",
+        "text": "Epstein's Little Saint James island, U.S. Virgin Islands: a privately owned cay (nicknamed Little Saint Jeff's) whose owner locals affectionately refer to as Richie Rich (© Chris Bott / Splash News / Corbis)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010482",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2005-05-01",
+      "2006-01-01",
+      "2008-06-01",
+      "2013-03-25"
+    ],
+    "people": [
+      "Jeffrey Epstein",
+      "Adrianna Ross",
+      "Neil Rasmus",
+      "Uma Sanghvi",
+      "Chris Bott",
+      "Patrick Mullen"
+    ],
+    "organizations": [
+      "Radar magazine",
+      "Palm Beach County Stockade",
+      "Palm Beach Sheriff's Office",
+      "The Palm Beach Post",
+      "ZUMAPRESS.com",
+      "National Sex Offender Registry",
+      "Florida Department of Law Enforcement",
+      "Sipa Press",
+      "Corbis",
+      "Splash News"
+    ],
+    "locations": [
+      "Hotel QT, New York City",
+      "673 Fairgrounds Road, West Palm Beach, Florida",
+      "West Palm Beach courthouse",
+      "Little Saint James island, U.S. Virgin Islands"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010482"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": [
+        "673 Fairgrounds Road, West Palm Beach, Florida"
+      ]
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      {
+        "description": "Bates stamp at bottom right: HOUSE_OVERSIGHT_010482"
+      }
+    ]
+  },
+  "document_metadata": {
+    "document_type": "book_page",
+    "sender": null,
+    "recipient": null,
+    "subject": "Jeffrey Epstein legal history and properties",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010482"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.93
+  },
+  "notes": "The document appears to be a scan from a book or investigative report. Some text on the far left margin is cut off. The sex offender registry screenshot contains small text that is partially illegible but the main headers are clear.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010482.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010482",
+  "house_oversight_id": "010482",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:06:06.703393Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

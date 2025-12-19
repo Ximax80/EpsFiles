@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000154.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a staircase. The stairs are covered in a grey, patterned carpet. A blue-painted metal railing with a wooden handrail runs along the left side. The walls are painted an off-white or light beige color. On the landing wall, there is a framed picture of a coastal scene and a circular, glowing wall-mounted light fixture above it. An electrical outlet is visible on the wall near the stairs.",
+    "layout": "Vertical composition showing a flight of stairs leading upwards and turning to the left.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000154",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000154",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000154"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000154' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a staircase",
+    "date": null,
+    "references": [
+      "EFTA00000154"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph likely used as evidence or documentation in a legal or investigative context, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000154.pdf",
+  "document_id": "EFTA00000154",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:03:13.157203Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

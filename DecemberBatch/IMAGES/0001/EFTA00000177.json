@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000177.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a dressing room or salon area. The room features cream-colored cabinetry and paneled walls. On the left is a vanity with a black marble countertop, a sink, and various toiletries. In the center, there is a white salon-style chair with black armrests. To the right is a long built-in vanity desk with a large mirror, lamps with pleated shades, and several small items including boxes and a framed photograph. A doorway in the background leads to another room. The lighting is provided by an ornate chandelier and lamps.",
+    "layout": "Landscape orientation showing a hallway-like dressing area with built-in furniture on both sides.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "i! \nEFTA00000177",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000177",
+        "type": "printed"
+      },
+      {
+        "region": "top_left_artifact",
+        "text": "i!",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000177"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000177' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence dressing/salon room",
+    "date": null,
+    "references": [
+      "EFTA00000177"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'i!' appears to be a small artifact or stray mark in the top left corner of the OCR/image processing. The primary identifier is the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000177.pdf",
+  "document_id": "EFTA00000177",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:53.425232Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

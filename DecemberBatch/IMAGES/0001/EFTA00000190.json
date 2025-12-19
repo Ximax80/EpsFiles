@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000190.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small, ornate bathroom or water closet. The room features cream-colored paneled walls. In the center is a white modern toilet with the lid open. Above the toilet is a framed black-and-white photograph of a person, and above that is a wall-mounted light fixture with a frosted glass shade. To the left of the toilet is a silver toilet brush holder and a white towel hanging on a rack. To the right is a toilet paper holder with a roll and a small trash can lined with a plastic bag.",
+    "layout": "Vertical composition centered on the toilet and wall decor.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000190",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000190",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000190"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000190' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photographic evidence",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000190"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be a piece of evidence from a legal or investigative file, indicated by the Bates stamp. The framed photograph on the wall is a black and white portrait, but the subject is not clearly identifiable due to glare.",
+  "file_path": "IMAGES\\0001\\EFTA00000190.pdf",
+  "document_id": "EFTA00000190",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:24.510745Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

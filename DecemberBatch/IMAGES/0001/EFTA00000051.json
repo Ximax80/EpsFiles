@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000051.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway leading to an elevator. The hallway has white walls, white trim with gold accents, and a marble baseboard. The floor is a light-colored stone or tile with dark diamond-shaped accents. An open white door leads into a small vestibule where a gold-toned or brass elevator door is visible. A decorative glass light fixture is mounted on the ceiling in the vestibule. On the right wall of the foreground hallway, there is a small grey electrical or control panel.",
+    "layout": "Portrait orientation showing a perspective view down a hallway through a doorway to an elevator.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000051",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000051",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000051"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000051' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or office building featuring an elevator",
+    "date": null,
+    "references": [
+      "EFTA00000051"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely from a legal or investigative file, as indicated by the Bates numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000051.pdf",
+  "document_id": "EFTA00000051",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:12.663538Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

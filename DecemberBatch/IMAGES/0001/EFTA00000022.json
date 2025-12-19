@@ -1,0 +1,69 @@
+{
+  "file_name": "EFTA00000022.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an open white interior door leading into a small storage room or closet. Inside the room, there is a black rolling tool chest or cart with various items stacked on top, including what appear to be plastic storage bins. A gray rectangular panel, likely an electrical breaker box, is mounted on the wall. A white plastic shopping bag with text is on the carpeted floor. The lighting is provided by an overhead fixture, part of which is visible at the top of the frame.",
+    "layout": "Interior shot of a doorway and a small utility/storage space.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "DUANE reade\nby Walgreens\nEFTA00000022",
+    "text_regions": [
+      {
+        "region": "shopping bag",
+        "text": "DUANE reade\nby Walgreens",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000022",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Duane Reade",
+      "Walgreens"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000022"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000022"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a storage area",
+    "date": null,
+    "references": [
+      "EFTA00000022"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text on the shopping bag is partially obscured by folds but clearly identifies the 'Duane Reade by Walgreens' brand. The alphanumeric string at the bottom right is a Bates stamp used for document identification in legal or investigative contexts.",
+  "file_path": "IMAGES\\0001\\EFTA00000022.pdf",
+  "document_id": "EFTA00000022",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:47:37.281511Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

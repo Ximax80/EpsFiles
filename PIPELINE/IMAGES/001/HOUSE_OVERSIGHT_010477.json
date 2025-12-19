@@ -1,0 +1,87 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010477.jpg",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A scanned image of a book cover. The cover features a close-up, pixelated/halftone image of a man's face (Jeffrey Epstein). The book title and author names are prominently displayed in large, bold typography.",
+    "layout": "The layout is a standard book cover design with the author's name at the top, followed by the title in a large black box, and a subtitle/description at the bottom. A document reference number is visible in the bottom right corner.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "JAMES\nPATTERSON\n& JOHN CONNOLLY WITH TIM MALLOY\nFILTHY\nRICH\nA POWERFUL BILLIONAIRE,\nTHE SEX SCANDAL THAT UNDID HIM, AND ALL\nTHE JUSTICE THAT MONEY CAN BUY:\nTHE SHOCKING TRUE STORY OF JEFFREY EPSTEIN\nHOUSE_OVERSIGHT_010477",
+    "text_regions": [
+      {
+        "region": "header",
+        "text": "JAMES\nPATTERSON",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "& JOHN CONNOLLY WITH TIM MALLOY",
+        "type": "printed"
+      },
+      {
+        "region": "title",
+        "text": "FILTHY\nRICH",
+        "type": "printed"
+      },
+      {
+        "region": "subtitle",
+        "text": "A POWERFUL BILLIONAIRE,\nTHE SEX SCANDAL THAT UNDID HIM, AND ALL\nTHE JUSTICE THAT MONEY CAN BUY:\nTHE SHOCKING TRUE STORY OF JEFFREY EPSTEIN",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010477",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "James Patterson",
+      "John Connolly",
+      "Tim Malloy",
+      "Jeffrey Epstein"
+    ],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010477"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "HOUSE_OVERSIGHT_010477 (Bates stamp/reference number)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo of book cover",
+    "sender": null,
+    "recipient": null,
+    "subject": "The shocking true story of Jeffrey Epstein",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010477"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a scan of a book cover included in a document collection, likely as evidence or reference material for the House Oversight Committee.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010477.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010477",
+  "house_oversight_id": "010477",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:09.815657Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

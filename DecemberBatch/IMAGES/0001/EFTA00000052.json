@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000052.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or room featuring ornate, gilded furniture. In the foreground, there is a marble-topped console table with gold-colored legs and decorative carvings. On the table sits a large ornate lamp with a pleated shade, a white candle in a glass jar, and a framed photograph of a person (the face is redacted with a black box). A white evidence marker with a large black letter 'D' is taped to the front of the table. Below the table are two rounded, stone-like decorative objects. In the background, there is a marble fireplace with gold accents and another similar console table further down the hallway. The floor is light-colored tile with dark diamond-shaped inserts.",
+    "layout": "Interior scene, landscape orientation, with evidence marker prominently displayed in the lower-center foreground.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "D\nEFTA00000052",
+    "text_regions": [
+      {
+        "region": "evidence_marker",
+        "text": "D",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000052",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000052"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence marker labeled 'D'",
+      "Bates stamp/Reference number 'EFTA00000052'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Evidence documentation of interior room",
+    "date": null,
+    "references": [
+      "EFTA00000052"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph contains a redacted face in a picture frame on the console table. The 'D' marker indicates this is likely an exhibit or evidence photo from an investigation.",
+  "file_path": "IMAGES\\0001\\EFTA00000052.pdf",
+  "document_id": "EFTA00000052",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:19.863123Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

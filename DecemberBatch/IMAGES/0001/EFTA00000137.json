@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000137.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a white interior door with gold trim. A white piece of paper with a large black letter 'N' is taped to the center of the door. The door is slightly ajar, revealing a glimpse into a dimly lit room beyond. In the background room, a patterned chair, a small side table with a white telephone, and a framed picture on the wall are visible. To the left, the door hinge and a portion of a wooden door frame are shown.",
+    "layout": "The image is a landscape-oriented photograph. The primary focus is the door and the sign attached to it. The background is dark and out of focus.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "N\nSearch & Processor Team:\nAgent:\nContact Number:\nDate:\nEFTA00000137",
+    "text_regions": [
+      {
+        "region": "sign_on_door",
+        "text": "N\nSearch & Processor Team:\nAgent:\nContact Number:\nDate:",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000137",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000137"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Large black letter 'N' on a white sign",
+      "Evidence or search log form taped to door"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Crime scene or search warrant documentation",
+    "date": null,
+    "references": [
+      "EFTA00000137"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.9,
+    "structured_data": 0.8,
+    "overall": 0.9
+  },
+  "notes": "The text on the sign below the letter 'N' is small and partially obscured by the angle, but the labels for 'Search & Processor Team', 'Agent', 'Contact Number', and 'Date' are identifiable as standard fields on an evidence or search log form.",
+  "file_path": "IMAGES\\0001\\EFTA00000137.pdf",
+  "document_id": "EFTA00000137",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:01:10.142497Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

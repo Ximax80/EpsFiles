@@ -1,0 +1,108 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010497.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A photograph of two open pages from a printed book. The pages are slightly curved due to the binding, and the lighting creates shadows in the gutter of the book. The text is printed in a serif font.",
+    "layout": "Two-page spread with headers and page numbers. The left page is numbered 154. The right page is partially visible and cut off at the margin.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "JAMES PATTERSON\nFILT\ngood life. Parties in Vegas; weekends in the Hamptons; affairs with beautiful women that end up getting splashed all over the tabloids.\nIt makes sense that, once upon a time, he and Epstein would have gotten along.\n\"As for the girls,\" Meister says, \"that was just business. He'd seat them strategically at client dinners. When he went to the movies, he'd take three or four girls with him. They'd take turns massaging his back, arms, and legs.\"\nAccording to Meister, Epstein used to boast that he \"liked to go into insane asylums because he liked to fuck crazy women.\"\n\"Who knows if it's true?\" Meister adds. \"But I'm telling you, he used to say it.\"\nFrom time to time, Epstein's friends and acquaintances would see sides of Epstein that he'd grown much less shy about sharing.\nEpstein encouraged Alan Dershowitz to invest with a prominent hedge-fund manager named Orin Kramer. Dershowitz did, and he made a lot of money at first. But in 2008, the fund Dershowitz had invested in lost a substantial amount. Afterward, according to a former associate of Epstein's, Epstein appeared in Kramer's midtown Manhattan office. There, sources say, he told Kramer: \"It's very much in your interest to make Alan Dershowitz whole.\"\nEpstein's intervention worked, and Dershowitz recovered his money.\nTo people who'd known Epstein back in the 1980s, this kind of behavior was out of character. But the thing about Epstein was that you never could figure him out. One minute he was charming,\n154\nThe most charming man you'd threat, and bluster. Something numbers: this many parties, t connection to Victoria's Secret,\nThrow in the modeling ag you plug in the parties. The sce But the thing is, Eyes Wide Shi Epstein, getting on that plan moment in Caddyshack—the out from his hole in the golf Epstein was like the mole in a a matter of time before he'd be to ask yourself was, are peopl als? Or are their morals like shed (along with all the othe everyday working people have Eyes Wide Shut world?\nTodd Meister, who was marri heiress Samantha Boardman editorial director James Truma loud:\n\"How does a yutz like Epste At Harry Cipriani, the ques\nHOUSE_OVERSIGHT_010497",
+    "text_regions": [
+      {
+        "region": "header_left",
+        "text": "JAMES PATTERSON",
+        "type": "printed"
+      },
+      {
+        "region": "header_right",
+        "text": "FILT",
+        "type": "printed"
+      },
+      {
+        "region": "body_left",
+        "text": "good life. Parties in Vegas; weekends in the Hamptons; affairs with beautiful women that end up getting splashed all over the tabloids.\nIt makes sense that, once upon a time, he and Epstein would have gotten along.\n\"As for the girls,\" Meister says, \"that was just business. He'd seat them strategically at client dinners. When he went to the movies, he'd take three or four girls with him. They'd take turns massaging his back, arms, and legs.\"\nAccording to Meister, Epstein used to boast that he \"liked to go into insane asylums because he liked to fuck crazy women.\"\n\"Who knows if it's true?\" Meister adds. \"But I'm telling you, he used to say it.\"\nFrom time to time, Epstein's friends and acquaintances would see sides of Epstein that he'd grown much less shy about sharing.\nEpstein encouraged Alan Dershowitz to invest with a prominent hedge-fund manager named Orin Kramer. Dershowitz did, and he made a lot of money at first. But in 2008, the fund Dershowitz had invested in lost a substantial amount. Afterward, according to a former associate of Epstein's, Epstein appeared in Kramer's midtown Manhattan office. There, sources say, he told Kramer: \"It's very much in your interest to make Alan Dershowitz whole.\"\nEpstein's intervention worked, and Dershowitz recovered his money.\nTo people who'd known Epstein back in the 1980s, this kind of behavior was out of character. But the thing about Epstein was that you never could figure him out. One minute he was charming,",
+        "type": "printed"
+      },
+      {
+        "region": "footer_left",
+        "text": "154",
+        "type": "printed"
+      },
+      {
+        "region": "body_right",
+        "text": "The most charming man you'd threat, and bluster. Something numbers: this many parties, t connection to Victoria's Secret,\nThrow in the modeling ag you plug in the parties. The sce But the thing is, Eyes Wide Shi Epstein, getting on that plan moment in Caddyshack—the out from his hole in the golf Epstein was like the mole in a a matter of time before he'd be to ask yourself was, are peopl als? Or are their morals like shed (along with all the othe everyday working people have Eyes Wide Shut world?\nTodd Meister, who was marri heiress Samantha Boardman editorial director James Truma loud:\n\"How does a yutz like Epste At Harry Cipriani, the ques",
+        "type": "printed"
+      },
+      {
+        "region": "footer_margin",
+        "text": "HOUSE_OVERSIGHT_010497",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2008",
+      "1980s"
+    ],
+    "people": [
+      "James Patterson",
+      "Epstein",
+      "Meister",
+      "Alan Dershowitz",
+      "Orin Kramer",
+      "Todd Meister",
+      "Samantha Boardman",
+      "James Truman"
+    ],
+    "organizations": [
+      "Victoria's Secret"
+    ],
+    "locations": [
+      "Vegas",
+      "Hamptons",
+      "Manhattan",
+      "Harry Cipriani"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010497"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Page number 154",
+      "Bates stamp: HOUSE_OVERSIGHT_010497"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "book excerpt",
+    "sender": null,
+    "recipient": null,
+    "subject": "Biographical information regarding Jeffrey Epstein and his associates",
+    "date": null,
+    "references": [
+      "Eyes Wide Shut",
+      "Caddyshack"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The right page is partially obscured by the edge of the photograph, leading to incomplete sentences in the extraction for that region. The text appears to be from a book by James Patterson (likely 'Filthy Rich').",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010497.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010497",
+  "house_oversight_id": "010497",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:58.418848Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

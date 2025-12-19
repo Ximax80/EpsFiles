@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000222.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a narrow hallway leading to a white door. The hallway has light-colored walls and a dark, patterned carpet. A single round, gold-trimmed light fixture is mounted on the ceiling. The white door at the end of the hallway features a red sign and a gold-colored doorknob. A door closer mechanism is visible at the top of the door.",
+    "layout": "Centered perspective shot looking down a hallway.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "24 HOUR\nVIDEO\nSURVEILLANCE\nEFTA00000222",
+    "text_regions": [
+      {
+        "region": "sign on door",
+        "text": "24 HOUR\nVIDEO\nSURVEILLANCE",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000222",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000222"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number: EFTA00000222"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Security surveillance notification on door",
+    "date": null,
+    "references": [
+      "EFTA00000222"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, likely part of a larger investigative file as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000222.pdf",
+  "document_id": "EFTA00000222",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:11:05.115203Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

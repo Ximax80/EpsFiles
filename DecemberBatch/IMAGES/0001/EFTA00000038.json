@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000038.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bathroom interior. The scene includes a white vanity with a built-in sink and silver faucets, a large mirror reflecting the room, and a glass-enclosed walk-in shower with white tiling. The floor is covered in small white square tiles. A single round light fixture is visible at the top of the frame. There are some toiletries on the counter and a box of tissues.",
+    "layout": "The image is a vertical photograph showing a corner of a bathroom.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000038",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000038",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000038"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000038' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Bathroom interior",
+    "date": null,
+    "references": [
+      "EFTA00000038"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, identified by the Bates stamp at the bottom.",
+  "file_path": "IMAGES\\0001\\EFTA00000038.pdf",
+  "document_id": "EFTA00000038",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:49:40.939258Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

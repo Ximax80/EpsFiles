@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000215.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or foyer. The space features blue patterned carpeting with black border stripes. On the left wall is a large painting depicting a figure and what appears to be construction equipment (a blue ladder and orange barrier). In the center, a life-sized replica of a Chinese Terracotta Warrior statue stands against a beige wall. Several open doorways lead to further rooms, including one that appears to be a bedroom or dressing area with a white medical-style lamp and a small white tag with the letter 'P' attached to a doorframe. To the right is a white door with a circular window and an elevator call button panel.",
+    "layout": "Interior architectural shot with a central perspective looking down a hallway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "P\nEFTA00000215",
+    "text_regions": [
+      {
+        "region": "annotation",
+        "text": "P",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000215",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000215"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence or exhibit tag with the letter 'P' visible on a doorframe in the background."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a residence, likely related to an investigation",
+    "date": null,
+    "references": [
+      "EFTA00000215"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be an evidentiary photo from a legal or governmental investigation, as indicated by the 'P' tag and the EFTA prefix on the document number.",
+  "file_path": "IMAGES\\0001\\EFTA00000215.pdf",
+  "document_id": "EFTA00000215",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:10:18.757400Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

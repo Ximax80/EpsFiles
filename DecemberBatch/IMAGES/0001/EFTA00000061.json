@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000061.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small bathroom or powder room. The room features a white toilet, patterned wallpaper with vertical stripes and a diamond/checkerboard motif, and a dark-framed piece of art on the right wall. A large, dark-colored gorilla head sculpture is mounted on the wall above the toilet. A small bottle with a pump dispenser sits on the back of the toilet tank. The photo is taken from a doorway, with the door frame visible on the left and right edges.",
+    "layout": "Interior shot of a small room, portrait orientation.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000061",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000061",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000061"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000061"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000061"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp EFTA00000061.",
+  "file_path": "IMAGES\\0001\\EFTA00000061.pdf",
+  "document_id": "EFTA00000061",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:52:22.985507Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

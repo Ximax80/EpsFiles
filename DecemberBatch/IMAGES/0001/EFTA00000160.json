@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000160.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an interior hallway or room. On the right wall is a large painting depicting a nude figure standing in an urban construction setting with traffic cones, a blue 'POLICE DEPT' sawhorse, and other debris. The figure's face and genitals are obscured by black redaction boxes. To the left, an open ornate wooden door leads into another room with dark wood paneling and another framed image on the wall. The floor is covered in a blue patterned carpet.",
+    "layout": "Interior shot with a large painting on the right and an open doorway on the left.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "POLICE DEPT\nEFTA00000160",
+    "text_regions": [
+      {
+        "region": "painting_detail",
+        "text": "POLICE DEPT",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000160",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "POLICE DEPT"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000160"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000160"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence showing artwork",
+    "date": null,
+    "references": [
+      "EFTA00000160"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image contains redactions (black boxes) over the figure in the painting. The text 'POLICE DEPT' is part of the artwork depicted in the photograph.",
+  "file_path": "IMAGES\\0001\\EFTA00000160.pdf",
+  "document_id": "EFTA00000160",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:03:53.416725Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

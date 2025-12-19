@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000209.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-end, elaborately decorated bedroom. The room features light-colored wallpaper with large blue floral patterns and shell-shaped wall sconces. A large, ornate blue glass chandelier hangs from the ceiling. The bed has a dark wood frame with a patterned headboard and white linens. Flanking the bed are two dark nightstands with matching lamps. In the foreground, there is a large, curved white upholstered chair or sofa. To the right, there is a tall black display cabinet with glass doors and a blue and white chevron-patterned curtain. The carpet is off-white with a blue grid pattern.",
+    "layout": "Interior room shot, landscape orientation.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "S \nEFTA00000209",
+    "text_regions": [
+      {
+        "region": "margin",
+        "text": "S",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000209",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000209"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000209"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00000209"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp EFTA00000209.",
+  "file_path": "IMAGES\\0001\\EFTA00000209.pdf",
+  "document_id": "EFTA00000209",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:09:36.285968Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000214.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a narrow, ornate hallway. The walls are covered in dark wood paneling with intricate inlaid patterns and patterned wallpaper in a geometric circular design. A bright blue carpet with black stripes along the edges runs down the center of the hall. On the left wall, there is a large framed black and white portrait. On the right wall, there is a small framed landscape painting and a light switch or control panel. The hallway leads through a doorway into another room or hallway with lighter-colored walls and ceiling fixtures.",
+    "layout": "Symmetrical perspective view looking down a hallway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000214",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000214",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000214"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000214' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a hallway",
+    "date": null,
+    "references": [
+      "EFTA00000214"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp at the bottom right. No textual information is present within the scene itself other than the external identifier.",
+  "file_path": "IMAGES\\0001\\EFTA00000214.pdf",
+  "document_id": "EFTA00000214",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:10:10.402821Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

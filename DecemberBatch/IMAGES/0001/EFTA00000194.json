@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000194.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph showing an interior construction or renovation site. The room is filled with blue metal scaffolding structures. The walls and some of the scaffolding are covered in translucent plastic sheeting. A red and silver aluminum step ladder is positioned on the left side. The ceiling shows exposed wooden planks or joists. In the foreground, there are some construction materials, including a white bag and a roll of brown paper or cardboard. The floor is covered with protective brown paper.",
+    "layout": "Full-frame photograph with a document reference number in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000194",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000194",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000194"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates-style document identification number: EFTA00000194"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Construction or renovation site documentation",
+    "date": null,
+    "references": [
+      "EFTA00000194"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph likely part of a larger set of documentation regarding property renovation or construction. The only text present is the alphanumeric identifier at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000194.pdf",
+  "document_id": "EFTA00000194",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:52.759353Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

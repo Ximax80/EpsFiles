@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000170.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a shower interior featuring dark, polished marble or stone tiles with prominent gold and white veining. A chrome shower fixture with a handheld showerhead is mounted on a vertical sliding bar. The hose for the handheld unit is connected to a lower outlet. A built-in bench or ledge made of the same marble is visible on the right side. There is a bright glare from a flash or light source reflecting off the polished surface on the left side.",
+    "layout": "Full-page photograph with a small alphanumeric identifier in the bottom right corner.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000170",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000170",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000170"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp or document identifier: EFTA00000170"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a shower",
+    "date": null,
+    "references": [
+      "EFTA00000170"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be a piece of evidence or documentation from a legal or investigative file, indicated by the Bates-style numbering at the bottom.",
+  "file_path": "IMAGES\\0001\\EFTA00000170.pdf",
+  "document_id": "EFTA00000170",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:04.651271Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

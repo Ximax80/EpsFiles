@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000010.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a grand hallway or foyer. The scene features a set of wide stone steps leading up to a large, dark wood double door with gold-trimmed panels (circles and diamonds). On the left and right walls, large framed landscape paintings in a traditional East Asian style are hung. The walls are made of light-colored stone blocks. To the left of the door, there is a white umbrella stand containing several black umbrellas. There are handrails on both sides of the stairs. A small security camera is visible on the ceiling to the left of the door frame.",
+    "layout": "Symmetrical interior shot looking up a short flight of stairs toward a central double door.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000010",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000010",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000010"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000010' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or official building foyer",
+    "date": null,
+    "references": [
+      "EFTA00000010"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates stamp EFTA00000010. The artwork and architecture suggest a high-end or official setting.",
+  "file_path": "IMAGES\\0001\\EFTA00000010.pdf",
+  "document_id": "EFTA00000010",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:46:01.708722Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

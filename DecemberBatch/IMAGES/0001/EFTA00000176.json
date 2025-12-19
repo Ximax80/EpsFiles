@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000176.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-quality interior photograph of a luxurious dressing room or vanity area. The room features ornate, cream-colored wood paneling with decorative carvings. A large built-in vanity desk with drawers is centered, topped with a large mirror that reflects a chandelier and the opposite side of the room. On the vanity, there are various items including makeup brushes, bottles, a small statue, and lamps. A modern white salon-style chair with a black base is positioned in front of the vanity. To the right, an open doorway leads to another room with similar decor.",
+    "layout": "Landscape orientation showing a wide-angle view of an interior room.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "t\nJL\nEFTA00000176",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000176",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "t\nJL",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000176"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000176"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence dressing room",
+    "date": null,
+    "references": [
+      "EFTA00000176"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The text 't' and 'JL' appear to be artifacts or partial characters from the OCR process or very small markings in the margin. The primary text is the Bates stamp identifier.",
+  "file_path": "IMAGES\\0001\\EFTA00000176.pdf",
+  "document_id": "EFTA00000176",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:46.068174Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

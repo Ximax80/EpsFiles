@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000058.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a residence. A white door is partially open in the foreground, with a white paper sign taped to it featuring a large black letter 'E' and a grid/table below it. Through the doorway, a hallway or room is visible, containing a dark statue of a seated figure on a chair, patterned wallpaper, and a large dark painting of a zebra on the far wall. The lighting is dim, with recessed ceiling lights visible in the background room.",
+    "layout": "Interior architectural shot with a foreground door acting as a frame for the background room.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "E\nEFTA00000058",
+    "text_regions": [
+      {
+        "region": "label_on_door",
+        "text": "E",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000058",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000058"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Evidence label 'E' taped to door"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a residence with evidence marker",
+    "date": null,
+    "references": [
+      "EFTA00000058"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text on the grid below the letter 'E' on the door label is too small and blurry to be legible. The image appears to be an evidence photograph from an investigation.",
+  "file_path": "IMAGES\\0001\\EFTA00000058.pdf",
+  "document_id": "EFTA00000058",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:52:00.781140Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

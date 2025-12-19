@@ -1,0 +1,597 @@
+#!/usr/bin/env python3
+"""
+Process text files (TEXT/) to extract content, understand context, and assemble into stories.
+
+This module:
+1. Extracts content from each text file
+2. Understands document structure and context
+3. Groups related texts into coherent narratives (like Dorle's Stories)
+4. Assembles stories from grouped texts
+5. Creates letters/ folder structure similar to Dorle's Stories pipeline
+"""
+from __future__ import annotations
+
+import os
+import sys
+import json
+import argparse
+from pathlib import Path
+from typing import Dict, List, Any, Optional
+from dotenv import load_dotenv
+
+from google import genai
+from google.genai import types
+import traceback
+
+
+PROMPT_TEXT_EXTRACTION = """You are analyzing a text file from House Oversight Committee documentation.
+
+TASK: Extract and structure the content of this text file.
+
+REQUIREMENTS:
+1. CONTENT EXTRACTION:
+   - Extract all text content preserving structure
+   - Identify document sections or parts
+   - Note any formatting markers or special characters
+   - Preserve paragraph breaks and line structure
+
+2. CONTEXT UNDERSTANDING:
+   - Determine document type (conversation, transcript, article, memo, etc.)
+   - Identify participants or speakers if applicable
+   - Note time period or dates mentioned
+   - Identify main topics or themes
+
+3. ENTITY EXTRACTION:
+   - Extract all dates mentioned
+   - Extract all names (people, organizations)
+   - Extract locations, addresses
+   - Extract document references or file numbers
+   - Extract key events or actions
+
+OUTPUT FORMAT (STRICT JSON ONLY - NO MARKDOWN, NO CODE BLOCKS, NO EXPLANATIONS):
+{{
+  "file_name": "<filename>",
+  "content": {{
+    "full_text": "<complete_text_content>",
+    "sections": [
+      {{
+        "section_index": <number>,
+        "section_type": "<header|paragraph|list|quote|etc>",
+        "text": "<section_text>"
+      }}
+    ]
+  }},
+  "metadata": {{
+    "document_type": "<type>",
+    "participants": ["<name1>", ...],
+    "date_range": {{
+      "earliest": "<date_or_null>",
+      "latest": "<date_or_null>"
+    }},
+    "file_references": ["<file_number>", ...]
+  }},
+  "entities": {{
+    "people": ["<name1>", ...],
+    "organizations": ["<org1>", ...],
+    "locations": ["<loc1>", ...],
+    "dates": ["<date1>", ...],
+    "events": ["<event1>", ...]
+  }},
+  "themes": ["<theme1>", "<theme2>", ...],
+  "confidence": 0.0-1.0,
+  "notes": "<any_observations>"
+}}
+
+CRITICAL RULES:
+- Output ONLY valid JSON. Do not wrap in markdown code blocks (```json).
+- Do not include any text before or after the JSON object.
+- Extract text exactly as it appears
+- Do not summarize or rewrite content
+- Preserve all original formatting
+- Note any unclear or damaged sections
+- Start your response with {{ and end with }}
+"""
+
+
+PROMPT_STORY_ASSEMBLY = """You are analyzing multiple text files from House Oversight Committee documentation.
+
+TASK: Group related texts into coherent narratives and understand connections.
+
+REQUIREMENTS:
+1. GROUPING:
+   - Group texts that are part of the same conversation, story, or topic
+   - Order texts chronologically when dates are available
+   - Identify continuation or related content
+
+2. NARRATIVE CONSTRUCTION:
+   - Assemble grouped texts into coherent stories
+   - Note narrative flow and connections
+   - Identify key events and their sequence
+
+3. RELATIONSHIP MAPPING:
+   - Map connections between entities across texts
+   - Identify recurring themes or topics
+   - Note temporal relationships (what happened when)
+
+OUTPUT FORMAT (STRICT JSON):
+{{
+  "stories": [
+    {{
+      "id": "S0001",
+      "title": "<descriptive_title>",
+      "text_files": ["<filename1>", "<filename2>", ...],
+      "assembled_text": "<combined_narrative>",
+      "date_range": {{
+        "earliest": "<date_or_null>",
+        "latest": "<date_or_null>"
+      }},
+      "participants": ["<name1>", ...],
+      "key_events": [
+        {{
+          "event": "<description>",
+          "date": "<date_or_null>",
+          "entities_involved": ["<name1>", ...]
+        }}
+      ],
+      "themes": ["<theme1>", ...],
+      "confidence": 0.0-1.0,
+      "reason": "<explanation_of_grouping>"
+    }}
+  ],
+  "unassigned_files": ["<filename>", ...],
+  "cross_story_connections": [
+    {{
+      "story_ids": ["S0001", "S0002"],
+      "connection_type": "<shared_entity|temporal|thematic>",
+      "description": "<how_they_connect>"
+    }}
+  ]
+}}
+
+CRITICAL RULES:
+- Use ONLY the provided text files
+- Do not invent connections not supported by the content
+- Preserve exact text, do not rewrite or summarize
+- Note any ambiguities in grouping
+- Maintain chronological order when possible
+"""
+
+
+def _is_extraction_error_artifact(path: Path) -> bool:
+    """Return True when the TXT file is one of our *_extraction_error artifacts."""
+    stem = path.stem.lower()
+    return "_extraction_error" in stem
+
+
+def _log_extraction_error(
+    text_path: Path,
+    message: str,
+    *,
+    raw_response: str = "",
+    attempted_json: str = "",
+    extra_sections: Optional[Dict[str, str]] = None,
+) -> Path:
+    """Write a structured log file describing why extraction failed."""
+    error_file = text_path.parent / f"{text_path.stem}_extraction_error.log"
+    with open(error_file, "w", encoding="utf-8") as f:
+        f.write(message.strip() + "\n\n")
+        if extra_sections:
+            for title, content in extra_sections.items():
+                f.write("=" * 80 + "\n")
+                f.write(f"{title}\n")
+                f.write("=" * 80 + "\n")
+                f.write(content.strip() + "\n\n")
+        if raw_response:
+            f.write("=" * 80 + "\n")
+            f.write("RAW RESPONSE (first 2000 chars):\n")
+            f.write("=" * 80 + "\n")
+            f.write(raw_response[:2000] + "\n\n")
+        if attempted_json:
+            f.write("=" * 80 + "\n")
+            f.write("ATTEMPTED JSON TEXT:\n")
+            f.write("=" * 80 + "\n")
+            f.write(attempted_json[:2000] + "\n")
+    return error_file
+
+
+def _build_fallback_result(
+    text_path: Path,
+    text_content: str,
+    error_message: str,
+    *,
+    raw_preview: str = "",
+    extra_fields: Optional[Dict[str, Any]] = None,
+) -> Dict[str, Any]:
+    """Return a minimal extraction payload when the LLM response fails."""
+    fallback: Dict[str, Any] = {
+        "file_name": text_path.name,
+        "file_path": str(text_path.relative_to(text_path.parents[1])), # Adjusted for root
+        "content": {"full_text": text_content},
+        "error": error_message,
+    }
+    if raw_preview:
+        fallback["raw_response_preview"] = raw_preview
+    if extra_fields:
+        fallback.update(extra_fields)
+    return fallback
+
+
+def extract_text_content(text_path: Path, client, save_per_file: bool = True) -> Dict[str, Any]:
+    """Extract and structure content from a text file.
+    
+    Args:
+        text_path: Path to text file
+        client: Gemini client
+        save_per_file: If True, save extraction JSON next to text file (consistent with images/natives)
+    """
+    try:
+        with open(text_path, "r", encoding="utf-8", errors="replace") as f:
+            text_content = f.read()
+    except Exception as e:
+        return {
+            "file_name": text_path.name,
+            "error": f"Failed to read file: {e}"
+        }
+    
+    prompt = f"{PROMPT_TEXT_EXTRACTION}\n\n--- TEXT FILE ---\n{text_content}\n--- END TEXT FILE ---"
+    
+    contents = [
+        types.Content(
+            role="user",
+            parts=[types.Part.from_text(text=prompt)]
+        )
+    ]
+    
+    cfg = types.GenerateContentConfig(
+        temperature=0.3,
+        response_mime_type="application/json",
+        max_output_tokens=16384,
+        thinking_config=types.ThinkingConfig(thinking_budget=512),
+    )
+    
+    out = ""
+    blocked_reason = None
+    blocked_message = None
+    stream_exception: Optional[Exception] = None
+    stream_traceback = ""
+    
+    try:
+        for chunk in client.models.generate_content_stream(
+            model="gemini-3-flash-preview",
+            contents=contents,
+            config=cfg,
+        ):
+            prompt_feedback = getattr(chunk, "prompt_feedback", None)
+            if prompt_feedback and prompt_feedback.block_reason:
+                block_enum = prompt_feedback.block_reason
+                blocked_reason = (
+                    block_enum.value if hasattr(block_enum, "value") else str(block_enum)
+                )
+                blocked_message = prompt_feedback.block_reason_message or ""
+                break
+            
+            if chunk.candidates:
+                candidate = chunk.candidates[0]
+                if candidate.finish_reason == types.FinishReason.SAFETY:
+                    blocked_reason = "SAFETY"
+                    blocked_message = "Model stopped early due to safety filters."
+                    break
+            
+            if chunk.text:
+                out += chunk.text
+    except Exception as exc:
+        stream_exception = exc
+        stream_traceback = traceback.format_exc()
+    
+    # Parse JSON response with better error handling
+    result: Optional[Dict[str, Any]] = None
+    
+    if blocked_reason or stream_exception:
+        if blocked_reason:
+            message = f"LLM response blocked ({blocked_reason})"
+            if blocked_message:
+                message += f": {blocked_message}"
+            error_file = _log_extraction_error(
+                text_path,
+                message,
+                extra_sections={
+                    "Note": "Gemini refused to fulfill the request due to safety filters."
+                },
+            )
+            print(f"    Warning: {message}. Error saved to {error_file.name}")
+            result = _build_fallback_result(
+                text_path,
+                text_content,
+                message,
+                extra_fields={
+                    "blocked_reason": blocked_reason,
+                    "blocked_message": blocked_message,
+                },
+            )
+        else:
+            message = f"LLM request failed: {stream_exception}"
+            error_file = _log_extraction_error(
+                text_path,
+                message,
+                extra_sections={"Traceback": stream_traceback},
+                raw_response=out,
+            )
+            print(f"    Warning: {message}. Error saved to {error_file.name}")
+            result = _build_fallback_result(
+                text_path,
+                text_content,
+                message,
+                raw_preview=out[:500],
+            )
+    else:
+        json_text = out.strip()
+        
+        # Try to extract JSON from markdown code blocks if present
+        if "```json" in json_text:
+            json_start = json_text.find("```json") + 7
+            json_end = json_text.find("```", json_start)
+            if json_end > json_start:
+                json_text = json_text[json_start:json_end].strip()
+        elif "```" in json_text:
+            # Try generic code block
+            json_start = json_text.find("```") + 3
+            json_end = json_text.find("```", json_start)
+            if json_end > json_start:
+                json_text = json_text[json_start:json_end].strip()
+        
+        # Try to find JSON object boundaries if response has extra text
+        if not json_text.startswith("{"):
+            json_start = json_text.find("{")
+            if json_start >= 0:
+                json_text = json_text[json_start:]
+                # Find matching closing brace
+                brace_count = 0
+                for i, char in enumerate(json_text):
+                    if char == "{":
+                        brace_count += 1
+                    elif char == "}":
+                        brace_count -= 1
+                        if brace_count == 0:
+                            json_text = json_text[:i+1]
+                            break
+        
+        try:
+            result = json.loads(json_text)
+        except json.JSONDecodeError as e:
+            # Log the error and raw response for debugging
+            error_file = _log_extraction_error(
+                text_path,
+                f"JSON Parse Error: {e}",
+                raw_response=out,
+                attempted_json=json_text,
+            )
+            print(f"    Warning: Failed to parse JSON for {text_path.name}. Error saved to {error_file.name}")
+            
+            # Fallback: return basic structure with full text
+            result = _build_fallback_result(
+                text_path,
+                text_content,
+                f"Failed to parse LLM response: {str(e)}",
+                raw_preview=out[:500],
+            )
+    
+    if result:
+        # Add required fields if not present
+        if "file_name" not in result:
+            result["file_name"] = text_path.name
+        if "file_path" not in result:
+            result["file_path"] = str(text_path.relative_to(text_path.parents[1])) # Adjusted for root
+        
+        # Extract HOUSE_OVERSIGHT ID from filename
+        import re
+        if "house_oversight_id" not in result:
+            id_match = re.search(r'HOUSE_OVERSIGHT_(\d+)', text_path.name)
+            if id_match:
+                result["house_oversight_id"] = id_match.group(1)
+        
+        # Add processing metadata
+        import datetime
+        result["processing_metadata"] = {
+            "processed_at": datetime.datetime.utcnow().isoformat() + "Z",
+            "model": "gemini-3-flash-preview"
+        }
+        
+        # Save per-file JSON next to text file (consistent with images/natives)
+        if save_per_file:
+            extraction_file = text_path.parent / f"{text_path.stem}_extraction.json"
+            with open(extraction_file, "w", encoding="utf-8") as f:
+                json.dump(result, f, ensure_ascii=False, indent=2)
+        
+        return result
+    
+    # Final fallback if all parsing fails
+    result = {
+        "file_name": text_path.name,
+        "file_path": str(text_path.relative_to(text_path.parents[2])),
+        "content": {"full_text": text_content},
+        "error": "Failed to parse LLM response - no valid JSON found"
+    }
+    if save_per_file:
+        extraction_file = text_path.parent / f"{text_path.stem}_extraction.json"
+        with open(extraction_file, "w", encoding="utf-8") as f:
+            json.dump(result, f, ensure_ascii=False, indent=2)
+    return result
+
+
+def assemble_stories(text_extractions: List[Dict[str, Any]], client) -> Dict[str, Any]:
+    """Group text files into stories using LLM."""
+    # Build input listing
+    listing_parts = ["--- TEXT FILES START ---"]
+    for ext in text_extractions:
+        listing_parts.append(f"=== FILE: {ext.get('file_name', 'unknown')} ===")
+        listing_parts.append(f"Content: {ext.get('content', {}).get('full_text', '')[:2000]}...")
+        listing_parts.append(f"Metadata: {json.dumps(ext.get('metadata', {}), ensure_ascii=False)}")
+        listing_parts.append(f"Entities: {json.dumps(ext.get('entities', {}), ensure_ascii=False)}")
+        listing_parts.append("=== FILE END ===")
+    listing_parts.append("--- TEXT FILES END ---")
+    
+    listing = "\n".join(listing_parts)
+    prompt = f"{PROMPT_STORY_ASSEMBLY}\n\n{listing}"
+    
+    contents = [
+        types.Content(
+            role="user",
+            parts=[types.Part.from_text(text=prompt)]
+        )
+    ]
+    
+    cfg = types.GenerateContentConfig(
+        temperature=0.3,
+        response_mime_type="application/json",
+        max_output_tokens=16384,
+        thinking_config=types.ThinkingConfig(thinking_budget=1024),
+    )
+    
+    out = ""
+    for chunk in client.models.generate_content_stream(
+        model="gemini-3-flash-preview",
+        contents=contents,
+        config=cfg,
+    ):
+        if chunk.text:
+            out += chunk.text
+    
+    json_text = out.strip()
+    if "```json" in json_text:
+        json_text = json_text.split("```json")[1].split("```")[0].strip()
+    elif "```" in json_text:
+        json_text = json_text.split("```")[1].split("```")[0].strip()
+
+    try:
+        return json.loads(json_text)
+    except json.JSONDecodeError:
+        print(f"Error parsing story assembly JSON: {json_text[:200]}...")
+        return {
+            "stories": [],
+            "unassigned_files": [ext["file_name"] for ext in text_extractions],
+            "error": "Failed to parse story assembly response"
+        }
+
+
+def create_story_folders(stories: Dict[str, Any], output_dir: Path, text_extractions_by_file: Dict[str, Dict[str, Any]]) -> None:
+    """Create letters/ folder structure similar to Dorle's Stories."""
+    letters_dir = output_dir / "letters"
+    letters_dir.mkdir(parents=True, exist_ok=True)
+    
+    for story in stories.get("stories", []):
+        story_id = story.get("id", "S0000")
+        story_dir = letters_dir / story_id
+        story_dir.mkdir(exist_ok=True)
+        
+        # Save metadata
+        with open(story_dir / "meta.json", "w", encoding="utf-8") as f:
+            json.dump(story, f, ensure_ascii=False, indent=2)
+        
+        # Save assembled text
+        assembled_text = story.get("assembled_text", "")
+        with open(story_dir / "text.txt", "w", encoding="utf-8") as f:
+            f.write(assembled_text)
+        
+        # Save individual file references
+        file_refs = story.get("text_files", [])
+        with open(story_dir / "source_files.txt", "w", encoding="utf-8") as f:
+            f.write("\n".join(file_refs))
+
+
+def process_text(text_dir: Path, output_dir: Path, skip_existing: bool = False) -> None:
+    """Process all text files and assemble into stories."""
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    # Get API key (should already be loaded by main() via load_dotenv())
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        print("Error: GEMINI_API_KEY not set", file=sys.stderr)
+        print("Make sure .env file exists with GEMINI_API_KEY=your-key", file=sys.stderr)
+        sys.exit(1)
+    
+    # Strip whitespace in case .env has extra spaces
+    api_key = api_key.strip()
+    
+    # Verify key format (should start with AIzaSy)
+    if not api_key.startswith("AIzaSy"):
+        print(f"Warning: API key format looks unusual (starts with: {api_key[:6]})", file=sys.stderr)
+    
+    # Timeout is specified in milliseconds. Allow up to 5 minutes per file
+    # to accommodate very large transcripts without tripping API deadlines.
+    http_options = types.HttpOptions(timeout=300_000)
+    client = genai.Client(api_key=api_key, http_options=http_options)
+    
+    # Find all text files recursively, ignoring extraction error artifacts created during retries
+    all_text_files = list(text_dir.rglob("*.txt"))
+    text_files = [path for path in all_text_files if not _is_extraction_error_artifact(path)]
+    skipped_files = len(all_text_files) - len(text_files)
+    
+    if not text_files:
+        print(f"No text files found in {text_dir}")
+        return
+    
+    print(f"Found {len(text_files)} text file(s)")
+    if skipped_files:
+        print(f"  (Skipped {skipped_files} extraction error log file(s))")
+    
+    # Step 1: Extract content from each text file
+    print("\nStep 1: Extracting content from text files...")
+    text_extractions = []
+    text_extractions_by_file = {}
+    
+    extraction_output = output_dir / "text_extractions.json"
+    if skip_existing and extraction_output.exists():
+        print(f"  Loading existing extractions from {extraction_output}")
+        with open(extraction_output, "r", encoding="utf-8") as f:
+            text_extractions = json.load(f)
+            text_extractions_by_file = {ext["file_name"]: ext for ext in text_extractions}
+    else:
+        for i, text_file in enumerate(sorted(text_files), 1):
+            print(f"[{i}/{len(text_files)}] Extracting: {text_file.relative_to(text_dir)}")
+            # Extract and save per-file JSON (saved next to text file)
+            extraction = extract_text_content(text_file, client, save_per_file=True)
+            text_extractions.append(extraction)
+            text_extractions_by_file[extraction["file_name"]] = extraction
+        
+        # Save extractions
+        with open(extraction_output, "w", encoding="utf-8") as f:
+            json.dump(text_extractions, f, ensure_ascii=False, indent=2)
+        print(f"  Saved extractions to {extraction_output}")
+    
+    # Step 2: Assemble stories
+    print("\nStep 2: Assembling stories from text files...")
+    stories_output = output_dir / "stories_assembly.json"
+    if skip_existing and stories_output.exists():
+        print(f"  Loading existing stories from {stories_output}")
+        with open(stories_output, "r", encoding="utf-8") as f:
+            stories = json.load(f)
+    else:
+        stories = assemble_stories(text_extractions, client)
+        with open(stories_output, "w", encoding="utf-8") as f:
+            json.dump(stories, f, ensure_ascii=False, indent=2)
+        print(f"  Saved stories to {stories_output}")
+    
+    # Step 3: Create letters/ folder structure
+    print("\nStep 3: Creating letters/ folder structure...")
+    create_story_folders(stories, output_dir, text_extractions_by_file)
+    
+    print("\nTEXT processing complete.")
+    print("  - Per-file extractions: JSON files saved alongside text files (*_extraction.json)")
+    print(f"  - Aggregated extractions: {extraction_output}")
+    print(f"  - Stories assembly: {stories_output}")
+    print(f"  - Letters folder: {output_dir / 'letters'}")
+
+
+if __name__ == "__main__":
+    # Load .env from current directory or parent directory
+    script_dir = Path(__file__).parent.absolute()
+    load_dotenv()  # Try current directory first
+    load_dotenv(dotenv_path=script_dir.parent / ".env")  # Try parent directory
+    ap = argparse.ArgumentParser(description="Process text files from TEXT directory")
+    ap.add_argument("--text-dir", type=Path, required=True)
+    ap.add_argument("--output-dir", type=Path, required=True)
+    ap.add_argument("--skip-existing", action="store_true")
+    args = ap.parse_args()
+    
+    process_text(args.text_dir, args.output_dir, args.skip_existing)
+

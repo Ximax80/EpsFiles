@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000048.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bathroom vanity area. The vanity features a granite countertop with an undermount sink and gold-toned faucets. It is supported by a dark metal pipe-style frame. On the counter sits a bronze-colored bust of a person's head, a black decorative container, a bottle of soap, and a stack of white towels. A large mirror reflects the opposite wall, which has a white door with a circular 'C' sign on it. The walls are covered in patterned wallpaper, and there are two framed architectural drawings on the wall to the left of the mirror and one to the right. A small trash can is visible on the floor to the right.",
+    "layout": "Interior architectural photograph",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "C\nEFTA00000048",
+    "text_regions": [
+      {
+        "region": "door_sign",
+        "text": "C",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000048",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000048"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      {
+        "description": "Bates stamp or document identifier at bottom right",
+        "text": "EFTA00000048"
+      },
+      {
+        "description": "Circular sign on door in reflection",
+        "text": "C"
+      }
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a bathroom/vanity area",
+    "date": null,
+    "references": [
+      "EFTA00000048"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a clear photograph likely taken for documentation or evidentiary purposes, as indicated by the Bates stamp 'EFTA00000048'.",
+  "file_path": "IMAGES\\0001\\EFTA00000048.pdf",
+  "document_id": "EFTA00000048",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:50:51.834632Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

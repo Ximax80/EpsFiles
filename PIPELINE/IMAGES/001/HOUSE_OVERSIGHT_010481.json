@@ -1,0 +1,110 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010481.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A page from a printed book or report containing four photographs and accompanying descriptive text. The photographs include two social event photos of Jeffrey Epstein, one booking photo (mugshot) of Epstein, and one aerial photograph of a detention facility. One person's face in the middle-left photograph is redacted with a black box.",
+    "layout": "Multi-column layout with text wrapping around four distinct images. The page appears to be part of a bound volume, showing the curve of the binding on the left.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "On the day the police investigation\nbegan, Epstein was photographed\nwith Ghislaine Maxwell in New York\nCity at the 2005 Wall Street concert\nseries benefiting Wall Street Rising,\nat Cipriani in New York City, March\n15, 2005. (Joe Shildhorn / Patrick\nMcMullen)\n\nJeffrey Epstein, photographed\nwith [REDACTED] attend-\ning the launch of Radar\nmagazine held at the Hotel\nQT in New York City, May\n2005 (Neil Rasmus / Patrick-\nMcMullan.com / Sipa Press)\n\n2008 Palm Beach County Sheriff's Office\nbooking photo of Jeffrey Epstein (Palm\nBeach County Sheriff's Office)\n\nThe Stockade, where Epstein\nserved his sentence, photographed\nhere in 2006, was located at 673\nFairgrounds Road in West Palm\nBeach, Florida. At the time, it was\nused as a minimum- and medium-\nsecurity facility housing women and\njuveniles, as well as male inmates\non a work-release program. (Smith\nAerial Photos)\n\nHOUSE_OVERSIGHT_010481",
+    "text_regions": [
+      {
+        "region": "body_top_left",
+        "text": "On the day the police investigation\nbegan, Epstein was photographed\nwith Ghislaine Maxwell in New York\nCity at the 2005 Wall Street concert\nseries benefiting Wall Street Rising,\nat Cipriani in New York City, March\n15, 2005. (Joe Shildhorn / Patrick\nMcMullen)",
+        "type": "printed"
+      },
+      {
+        "region": "body_middle_right",
+        "text": "Jeffrey Epstein, photographed\nwith [REDACTED] attend-\ning the launch of Radar\nmagazine held at the Hotel\nQT in New York City, May\n2005 (Neil Rasmus / Patrick-\nMcMullan.com / Sipa Press)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_middle_left",
+        "text": "2008 Palm Beach County Sheriff's Office\nbooking photo of Jeffrey Epstein (Palm\nBeach County Sheriff's Office)",
+        "type": "printed"
+      },
+      {
+        "region": "body_bottom_right",
+        "text": "The Stockade, where Epstein\nserved his sentence, photographed\nhere in 2006, was located at 673\nFairgrounds Road in West Palm\nBeach, Florida. At the time, it was\nused as a minimum- and medium-\nsecurity facility housing women and\njuveniles, as well as male inmates\non a work-release program. (Smith\nAerial Photos)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010481",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2005-03-15",
+      "2005-05",
+      "2008",
+      "2006"
+    ],
+    "people": [
+      "Epstein",
+      "Ghislaine Maxwell",
+      "Jeffrey Epstein",
+      "Joe Shildhorn",
+      "Patrick McMullen",
+      "Neil Rasmus"
+    ],
+    "organizations": [
+      "Wall Street Rising",
+      "Cipriani",
+      "Radar magazine",
+      "Hotel QT",
+      "Sipa Press",
+      "Palm Beach County Sheriff's Office",
+      "Smith Aerial Photos",
+      "House Oversight Committee"
+    ],
+    "locations": [
+      "New York City",
+      "673 Fairgrounds Road, West Palm Beach, Florida",
+      "The Stockade"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010481"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": [
+        "673 Fairgrounds Road, West Palm Beach, Florida"
+      ]
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Black redaction box over a face in the middle-left photograph.",
+      "Footer text 'HOUSE_OVERSIGHT_010481' acting as a Bates stamp or document identifier."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photographic evidence page",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photographic history of Jeffrey Epstein's activities and incarceration",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010481"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.98,
+    "structured_data": 0.95,
+    "overall": 0.97
+  },
+  "notes": "The text contains a redaction in the middle-right paragraph where a name was likely removed. One face in the corresponding image is also redacted.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010481.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010481",
+  "house_oversight_id": "010481",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:54.011170Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

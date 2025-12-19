@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000140.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph of a luxurious bathroom vanity area. The scene features a marble countertop with a built-in sink and gold-toned fixtures. On the counter are various items: a dark bronze-colored statue of a winged figure (possibly Chronos or a similar mythological figure) holding a scythe and a clock, a bottle of mouthwash, a toothbrush in a holder, a soap dispenser, and a framed photograph of a baby. Above the vanity is a large mirror with an ornate, inlaid wood frame featuring floral and scroll patterns. Flanking the mirror are two wall-mounted lamps with white pleated shades. The walls are decorated with a patterned wallpaper or wood inlay in shades of brown and tan.",
+    "layout": "Interior photograph showing a bathroom vanity and wall decor.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000140",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000140",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000140"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000140' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000140"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a clear photograph of a private residence interior, likely part of an evidentiary production given the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000140.pdf",
+  "document_id": "EFTA00000140",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:01:34.523465Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

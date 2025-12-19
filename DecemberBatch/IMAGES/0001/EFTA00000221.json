@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000221.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a staircase looking up toward a landing. The stairs are covered in grey patterned carpet. To the left is a blue metal railing with a wooden handrail. On the wall at the top of the stairs, two red fire extinguishers are mounted. Above them is a small black sign with white text. To the right, there is a framed document or map on the wall. The walls are off-white/beige. A light fixture and a smoke detector are visible on the ceiling.",
+    "layout": "Interior architectural shot; stairs leading upward to a landing with safety equipment.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "4TH FLOOR\nEFTA00000221",
+    "text_regions": [
+      {
+        "region": "wall_sign",
+        "text": "4TH FLOOR",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000221",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "4TH FLOOR"
+    ],
+    "document_numbers": [
+      "EFTA00000221"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000221"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a building showing 4th floor landing and fire safety equipment",
+    "date": null,
+    "references": [
+      "EFTA00000221"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely part of a building inspection or investigation record, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000221.pdf",
+  "document_id": "EFTA00000221",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:10:58.496093Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

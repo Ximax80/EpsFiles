@@ -1,0 +1,117 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010480.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A page from a book or report containing several photographs with accompanying captions. Some faces and names in the text have been redacted with black boxes. The photos show various individuals in social settings, including Jeffrey Epstein, Ghislaine Maxwell, Prince Andrew, and Alan Dershowitz.",
+    "layout": "Multi-photo layout with text captions positioned near each image. The page is slightly curved as if part of a bound book.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "kner, photographed\nie in New York City,\n-ynn Goldsmith)\n\n[REDACTED], age\nfifteen; photo reportedly\ntaken by Jeffrey Epstein in\nNew York City\n[REDACTED] Affidavit, US\nDistrict Southern Court of\nFlorida)\n\n(L to R) Prince Andrew,\n[REDACTED]\nand Ghislaine Maxwell; photo reportedly\ntaken by Epstein with [REDACTED] camera\nin Maxwell's London town house.\n[REDACTED] was seventeen years old at this\ntime. ([REDACTED] Affidavit, US\nDistrict Southern Court of Florida)\n\n(L to R) Deborah\nBlohm, Jeffrey Epstein,\nGhislaine Maxwell, and\nGwendolyn Beck attend a\nreception at Mar-a-Lago,\n1995. (Davidoff Studios)\n\n[REDACTED] age seventeen;\nphoto reportedly taken by\nJeffrey Epstein at Zorro Ranch,\nhis New Mexico property,\nin winter [REDACTED]\nAffidavit, US District Southern\nCourt of Florida)\n\nJeffrey Epstein with Professor\nAlan Dershowitz in Cambridge,\nMA, September 8, 2004 (© Rick\nFriedman / Corbis)\n\nHOUSE_OVERSIGHT_010480",
+    "text_regions": [
+      {
+        "region": "body",
+        "text": "kner, photographed\nie in New York City,\n-ynn Goldsmith)",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "[REDACTED], age\nfifteen; photo reportedly\ntaken by Jeffrey Epstein in\nNew York City\n[REDACTED] Affidavit, US\nDistrict Southern Court of\nFlorida)",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "(L to R) Prince Andrew,\n[REDACTED]\nand Ghislaine Maxwell; photo reportedly\ntaken by Epstein with [REDACTED] camera\nin Maxwell's London town house.\n[REDACTED] was seventeen years old at this\ntime. ([REDACTED] Affidavit, US\nDistrict Southern Court of Florida)",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "(L to R) Deborah\nBlohm, Jeffrey Epstein,\nGhislaine Maxwell, and\nGwendolyn Beck attend a\nreception at Mar-a-Lago,\n1995. (Davidoff Studios)",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "[REDACTED] age seventeen;\nphoto reportedly taken by\nJeffrey Epstein at Zorro Ranch,\nhis New Mexico property,\nin winter [REDACTED]\nAffidavit, US District Southern\nCourt of Florida)",
+        "type": "printed"
+      },
+      {
+        "region": "body",
+        "text": "Jeffrey Epstein with Professor\nAlan Dershowitz in Cambridge,\nMA, September 8, 2004 (© Rick\nFriedman / Corbis)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010480",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "1995",
+      "2004-09-08"
+    ],
+    "people": [
+      "Jeffrey Epstein",
+      "Ghislaine Maxwell",
+      "Prince Andrew",
+      "Deborah Blohm",
+      "Gwendolyn Beck",
+      "Alan Dershowitz",
+      "Rick Friedman",
+      "Lynn Goldsmith"
+    ],
+    "organizations": [
+      "US District Southern Court of Florida",
+      "Davidoff Studios",
+      "Corbis",
+      "House Oversight Committee"
+    ],
+    "locations": [
+      "New York City",
+      "London",
+      "Mar-a-Lago",
+      "Zorro Ranch",
+      "New Mexico",
+      "Cambridge, MA"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010480"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: HOUSE_OVERSIGHT_010480",
+      "Redaction boxes over names and faces"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo exhibit page",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photographic evidence related to Jeffrey Epstein investigation",
+    "date": null,
+    "references": [
+      "Affidavit, US District Southern Court of Florida"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.93
+  },
+  "notes": "The document contains significant redactions of names and faces. The text appears to be from a published book or a formal legal exhibit binder. The Bates stamp indicates it is part of a House Oversight Committee production.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010480.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010480",
+  "house_oversight_id": "010480",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:43.030366Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000182.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A vertical photograph showing a large object or architectural feature covered in translucent and black plastic sheeting. The object is positioned within a stone or masonry alcove or doorway. The stone blocks on either side are light-colored and rectangular. The plastic sheeting is draped over a tall, multi-pronged structure that appears to be a large menorah or a similar candelabra-style object. The top portion of the alcove is covered with black plastic, while the lower portion is covered with clear/translucent plastic.",
+    "layout": "Single photograph with a footer containing a document reference number.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000182",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000182",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000182"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "EFTA00000182 (Bates stamp/reference number)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Protective covering over an object in a stone alcove",
+    "date": null,
+    "references": [
+      "EFTA00000182"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be a piece of evidence or documentation from an investigation, likely showing site conditions or protected assets. The object under the plastic strongly resembles a large menorah.",
+  "file_path": "IMAGES\\0001\\EFTA00000182.pdf",
+  "document_id": "EFTA00000182",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:06:29.878525Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

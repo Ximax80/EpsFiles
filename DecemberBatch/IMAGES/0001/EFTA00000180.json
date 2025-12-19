@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000180.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a doorway looking into a room. The room appears to be under renovation or storage, with large items covered in clear plastic sheeting. The walls are made of light-colored stone blocks. A cream-colored door is partially open on the left, with a label taped to it. A doorway or window frame is visible on the right.",
+    "layout": "Interior photograph showing a doorway perspective into a cluttered room.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "R\nEFTA00000180",
+    "text_regions": [
+      {
+        "region": "label_on_door",
+        "text": "R",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000180",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000180"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Label with the letter 'R' taped to the door",
+      "Bates stamp or tracking number 'EFTA00000180' at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a room with items covered in plastic",
+    "date": null,
+    "references": [
+      "EFTA00000180"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The label on the door contains a grid below the letter 'R' that is too small and blurry to read. The photograph appears to be part of an investigative or evidentiary collection given the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000180.pdf",
+  "document_id": "EFTA00000180",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:06:14.662761Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

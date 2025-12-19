@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000136.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a large, ornate wooden bookcase with gold-leaf detailing. The bookcase is filled with numerous books of varying sizes and colors. To the right of the bookcase, a portion of a leopard-print upholstered chair is visible. The floor appears to be dark wood parquet. Two large, old leather-bound books are resting on top of the right section of the bookcase.",
+    "layout": "The image shows two main sections of a bookcase: a left section behind glass doors and a right section with open shelving. The right section has three visible shelves filled with books. A leopard-print chair is positioned to the right.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000136\n[Book spines on top shelf, right section]: HOW DID THEY DO THAT?; The Good War; ICE AGES; PHILOSOPHY; THE HOUSE OF MORGAN; THE UNITED STATES; WOMAN\n[Book spines on middle shelf, right section]: Bonnard; IMAGES OF SCIENCE; LIBRARIES; INTERNATIONAL DICTIONARY OF ART AND ARTISTS; THE GREAT CITIES; THE WORLD OF THE PHARAOHS; ETHNIC INTERIORS; CARAVAGGIO; THE ROYAL PALACES OF SPAIN; BAROQUE; UNVANQUISHED; SPLENDORS OF THE BEYOND\n[Book spines on bottom shelf, right section]: THE GREAT TRANSFORMATION; GOLD COAST; THE BIG BOARD; PHILOSOPHY; CRAIG THOMAS",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000136",
+        "type": "printed"
+      },
+      {
+        "region": "book_spines",
+        "text": "Various titles including: HOW DID THEY DO THAT?, ICE AGES, PHILOSOPHY, THE HOUSE OF MORGAN, THE UNITED STATES, WOMAN, Bonnard, IMAGES OF SCIENCE, LIBRARIES, CARAVAGGIO, BAROQUE, THE BIG BOARD.",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "Bonnard",
+      "Caravaggio",
+      "Craig Thomas"
+    ],
+    "organizations": [],
+    "locations": [
+      "Spain",
+      "United States"
+    ],
+    "document_numbers": [
+      "EFTA00000136"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Digital watermark/identifier: EFTA00000136"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a bookcase and furniture",
+    "date": null,
+    "references": [
+      "EFTA00000136"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.7,
+    "structured_data": 0.8,
+    "overall": 0.75
+  },
+  "notes": "Many book titles are partially obscured or too small to read clearly. The text extraction captures the most legible titles from the spines. The identifier EFTA00000136 suggests this is part of a legal or investigative evidence collection.",
+  "file_path": "IMAGES\\0001\\EFTA00000136.pdf",
+  "document_id": "EFTA00000136",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:01:03.743156Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

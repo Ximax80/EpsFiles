@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000042.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A wide-angle interior photograph of a grand, ornate hallway or gallery. The flooring is composed of large white marble tiles with small dark diamond-shaped accents. The walls are white with gold-leaf trim and molding. In the foreground, a large, polished dark wood door with gold hardware is partially open on the right. The hallway leads through several arched doorways into further rooms, one of which contains a decorative fireplace and gold-leafed furniture. A chandelier is visible in the distance.",
+    "layout": "Perspective view looking down a long corridor through multiple door frames.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000042",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000042",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000042"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000042' in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000042"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp at the bottom right. The interior appears to be a high-end luxury residence or official building.",
+  "file_path": "IMAGES\\0001\\EFTA00000042.pdf",
+  "document_id": "EFTA00000042",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:50:10.743087Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

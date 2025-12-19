@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000057.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A low-angle photograph of an interior staircase and ceiling. The image features a dark wood staircase with an ornate black wrought-iron railing. The ceiling above the stairwell is decorated with a large mural of a blue sky with white clouds, framed by gold-leaf molding and decorative architectural details. A sculpture of a figure in white robes is suspended from the center of the ceiling by a long white rope.",
+    "layout": "The staircase ascends from the bottom left toward the center. The ceiling mural occupies the upper right quadrant of the frame.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000057",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000057",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000057"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000057' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior architectural detail and sculpture",
+    "date": null,
+    "references": [
+      "EFTA00000057"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a high-quality photograph likely taken for documentation purposes, as evidenced by the Bates stamp. The sculpture appears to be a modern art installation within a classical or neoclassical interior.",
+  "file_path": "IMAGES\\0001\\EFTA00000057.pdf",
+  "document_id": "EFTA00000057",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:54.310777Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

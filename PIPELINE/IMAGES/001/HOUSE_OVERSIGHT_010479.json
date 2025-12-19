@@ -1,0 +1,107 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010479.jpg",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A page from a document or book featuring four distinct photographs with accompanying captions. The photos show various individuals, including Leslie Wexner, Jeffrey Epstein, Ghislaine Maxwell, Tony Randall, and Donald Trump. Several faces and names in the captions have been redacted with black boxes.",
+    "layout": "The page has a vertical orientation with four photos arranged in a staggered column. Captions are placed to the right or left of their respective images. A footer contains a document reference number.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "Leslie Wexner, photographed\nat his home in New York City,\n1989 (© Lynn Goldsmith)\n\n(L to R) Jeffrey Epstein, Ghislaine\nMaxwell, and Tony Randall, who\npresided over a November 1991\nYIVO Institute event at the Plaza\nHotel to honor the late Robert\nMaxwell (Marina Garnier)\n\n(L to R) [REDACTED],\n[REDACTED], Jeffrey Epstein,\nGhislaine Maxwell, and\n[REDACTED] attend a\nreception at Mar-a-Lago,\n1995. (Davidoff Studios)\n\nJeffrey Epstein, Donald\nTrump, and (newly signed\nTrump Model) [REDACTED]\n[REDACTED], attending the\nVictoria's Secret Angels\nparty at Laura Belle club\nin New York City on April\n8, 1997 (Marina Garnier)\n\nHOUSE_OVERSIGHT_010479",
+    "text_regions": [
+      {
+        "region": "caption_1",
+        "text": "Leslie Wexner, photographed\nat his home in New York City,\n1989 (© Lynn Goldsmith)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_2",
+        "text": "(L to R) Jeffrey Epstein, Ghislaine\nMaxwell, and Tony Randall, who\npresided over a November 1991\nYIVO Institute event at the Plaza\nHotel to honor the late Robert\nMaxwell (Marina Garnier)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_3",
+        "text": "(L to R) [REDACTED],\n[REDACTED], Jeffrey Epstein,\nGhislaine Maxwell, and\n[REDACTED] attend a\nreception at Mar-a-Lago,\n1995. (Davidoff Studios)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_4",
+        "text": "Jeffrey Epstein, Donald\nTrump, and (newly signed\nTrump Model) [REDACTED]\n[REDACTED], attending the\nVictoria's Secret Angels\nparty at Laura Belle club\nin New York City on April\n8, 1997 (Marina Garnier)",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010479",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "1989",
+      "1991-11",
+      "1995",
+      "1997-04-08"
+    ],
+    "people": [
+      "Leslie Wexner",
+      "Lynn Goldsmith",
+      "Jeffrey Epstein",
+      "Ghislaine Maxwell",
+      "Tony Randall",
+      "Robert Maxwell",
+      "Donald Trump",
+      "Marina Garnier"
+    ],
+    "organizations": [
+      "YIVO Institute",
+      "Davidoff Studios",
+      "Victoria's Secret",
+      "Trump Model"
+    ],
+    "locations": [
+      "New York City",
+      "Plaza Hotel",
+      "Mar-a-Lago",
+      "Laura Belle club"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010479"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Black redaction boxes over faces and names",
+      "Bates stamp/Document ID at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photographic evidence page",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photographs of Jeffrey Epstein and associates",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010479"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.98,
+    "structured_data": 0.95,
+    "overall": 0.97
+  },
+  "notes": "The document contains several redactions (black boxes) covering names in the text and faces in the photographs. The text has been extracted as written, noting redactions where they occur.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010479.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010479",
+  "house_oversight_id": "010479",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:05:32.306630Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

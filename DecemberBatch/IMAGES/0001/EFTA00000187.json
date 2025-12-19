@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000187.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a built-in dresser or vanity area in a room with ornate, classical decor. The dresser has ten drawers (two columns of five) with small round knobs. On top of the dresser are various items including two decorative lamps with black and white figures as bases, a digital clock showing 9:00, a landline telephone, several small bottles (possibly medication or perfume), and framed photographs. The area is surrounded by mirrors and cream-colored paneled walls with decorative molding.",
+    "layout": "Centered shot of a furniture piece against a wall with mirrors.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "9:00\nEFTA00000187",
+    "text_regions": [
+      {
+        "region": "digital_clock",
+        "text": "9:00",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000187",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000187"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000187"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000187"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The photograph appears to be an evidentiary photo from a legal or investigative file, indicated by the Bates stamp. The digital clock displays 9:00, but the date on the clock is illegible.",
+  "file_path": "IMAGES\\0001\\EFTA00000187.pdf",
+  "document_id": "EFTA00000187",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:04.220389Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

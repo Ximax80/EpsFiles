@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000197.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bathroom or dressing area interior. The room features cream-colored paneled walls. On the left, a black-framed artwork is partially visible, and a towel rack holds two white towels. In the center, a small alcove contains a dark marble countertop with a sink and white cabinetry below. A small framed photograph of a person reclining is mounted on the wall above the counter, next to a brass wall sconce with a frosted glass shade. A black trash can with a clear plastic liner is on the floor. The photo is taken from a doorway or around a corner, with a vertical wall edge visible on the right.",
+    "layout": "Interior architectural shot with a vertical orientation.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000197",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000197",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000197"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000197' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000197"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document collection, identified by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000197.pdf",
+  "document_id": "EFTA00000197",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:14.404485Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

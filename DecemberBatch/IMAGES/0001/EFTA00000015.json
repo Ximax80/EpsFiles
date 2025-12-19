@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000015.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of an office or command center. The room features a large multi-monitor workstation with at least six screens mounted on a heavy-duty rack. The desk is cluttered with various items including tissues, pens, and cleaning supplies. To the left, a portion of a large painting showing a person's legs in red high heels is visible, along with a framed document on the wall. In the background, there is a doorway leading to another room and long grey curtains. On the right wall, there is an electrical box and a wall-mounted light fixture.",
+    "layout": "The image is a wide-angle shot of a room, with a painting in the foreground left and a complex computer setup in the center-right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000015\nViewSonic",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000015",
+        "type": "printed"
+      },
+      {
+        "region": "monitor_bezel",
+        "text": "ViewSonic",
+        "type": "printed"
+      },
+      {
+        "region": "framed_document",
+        "text": "[unclear: handwritten text on white paper with red border]",
+        "type": "handwritten"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "ViewSonic"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000015"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000015 in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of an office/workstation",
+    "date": null,
+    "references": [
+      "EFTA00000015"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The framed document on the wall contains handwritten text that is too small and blurry to transcribe accurately. The image appears to be part of an evidentiary collection, indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000015.pdf",
+  "document_id": "EFTA00000015",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:46:38.491073Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

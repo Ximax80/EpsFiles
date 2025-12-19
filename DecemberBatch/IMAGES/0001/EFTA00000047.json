@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000047.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a small bathroom or powder room. The room features a white toilet, a large ornate gold-framed mirror reflecting the toilet and a toilet paper holder, and patterned wallpaper with a diamond/grid motif. There is a framed picture on the wall above the toilet and another partially visible on the right wall. A doorway with cream-colored molding is in the foreground, partially obscuring the view. The floor appears to be a dark, polished stone or tile.",
+    "layout": "Interior architectural photograph, portrait orientation.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000047",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000047",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000047"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000047' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom",
+    "date": null,
+    "references": [
+      "EFTA00000047"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph with a Bates stamp identifier.",
+  "file_path": "IMAGES\\0001\\EFTA00000047.pdf",
+  "document_id": "EFTA00000047",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:50:43.783166Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

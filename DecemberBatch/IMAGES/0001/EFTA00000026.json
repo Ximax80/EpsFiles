@@ -1,0 +1,75 @@
+{
+  "file_name": "EFTA00000026.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small office space or nook. The room features a white desk with a white modern office chair. On the desk are several electronic devices including what appear to be cordless phone handsets in a charging base and a small silver electronic unit. Above the desk, a white wall-mounted mail organizer contains several envelopes and papers. To the left of the desk is a silver ribbed suitcase with a yellow sticky note on it, a wire mesh trash can, and a closed white door. To the right, an open door reveals a closet containing a FedEx Large box (labeled 139751) and shelves holding white packing peanuts and other supplies. The floor is covered in a grey pinstriped carpet.",
+    "layout": "Interior room shot showing a workspace and storage area.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "MAIL\nFedEx\nLARGE\n139751\n20 PER UN\nEFTA00000026",
+    "text_regions": [
+      {
+        "region": "wall_organizer",
+        "text": "MAIL",
+        "type": "printed"
+      },
+      {
+        "region": "closet_box",
+        "text": "FedEx\nLARGE\n139751\n20 PER UN",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000026",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "FedEx"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000026",
+      "139751"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000026",
+      "Yellow sticky note on suitcase (text illegible)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of office space",
+    "date": null,
+    "references": [
+      "EFTA00000026"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The photograph appears to be an evidentiary photo from an investigation, indicated by the Bates stamp 'EFTA00000026'. Text on the yellow sticky note and the mail inside the organizer is too small/blurry to read reliably.",
+  "file_path": "IMAGES\\0001\\EFTA00000026.pdf",
+  "document_id": "EFTA00000026",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:48:07.007100Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

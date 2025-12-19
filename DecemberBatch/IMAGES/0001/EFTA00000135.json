@@ -1,0 +1,70 @@
+{
+  "file_name": "EFTA00000135.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a large, ornate wooden bookcase with glass doors. In front of the left side of the bookcase stands a very tall, fluted blue and white ceramic vase with gold-colored leaf or floral accents. The bookcase is filled with numerous hardcover books of various sizes and colors. The furniture has intricate gold-leaf or gilded molding along the top edge and decorative brass or gold-colored hardware. The floor appears to be a dark wood parquet.",
+    "layout": "The image is a landscape-oriented photograph. The bookcase dominates the frame, with a large vase positioned in the foreground on the left. A small alphanumeric code is visible in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000135\nHigh Crimes and Misdemeanors\nTHE GREAT SHOUTS\nTREASURE\nMARCIA CLARK\nBATHROOMS\nCHINESE CALLIGRAPHY\nTITAN\nTRUMP THE ART OF THE DEAL\nOUR FINAL\nLOCKS AND MYTHS",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000135",
+        "type": "printed"
+      },
+      {
+        "region": "book_spines",
+        "text": "High Crimes and Misdemeanors, THE GREAT SHOUTS, TREASURE, MARCIA CLARK, BATHROOMS, CHINESE CALLIGRAPHY, TITAN, TRUMP THE ART OF THE DEAL, OUR FINAL, LOCKS AND MYTHS",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "Marcia Clark",
+      "Donald Trump",
+      "Howard Gardner"
+    ],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000135"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "EFTA00000135 (Electronic tracking number)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a room showing a bookcase and a large vase",
+    "date": null,
+    "references": [
+      "EFTA00000135"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.85,
+    "structured_data": 0.9,
+    "overall": 0.9
+  },
+  "notes": "The text extraction focuses on the most legible book titles on the spines. Many other titles are present but partially obscured or too small to read with absolute certainty. The document number EFTA00000135 is a digital watermark or tracking label commonly found in investigative evidence files.",
+  "file_path": "IMAGES\\0001\\EFTA00000135.pdf",
+  "document_id": "EFTA00000135",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:00:55.397664Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

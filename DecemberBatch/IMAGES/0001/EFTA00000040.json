@@ -1,0 +1,99 @@
+{
+  "file_name": "EFTA00000040.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an open black metal filing cabinet drawer filled with rolled-up documents and papers. On top of the cabinet sits a FedEx box, a red plastic milk crate containing more rolled documents, and some loose papers. The drawer has a yellow sticky note on the front. To the left, another drawer is visible with labels. The background shows a plain wall and part of a metal frame.",
+    "layout": "The image is a horizontal photograph of office/storage equipment. The main focus is the open drawer of a black filing cabinet.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "FedEx\nExpress\nDellwood\nZORRO\nMISC.\nEL BRILLO\n71st\nEFTA00000040",
+    "text_regions": [
+      {
+        "region": "FedEx Box",
+        "text": "FedEx\nExpress",
+        "type": "printed"
+      },
+      {
+        "region": "Milk Crate",
+        "text": "Dellwood",
+        "type": "printed"
+      },
+      {
+        "region": "Left Cabinet Label Top",
+        "text": "ZORRO",
+        "type": "printed"
+      },
+      {
+        "region": "Left Cabinet Label Middle",
+        "text": "MISC.",
+        "type": "handwritten"
+      },
+      {
+        "region": "Left Cabinet Label Bottom",
+        "text": "EL BRILLO",
+        "type": "handwritten"
+      },
+      {
+        "region": "Main Drawer Sticky Note",
+        "text": "71st",
+        "type": "handwritten"
+      },
+      {
+        "region": "Footer",
+        "text": "EFTA00000040",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "FedEx",
+      "Dellwood"
+    ],
+    "locations": [
+      "71st"
+    ],
+    "document_numbers": [
+      "EFTA00000040"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000040"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage of documents in filing cabinets",
+    "date": null,
+    "references": [
+      "ZORRO",
+      "MISC.",
+      "EL BRILLO",
+      "71st"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.85,
+    "overall": 0.9
+  },
+  "notes": "The photograph appears to be evidence documentation of stored files. '71st' likely refers to a specific project or street address related to the files inside the drawer. 'EL BRILLO' likely refers to El Brillo Way.",
+  "file_path": "IMAGES\\0001\\EFTA00000040.pdf",
+  "document_id": "EFTA00000040",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:49:55.472552Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

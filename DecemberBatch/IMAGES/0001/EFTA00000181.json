@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000181.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a religious or classical bust of a man with long curly hair and a beard, hands clasped in prayer, positioned on a pedestal. In the foreground, there is a lamp with a pleated shade and a base. To the right and bottom, items are covered in clear plastic sheeting, suggesting storage or renovation. The background consists of light-colored stone or masonry blocks.",
+    "layout": "The bust is centered in the upper half of the frame; the lamp is in the lower-left foreground; plastic-covered objects are in the lower-right foreground.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000181",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000181",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000181"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000181' at the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage or interior scene featuring a religious bust and household items",
+    "date": null,
+    "references": [
+      "EFTA00000181"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be an evidentiary photograph from a collection, identified by the Bates stamp. The subject matter is a bust of a figure (likely Jesus Christ) in a prayerful pose.",
+  "file_path": "IMAGES\\0001\\EFTA00000181.pdf",
+  "document_id": "EFTA00000181",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:06:22.608899Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

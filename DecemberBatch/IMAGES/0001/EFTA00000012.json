@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000012.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a large, multi-panel Japanese-style landscape painting (byōbu) mounted on a light-colored stone or tile wall. The painting depicts a misty mountain scene with rocky outcroppings, pine trees, and small boats on a body of water in the foreground. The artwork is framed and suspended by a black hanging system with rods and wires. The wall consists of rectangular stone blocks. A portion of a handrail is visible in the bottom right corner, suggesting the photo was taken from a staircase.",
+    "layout": "Landscape orientation showing a wall-mounted artwork centered in the frame.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "V \nEFTA00000012",
+    "text_regions": [
+      {
+        "region": "margin",
+        "text": "V",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000012",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000012"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Red artist seal/stamp on the left side of the painting",
+      "Bates stamp/tracking number 'EFTA00000012' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of artwork on a wall",
+    "date": null,
+    "references": [
+      "EFTA00000012"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The text 'V' appears as a faint watermark or artifact in the top left area of the image. The red seal on the painting is a traditional artist's signature stamp but is not legible as text.",
+  "file_path": "IMAGES\\0001\\EFTA00000012.pdf",
+  "document_id": "EFTA00000012",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:46:16.323378Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

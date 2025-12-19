@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000056.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a luxurious, ornate living room or parlor. The room features white walls with gold-leaf molding, a white marble fireplace with gold accents, and several pieces of high-end furniture. In the center is a black octagonal table with a chess set. Surrounding the table are four plush, white armchairs. To the left, a staircase with an ornate black wrought-iron railing is visible. On the walls are large, gold-framed mirrors and a portrait painting above the fireplace. Two gold console tables with lamps are positioned against the walls. A large white object, possibly a sculpture or lamp base, is in the immediate foreground, partially obscuring the left side of the frame.",
+    "layout": "Interior room shot with a central furniture arrangement and architectural details in the background.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000056",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000056",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000056"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000056 in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000056"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates number EFTA00000056. The room appears to be part of a high-end private residence or estate.",
+  "file_path": "IMAGES\\0001\\EFTA00000056.pdf",
+  "document_id": "EFTA00000056",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:48.103836Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

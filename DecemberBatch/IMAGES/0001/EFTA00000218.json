@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000218.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a carpeted staircase landing inside a building. The stairs have a dark grey patterned carpet. There is a wooden handrail with dark blue/grey painted metal balusters. The walls are painted a light beige or off-white color. A round, glowing light fixture is mounted on the wall above the landing. A white electrical outlet is visible on the wall near the base of the stairs. The baseboards are painted the same dark blue/grey as the stair railing.",
+    "layout": "Vertical orientation photograph focusing on an interior architectural detail.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000218",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000218",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000218"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000218 in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a staircase landing",
+    "date": null,
+    "references": [
+      "EFTA00000218"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely from a legal or investigative file, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000218.pdf",
+  "document_id": "EFTA00000218",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:10:38.808256Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

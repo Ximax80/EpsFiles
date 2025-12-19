@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000054.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a grand foyer or hallway featuring a sweeping wooden staircase with an ornate wrought-iron railing. Underneath the curve of the stairs is a seating area with three plush, cream-colored armchairs arranged around a small table with a chessboard. In the background, a long dark console table holds several decorative items, including two white stylized bust sculptures and a dark circular object. The floor is light-colored stone or tile with dark diamond-shaped accents. The walls are white with gold-trimmed architectural molding near the ceiling and doorframes.",
+    "layout": "Landscape photograph with a staircase dominating the right and upper portions of the frame, and a seating area in the lower left/center.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000054",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000054",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000054"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000054' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000054"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a high-quality photograph likely used as evidence or documentation in an investigation, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000054.pdf",
+  "document_id": "EFTA00000054",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:34.488805Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

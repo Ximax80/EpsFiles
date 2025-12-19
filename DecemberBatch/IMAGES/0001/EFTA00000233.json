@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000233.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a lavishly decorated bedroom. The walls are painted a vibrant pink. The room features a large bed with a white comforter and a green velvet headboard, flanked by two small patterned footstools. To the left is an ornate, antique-style secretary desk or cabinet with intricate gold and black patterns. Striped curtains with green, yellow, and pink vertical lines frame a window. There are lamps on side tables on both sides of the bed. The carpet is a light cream color with a subtle pattern.",
+    "layout": "Landscape photograph showing a wide view of a bedroom interior.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "A.. ..:51-;..-Ist40e- %re\ntirat , r -Tete \n%; 3w-0a-et \nalutretett\" \nEFTA00000233",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000233",
+        "type": "printed"
+      },
+      {
+        "region": "ocr_artifact",
+        "text": "A.. ..:51-;..-Ist40e- %re\ntirat , r -Tete \n%; 3w-0a-et \nalutretett\"",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000233"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number 'EFTA00000233' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00000233"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The OCR text provided in the prompt contains several lines of garbled text that appear to be misreadings of visual artifacts or noise, with the exception of the clear Bates stamp 'EFTA00000233'.",
+  "file_path": "IMAGES\\0001\\EFTA00000233.pdf",
+  "document_id": "EFTA00000233",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:12:18.127874Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

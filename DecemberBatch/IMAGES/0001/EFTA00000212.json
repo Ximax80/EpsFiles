@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000212.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-end, elaborately decorated bedroom. The room features blue and white floral wallpaper, a large blue glass chandelier, and heavy curtains with a blue and white chevron pattern. A white bed is visible in the foreground. In the center of the room is a round, cream-colored swivel chair with matching pillows. A black and glass display cabinet stands against the wall. The carpet has a cream base with a blue grid pattern. An open white door leads to another room with similar wallpaper.",
+    "layout": "Interior room photograph, landscape orientation.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "• \nis \n/Au ktak: \nEFTA00000212",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000212",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "• \nis \n/Au ktak:",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000212"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000212"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000212"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text in the margin appears to be OCR artifacts or fragments of a stamp/header that is mostly cut off. The primary identifier is the Bates stamp in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000212.pdf",
+  "document_id": "EFTA00000212",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:09:56.361516Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

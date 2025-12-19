@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000150.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a lavishly decorated room, likely a study or living room. The room features a large tapestry on the wall depicting a coat of arms, a long wooden sideboard with numerous framed photographs, a lamp with a white shade, and a fireplace with an ornate marble mantel. A small grey dog is visible on the floor near a wooden object. A red fire extinguisher is tucked into a corner. In the foreground, parts of an orange armchair and a beige armchair are visible, along with a patterned rug.",
+    "layout": "Landscape photograph with a watermark/identifier in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000150",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000150",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000150"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Digital identifier 'EFTA00000150' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room view",
+    "date": null,
+    "references": [
+      "EFTA00000150"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph used as evidence or documentation, indicated by the 'EFTA' prefix numbering. The room contains many personal items like framed photos, but the resolution is not high enough to identify the individuals in the small frames.",
+  "file_path": "IMAGES\\0001\\EFTA00000150.pdf",
+  "document_id": "EFTA00000150",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:02:44.396080Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

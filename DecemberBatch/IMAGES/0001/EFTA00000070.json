@@ -1,0 +1,72 @@
+{
+  "file_name": "EFTA00000070.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a dark wood door with a circular porthole-style window. A white paper sign is taped to the center of the door. To the right, an open doorway reveals a kitchen area with white cabinetry, a dark countertop, and a hanging light fixture. Two white chairs are visible in the foreground of the kitchen area.",
+    "layout": "The image is dominated by the wooden door on the left, with a partial view of an interior room on the right.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "G\nSearch Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)\nEFTA00000070",
+    "text_regions": [
+      {
+        "region": "center_sign_large_text",
+        "text": "G",
+        "type": "printed"
+      },
+      {
+        "region": "center_sign_table_headers",
+        "text": "Search Personnel Name Agency Contact Number Initials Search Completed (Place X in Box)",
+        "type": "printed"
+      },
+      {
+        "region": "footer_right",
+        "text": "EFTA00000070",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000070"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Large letter 'G' printed on a search log form",
+      "Bates stamp EFTA00000070"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Evidence documentation of a search location marked 'G'",
+    "date": null,
+    "references": [
+      "EFTA00000070"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The document taped to the door appears to be a search log or room identifier used during a law enforcement or investigative search. The table on the document is blank, with no names or initials filled in.",
+  "file_path": "IMAGES\\0001\\EFTA00000070.pdf",
+  "document_id": "EFTA00000070",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:53:28.786460Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

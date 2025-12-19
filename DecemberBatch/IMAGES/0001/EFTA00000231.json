@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000231.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a walk-in closet. The closet contains a hanging rod with numerous white garments (possibly robes or linens) on hangers. Above the rod is a shelf holding a white bag labeled 'EUROPEAN WHITE GOOSE'. On the floor, there are several pairs of slippers. To the left, a mirrored door reflects more hanging items, including a patterned robe. The walls are a light yellow/beige with a decorative border near the ceiling.",
+    "layout": "Interior shot of a closet space, framed by a white door jamb on the right and a mirrored door on the left.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EUROPEAN WHITE GOOSE\nEFTA00000231",
+    "text_regions": [
+      {
+        "region": "label on object",
+        "text": "EUROPEAN WHITE GOOSE",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000231",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000231"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000231"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Closet interior",
+    "date": null,
+    "references": [
+      "EFTA00000231"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'EUROPEAN WHITE GOOSE' is partially obscured by the folds of the bag. The footer text is a standard Bates stamp used for document identification in legal or investigative contexts.",
+  "file_path": "IMAGES\\0001\\EFTA00000231.pdf",
+  "document_id": "EFTA00000231",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:12:04.451012Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

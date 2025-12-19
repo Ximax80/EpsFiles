@@ -1,0 +1,72 @@
+{
+  "file_name": "EFTA00000034.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior room, appearing to be an office or study. The room features wood-paneled walls, a large white built-in bookshelf filled with books, and white leather furniture including a sofa and an armchair. A glass coffee table in the foreground holds stacks of books and a bowl of candy. There is a white door with a sign labeled 'B' and a tall, thin white lamp. A large white pendant light fixture is partially visible in the upper right foreground.",
+    "layout": "Landscape orientation showing a corner of a room with a bookshelf as the central focal point.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "B\nPLEASE\nTake A\nNumber\nEFTA00000034",
+    "text_regions": [
+      {
+        "region": "door label",
+        "text": "B",
+        "type": "printed"
+      },
+      {
+        "region": "red sign on bookshelf",
+        "text": "PLEASE\nTake A\nNumber",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000034",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000034"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "B label on door",
+      "Red 'Take A Number' sign"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room documentation",
+    "date": null,
+    "references": [
+      "EFTA00000034"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The image is a forensic or investigative photograph, likely from a search or documentation process, as indicated by the EFTA prefix and the 'B' designation on the door.",
+  "file_path": "IMAGES\\0001\\EFTA00000034.pdf",
+  "document_id": "EFTA00000034",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:49:09.158662Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

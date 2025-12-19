@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000191.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An indoor photograph of a construction or renovation site. The scene is dominated by blue metal scaffolding frames and an orange and silver extension ladder in the foreground. The walls and ceiling are covered in translucent plastic sheeting. The floor is covered with brown protective paper or boards. Various construction materials are visible, including wooden planks, a white bucket, a cardboard box, and an orange extension cord on the floor.",
+    "layout": "The image is a full-frame photograph with a small alphanumeric identifier in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000191",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000191",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000191"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates-style tracking number in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Construction or renovation site documentation",
+    "date": null,
+    "references": [
+      "EFTA00000191"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be evidence or documentation from a legal or oversight investigation, as indicated by the Bates-style numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000191.pdf",
+  "document_id": "EFTA00000191",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:30.904408Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

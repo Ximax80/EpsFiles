@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000167.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a massage or spa treatment room. In the center is a massage table covered with a white sheet and a blue folded towel. To the left is a large, ornate wooden cabinet with glass-less shelves filled with various bottles, jars, and spa products. The cabinet features decorative carvings of figures on its pillars. The walls are covered in a dark, patterned wallpaper. To the right of the massage table is a large painting depicting a nude figure lying amidst debris. In the background, an open doorway reveals a dark, possibly marble-lined interior room. A bright light source or piece of equipment is visible in the upper right foreground, partially obscuring the view.",
+    "layout": "Interior room setting with furniture and decor arranged for spa services.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": ".4 \nEFTA00000167",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000167",
+        "type": "printed"
+      },
+      {
+        "region": "top_left",
+        "text": ".4",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000167"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/document identifier: EFTA00000167"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior of a spa or treatment room",
+    "date": null,
+    "references": [
+      "EFTA00000167"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The image appears to be an evidentiary photograph from a legal or investigative file, indicated by the Bates stamp 'EFTA00000167'. The painting on the wall is a notable feature, depicting a figure in a pose reminiscent of classical or baroque art but in a modern, cluttered setting.",
+  "file_path": "IMAGES\\0001\\EFTA00000167.pdf",
+  "document_id": "EFTA00000167",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:04:42.621258Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

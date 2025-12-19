@@ -1,0 +1,118 @@
+{
+  "file_name": "HOUSE_OVERSIGHT_010493.jpg",
+  "image_analysis": {
+    "type": "document",
+    "description": "A photograph of a page from a book or magazine featuring four separate photographs with accompanying captions. The page is slightly curved, indicating it is part of a bound volume.",
+    "layout": "The page contains four images: top left (a couple on a red carpet), top right (two people in a cockpit), bottom left (a couple at an event), and bottom right (a man standing outdoors). Captions are placed adjacent to each photo.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "Sarah (formerly Kellen/\nKensington) and husband,\nNASCAR driver Brian Vickers,\narrive on the red carpet at the 141st\nrunning of the Kentucky Derby\nat Churchill Downs in Louisville,\nKentucky. (Jeff Moreland / Icon\nSportswire via AP Images)\n\nNadia Marcinkova and Larry\nVisoski, Epstein's personal\npilot, in what appears to be\nthe cockpit of a Gulfstream\nG-II (YouTube)\n\nMichael and Janet Reiter at the Palm\nBeach Police Foundation Policemen's\nBall at Mar-a-Lago, January\n2012 (Debbie Schatz / Palm Beach\nDaily News / ZUMAPRESS.com)\n\nRetired Palm Beach police\ndetective Joe Recarey,\nNovember 2013 (Meghan\nMcCarthy / Palm Beach Daily\nNews / ZUMAPRESS.com)\n\nguests a\nture of a\nThe j\nMort Zu\nMicroso\namong t\nseveral c\nscientist\nShe'd ha\nwith Var\ninformat\nto form t\nIn th\nWha\nartist, h\nswipe hi\nter saw a\nThe 1\nIt wa\nhis office\n\nEpstein (\nnal char\ninclude\nwhen he\nShe'd\none of he\nOn doct\n\nHOUSE_OVERSIGHT_010493",
+    "text_regions": [
+      {
+        "region": "caption_top_left",
+        "text": "Sarah (formerly Kellen/\nKensington) and husband,\nNASCAR driver Brian Vickers,\narrive on the red carpet at the 141st\nrunning of the Kentucky Derby\nat Churchill Downs in Louisville,\nKentucky. (Jeff Moreland / Icon\nSportswire via AP Images)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_middle_left",
+        "text": "Nadia Marcinkova and Larry\nVisoski, Epstein's personal\npilot, in what appears to be\nthe cockpit of a Gulfstream\nG-II (YouTube)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_middle_right",
+        "text": "Michael and Janet Reiter at the Palm\nBeach Police Foundation Policemen's\nBall at Mar-a-Lago, January\n2012 (Debbie Schatz / Palm Beach\nDaily News / ZUMAPRESS.com)",
+        "type": "printed"
+      },
+      {
+        "region": "caption_bottom_left",
+        "text": "Retired Palm Beach police\ndetective Joe Recarey,\nNovember 2013 (Meghan\nMcCarthy / Palm Beach Daily\nNews / ZUMAPRESS.com)",
+        "type": "printed"
+      },
+      {
+        "region": "body_text_right_margin",
+        "text": "guests a\nture of a\nThe j\nMort Zu\nMicroso\namong t\nseveral c\nscientist\nShe'd ha\nwith Var\ninformat\nto form t\nIn th\nWha\nartist, h\nswipe hi\nter saw a\nThe 1\nIt wa\nhis office\n\nEpstein (\nnal char\ninclude\nwhen he\nShe'd\none of he\nOn doct",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "HOUSE_OVERSIGHT_010493",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [
+      "2012-01",
+      "2013-11"
+    ],
+    "people": [
+      "Sarah Kellen",
+      "Sarah Kensington",
+      "Brian Vickers",
+      "Jeff Moreland",
+      "Nadia Marcinkova",
+      "Larry Visoski",
+      "Epstein",
+      "Michael Reiter",
+      "Janet Reiter",
+      "Debbie Schatz",
+      "Joe Recarey",
+      "Meghan McCarthy",
+      "Mort Zu"
+    ],
+    "organizations": [
+      "NASCAR",
+      "Icon Sportswire",
+      "AP Images",
+      "YouTube",
+      "Palm Beach Police Foundation",
+      "Palm Beach Daily News",
+      "ZUMAPRESS.com",
+      "Microsoft"
+    ],
+    "locations": [
+      "Churchill Downs",
+      "Louisville, Kentucky",
+      "Mar-a-Lago",
+      "Palm Beach"
+    ],
+    "document_numbers": [
+      "HOUSE_OVERSIGHT_010493"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "HOUSE_OVERSIGHT_010493 (Bates stamp/footer)"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "book or magazine page",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photographs and captions related to Jeffrey Epstein and associates",
+    "date": null,
+    "references": [
+      "HOUSE_OVERSIGHT_010493"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.93
+  },
+  "notes": "The text on the far right margin is cut off due to the page fold. The document appears to be evidence or a page from a publication entered into a record, as indicated by the 'HOUSE_OVERSIGHT' footer.",
+  "file_path": "IMAGES\\001\\HOUSE_OVERSIGHT_010493.jpg",
+  "document_id": "HOUSE_OVERSIGHT_010493",
+  "house_oversight_id": "010493",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:18.444976Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

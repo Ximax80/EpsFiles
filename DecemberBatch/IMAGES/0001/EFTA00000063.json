@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000063.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or dressing area. On the left, there is a bench with a red, white, and black striped cushion. Seated on the bench is a bronze-colored statue of a young boy wearing a cap and jacket. Behind the bench are three dark, framed artworks or panels on a wall with patterned wallpaper. To the right is a marble-topped vanity or counter with a sink and a woven basket underneath. A tan seagrass or sisal rug lies on the floor. An open white door leads to another hallway with a decorative white ceiling fixture and a checkered floor.",
+    "layout": "Interior architectural photograph showing a hallway perspective.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000063",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000063",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000063"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic Bates stamp 'EFTA00000063' in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000063"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a high-quality photograph likely taken during an investigation or inventory process, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000063.pdf",
+  "document_id": "EFTA00000063",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:52:37.572978Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

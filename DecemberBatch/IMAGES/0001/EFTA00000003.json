@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000003.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a multi-story limestone or light-colored stone building, likely a townhouse or mansion. The building features large arched windows on the ground floor with black iron bars, a central arched wooden double door with a hanging lantern above it, and rectangular windows on the upper floors. A decorative wrought-iron balcony spans the width of the central windows on the second floor. Two large trees with green foliage partially obscure the facade. A dark-colored car is parked in the foreground on the right side. The lighting suggests it is either dusk or an overcast day.",
+    "layout": "Frontal view of a building facade with a car in the lower right foreground.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000003",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000003",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000003"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000003 in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Building facade",
+    "date": null,
+    "references": [
+      "EFTA00000003"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 0.95,
+    "overall": 0.98
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp 'EFTA00000003'. No other text is visible on the building or in the scene.",
+  "file_path": "IMAGES\\0001\\EFTA00000003.pdf",
+  "document_id": "EFTA00000003",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:45:08.707663Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

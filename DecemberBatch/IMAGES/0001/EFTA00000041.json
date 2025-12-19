@@ -1,0 +1,99 @@
+{
+  "file_name": "EFTA00000041.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a storage area or office basement. In the center is a black three-drawer lateral filing cabinet with yellow sticky notes on each drawer. To the left of the cabinet is a vertical hanging file rack containing numerous large, tan-colored folders or documents. On top of the filing cabinet are several rolled-up documents and a white FedEx Express shipping box. To the right is another black filing cabinet, partially open. In the foreground, a large brown cardboard box is visible. The background shows white walls with some utility fixtures and a metal duct.",
+    "layout": "Landscape photograph of a storage room interior.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "FedEx\nExpress\nZORRO\nZORRO\nMISC.\nB. BOLL\nDellwood\nEFTA00000041",
+    "text_regions": [
+      {
+        "region": "shipping_box",
+        "text": "FedEx Express",
+        "type": "printed"
+      },
+      {
+        "region": "label_top_drawer",
+        "text": "ZORRO",
+        "type": "printed"
+      },
+      {
+        "region": "sticky_note_top_drawer",
+        "text": "ZORRO",
+        "type": "handwritten"
+      },
+      {
+        "region": "sticky_note_middle_drawer",
+        "text": "MISC.",
+        "type": "handwritten"
+      },
+      {
+        "region": "sticky_note_bottom_drawer",
+        "text": "B. BOLL",
+        "type": "handwritten"
+      },
+      {
+        "region": "crate_right",
+        "text": "Dellwood",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000041",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "B. BOLL"
+    ],
+    "organizations": [
+      "FedEx",
+      "Dellwood"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000041"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000041",
+      "Yellow sticky note labels on drawers"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage of files and documents",
+    "date": null,
+    "references": [
+      "ZORRO",
+      "MISC.",
+      "B. BOLL"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be an evidentiary photograph of a storage location. The text 'ZORRO' and 'B. BOLL' are handwritten on sticky notes attached to the filing cabinet drawers.",
+  "file_path": "IMAGES\\0001\\EFTA00000041.pdf",
+  "document_id": "EFTA00000041",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:50:03.916900Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

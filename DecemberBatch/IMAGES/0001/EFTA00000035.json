@@ -1,0 +1,74 @@
+{
+  "file_name": "EFTA00000035.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a curved office or study room. The room features wood-paneled walls with several framed black-and-white portraits. A white leather sofa and a matching white leather armchair are present. A large, curved white built-in bookshelf is filled with numerous books and a digital clock showing '7:45'. In the foreground, there is a glass coffee table covered with various books and a bowl of colorful items (possibly candy). A computer monitor and desk lamp are visible on the left edge. A decorative shield or tribal artifact is mounted high on the wall above the bookshelf.",
+    "layout": "Landscape orientation showing a corner of a room with curved walls.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "7:45\nS\nEFTA00000035",
+    "text_regions": [
+      {
+        "region": "digital clock",
+        "text": "7:45",
+        "type": "printed"
+      },
+      {
+        "region": "top left margin",
+        "text": "S",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000035",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "Marilyn Monroe (portrait)",
+      "Mick Jagger (portrait)"
+    ],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000035"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000035"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room view",
+    "date": null,
+    "references": [
+      "EFTA00000035"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The photograph contains several framed portraits, including recognizable figures like Marilyn Monroe and Mick Jagger. The 'S' in the top left appears to be a stray character or part of a larger document header not fully visible. The digital clock on the shelf reads 7:45.",
+  "file_path": "IMAGES\\0001\\EFTA00000035.pdf",
+  "document_id": "EFTA00000035",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:49:17.773767Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

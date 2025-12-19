@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000178.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a luxurious bathroom or dressing area. The room features cream-colored paneled walls with decorative trim, including a vertical border with a repeating dolphin or wave motif. A built-in vanity with a dark marble countertop is centered between two large mirrors. The vanity has multiple drawers and cabinets with small knobs. On the counter, several toiletries and a white towel are visible. Two wall-mounted lamps with cream shades are positioned between the mirrors. To the right, an open doorway leads to another room where a white chair with dark armrests is partially visible. A decorative chandelier hangs from the ceiling in the upper right corner.",
+    "layout": "The photograph is taken from a slightly low angle, showing a wide view of the vanity area and an adjacent doorway.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "• \nEFTA00000178",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000178",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "•",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000178"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000178"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000178"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document collection, identified by the Bates stamp EFTA00000178.",
+  "file_path": "IMAGES\\0001\\EFTA00000178.pdf",
+  "document_id": "EFTA00000178",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:06:01.047427Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

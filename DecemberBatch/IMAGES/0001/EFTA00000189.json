@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000189.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph of a small bathroom or bidet area. The scene features a white porcelain bidet with three dark metal faucets. To the left is a toilet paper holder with two rolls of white toilet paper. To the right, a white landline telephone sits on a small, ornate gold-toned circular table. Above the bidet, a framed photograph of a fluffy white cat is mounted on the wall, and above that is a wall-mounted light fixture. The walls are a light beige/cream color with decorative molding. A small bottle of soap or lotion is placed on the back ledge of the bidet.",
+    "layout": "Vertical composition focusing on the bidet and surrounding fixtures.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "L \nEFTA00000189",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000189",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "L",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000189"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000189"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom/bidet area",
+    "date": null,
+    "references": [
+      "EFTA00000189"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document production, as evidenced by the Bates stamp 'EFTA00000189' in the bottom right corner. The telephone on the right appears to be a multi-line office-style desk phone.",
+  "file_path": "IMAGES\\0001\\EFTA00000189.pdf",
+  "document_id": "EFTA00000189",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:07:18.130763Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

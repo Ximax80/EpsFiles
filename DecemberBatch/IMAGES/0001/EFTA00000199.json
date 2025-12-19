@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000199.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a small closet or wardrobe space. Inside, there is a white shelf holding several items: a white sailor-style hat with the word 'БАРИН' in red Cyrillic letters, a stack of colorful patterned fabrics (possibly shirts or scarves), a dark blue garment, and a gold-colored crown or tiara. Below the shelf is a brass hanging rod with several garments on wooden and plastic hangers. The clothes include dark jackets or robes and white shirts with green and red accents. The closet is framed by white door jambs.",
+    "layout": "Interior shot of a closet space with a shelf and hanging rod.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "БАРИН\nEFTA00000199",
+    "text_regions": [
+      {
+        "region": "object_label",
+        "text": "БАРИН",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000199",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000199"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Digital watermark/identifier: EFTA00000199"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Closet contents including a hat labeled 'БАРИН' and a crown.",
+    "date": null,
+    "references": [
+      "EFTA00000199"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The word 'БАРИН' (Barin) is Russian for 'Lord' or 'Master'. The image appears to be an evidentiary photograph from an investigation.",
+  "file_path": "IMAGES\\0001\\EFTA00000199.pdf",
+  "document_id": "EFTA00000199",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:28.184628Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

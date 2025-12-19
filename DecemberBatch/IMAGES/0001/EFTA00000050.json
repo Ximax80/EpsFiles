@@ -1,0 +1,75 @@
+{
+  "file_name": "EFTA00000050.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or alcove. The walls are covered in a patterned, textured wallpaper with horizontal bands and diamond motifs. Three framed artworks are hung vertically on the wall. Below them sits a small, dark wood side table with thin legs. On top of the table are two books and a light-colored, irregularly shaped object (possibly a stone or piece of coral). To the right, a portion of a large, ornate gold-gilded mirror frame is visible. The floor appears to be carpeted or tiled in a neutral tone.",
+    "layout": "Vertical composition focusing on a wall arrangement of art and furniture.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "CORVETTE\nPORTRAIT OF A LEGEND\nRICHARD LANGWORTH\nLITTLE SAINT JAMES ISLAND\nEFTA00000050",
+    "text_regions": [
+      {
+        "region": "book_spine",
+        "text": "CORVETTE\nPORTRAIT OF A LEGEND\nRICHARD LANGWORTH",
+        "type": "printed"
+      },
+      {
+        "region": "object_label",
+        "text": "LITTLE SAINT JAMES ISLAND",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000050",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "Richard Langworth"
+    ],
+    "organizations": [],
+    "locations": [
+      "Little Saint James Island"
+    ],
+    "document_numbers": [
+      "EFTA00000050"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000050"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior decor and items",
+    "date": null,
+    "references": [
+      "EFTA00000050"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The text 'LITTLE SAINT JAMES ISLAND' appears on a label or tag resting on top of the books. The book title 'CORVETTE PORTRAIT OF A LEGEND' is clearly visible on the spine.",
+  "file_path": "IMAGES\\0001\\EFTA00000050.pdf",
+  "document_id": "EFTA00000050",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:51:06.048526Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

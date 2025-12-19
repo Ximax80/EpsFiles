@@ -1,0 +1,80 @@
+{
+  "file_name": "EFTA00000020.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A color photograph showing a black server rack cabinet with its front door open, revealing various networking and server equipment. On top of the rack sits a black fire marshal helmet, a small black bottle, a bottle of hand sanitizer, and a remote control. To the right is a desk with a monitor and keyboard. Two black vented panels lie on the floor in front of the rack.",
+    "layout": "The server rack is the central focus, positioned against a light-colored wall. The desk is partially visible on the right side. The floor is covered in a grey striped carpet.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "MARSHAL\nWinsted\nNEC\nEFTA00000020",
+    "text_regions": [
+      {
+        "region": "object_label",
+        "text": "MARSHAL",
+        "type": "printed"
+      },
+      {
+        "region": "equipment_brand",
+        "text": "Winsted",
+        "type": "printed"
+      },
+      {
+        "region": "monitor_brand",
+        "text": "NEC",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000020",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Winsted",
+      "NEC",
+      "HP"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000020"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000020"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Server rack and IT equipment",
+    "date": null,
+    "references": [
+      "EFTA00000020"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The image contains a server rack with various components including a network switch (top), patch panels with blue cabling, and several server units (one with an 'X' logo, others appear to be HP or similar rack-mount servers). A document is taped to the inside of the rack door but the text is too small/blurry to read reliably.",
+  "file_path": "IMAGES\\0001\\EFTA00000020.pdf",
+  "document_id": "EFTA00000020",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T21:47:23.258952Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

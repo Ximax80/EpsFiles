@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000195.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior room undergoing construction or renovation. The walls and windows are covered in translucent plastic sheeting. In the center of the room is a blue metal scaffolding structure with wooden planks. An orange and silver A-frame ladder is positioned next to the scaffolding. A second silver ladder is leaning against the upper part of the scaffolding. The floor is covered with brown protective material. A small white tag with the letter 'T' is hanging from the scaffolding.",
+    "layout": "Full-frame photograph with a footer containing a document reference number.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "T\nEFTA00000195",
+    "text_regions": [
+      {
+        "region": "label",
+        "text": "T",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000195",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000195"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Document reference number EFTA00000195 in bottom right corner",
+      "White tag with letter 'T' hanging on scaffolding"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Construction or renovation site documentation",
+    "date": null,
+    "references": [
+      "EFTA00000195"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image appears to be a forensic or investigative photograph of a construction site, likely related to the House Oversight Committee documentation based on the footer format.",
+  "file_path": "IMAGES\\0001\\EFTA00000195.pdf",
+  "document_id": "EFTA00000195",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:08:00.308342Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
