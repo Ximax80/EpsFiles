@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000236.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom with pink walls and white trim. The room features a large bed with a green velvet headboard and white linens, flanked by two nightstands covered in patterned cloths. Two small upholstered footstools sit at the foot of the bed. To the right, an open doorway leads into another room, possibly a bathroom, showing striped wallpaper and a vanity. The carpet is a light cream color with a subtle pattern.",
+    "layout": "Interior room shot, landscape orientation.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000236",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000236",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000236"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000236' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00000236"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used for evidentiary or documentation purposes, as indicated by the Bates stamp.",
+  "file_path": "IMAGES\\0001\\EFTA00000236.pdf",
+  "document_id": "EFTA00000236",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:12:39.130348Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000235.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior room, likely a bedroom or sitting area. The walls are painted a vibrant pink with white crown molding and baseboards. On the right wall, there is a large, framed mural or tapestry depicting a classical or mythological scene with several figures, including a central nude figure and others in various poses. To the right of the mural is a lamp with a green and red patterned shade. In the foreground, there is a chaise longue with a floral pattern and striped pillows (red, green, and white). On the left, an open doorway leads to another room, possibly a walk-in closet, where clothing is visible. The floor is covered in a light-colored, patterned carpet.",
+    "layout": "Interior room view showing two walls, a doorway, and furniture.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "'w4illib \nEFTA00000235",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000235",
+        "type": "printed"
+      },
+      {
+        "region": "margin",
+        "text": "'w4illib",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000235"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000235"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000235"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text ''w4illib' appears to be a faint watermark or artifact in the top left corner. The primary identifier is the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000235.pdf",
+  "document_id": "EFTA00000235",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:12:31.989186Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

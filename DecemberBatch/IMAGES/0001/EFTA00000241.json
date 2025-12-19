@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000241.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bidet located in a small alcove. The lower half of the walls and the floor are covered in white marble with grey veining. A black trim separates the marble from the upper wall, which is painted a light beige or cream color. On the left wall, there is a chrome towel rack holding two white towels. On the back wall, above the bidet, there is a small chrome soap dish. The bidet itself is white porcelain with chrome fixtures. To the right, a portion of a doorway or curtain is visible with a red fabric hanging.",
+    "layout": "Vertical photograph with a document reference number in the bottom right corner.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000241",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000241",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000241"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/document identifier 'EFTA00000241' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bathroom fixture (bidet)",
+    "date": null,
+    "references": [
+      "EFTA00000241"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary or documentation photograph, likely part of a larger set of discovery materials as indicated by the Bates-style numbering.",
+  "file_path": "IMAGES\\0001\\EFTA00000241.pdf",
+  "document_id": "EFTA00000241",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T22:13:12.060109Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
