@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00000958.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a kitchen interior. In the foreground, there is a dark grey countertop with a white landline telephone, a pair of glasses, a green patterned box, and a pen holder. In the background, there is a kitchen counter with a sink, a dishwasher, and various appliances like a coffee maker and kettle. Above the counter are white cabinets and a stainless steel range hood. A large decorative plate hangs on the wall to the left. A black lantern-style light fixture is visible on the right. The lighting is interior, with a recessed ceiling light visible.",
+    "layout": "The image is a vertical photograph showing a foreground countertop and a background kitchen area.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "4\nEFTA00000958",
+    "text_regions": [
+      {
+        "region": "header",
+        "text": "4",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000958",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000958"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000958",
+      "Page number: 4"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Kitchen interior photograph",
+    "date": null,
+    "references": [
+      "EFTA00000958"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.92
+  },
+  "notes": "The image appears to be an evidentiary photograph from a larger document set, as indicated by the Bates stamp 'EFTA00000958' and the page number '4'.",
+  "file_path": "IMAGES\\0001\\EFTA00000958.pdf",
+  "document_id": "EFTA00000958",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:59:49.619932Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

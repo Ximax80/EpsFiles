@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000974.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a white cabinet or closet door with a printed document taped to it. Below the cabinet is a light gray wall with an electrical outlet. On the counter or surface below, a brown paper bag and a decorative object are partially visible.",
+    "layout": "The image is split horizontally between the upper cabinet area and the lower wall/counter area. A document is centered on the middle cabinet panel.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "H\nEFTA00000974",
+    "text_regions": [
+      {
+        "region": "document_on_cabinet",
+        "text": "H",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000974",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000974"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00000974"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph of a document",
+    "sender": null,
+    "recipient": null,
+    "subject": "Visual record of a posted document",
+    "date": null,
+    "references": [
+      "EFTA00000974"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.6,
+    "structured_data": 0.9,
+    "overall": 0.7
+  },
+  "notes": "The document taped to the cabinet contains a large letter 'H' and several rows of a table (likely a sign-in sheet or log), but the text within the table is too small and blurry to read reliably. The Bates stamp 'EFTA00000974' is clearly legible in the bottom right corner.",
+  "file_path": "IMAGES\\0001\\EFTA00000974.pdf",
+  "document_id": "EFTA00000974",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:01:40.927213Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

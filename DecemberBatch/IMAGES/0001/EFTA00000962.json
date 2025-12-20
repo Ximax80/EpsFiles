@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000962.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An indoor photograph showing a kitchen or utility area. On the left is a large stainless steel appliance, possibly a commercial refrigerator or dumbwaiter, built into white cabinetry. In the center foreground is a white water cooler with a blue five-gallon jug of Poland Spring water on top. Below the water cooler is a stainless steel trash bin labeled 'GARBAGES'. In the background, there is a dark countertop or table, a white bar stool, a decorative wall plate, and a hanging lantern-style light fixture with multiple candle-style bulbs.",
+    "layout": "The image is a vertical photograph with a foreground focus on utility appliances and a background view into a dining or bar area.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "GARBAGES\nPoland Spring\nEFTA00000962",
+    "text_regions": [
+      {
+        "region": "label on trash bin",
+        "text": "GARBAGES",
+        "type": "printed"
+      },
+      {
+        "region": "water bottle label",
+        "text": "Poland Spring",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000962",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Poland Spring"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000962"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000962' in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or office space",
+    "date": null,
+    "references": [
+      "EFTA00000962"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'GARBAGES' is a label applied to the lid of the trash bin. The Bates stamp indicates this is part of a legal or investigative production.",
+  "file_path": "IMAGES\\0001\\EFTA00000962.pdf",
+  "document_id": "EFTA00000962",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:00:17.603379Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000993.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a luxurious interior room. The room features dark wood parquet flooring and a large built-in wooden bookcase filled with numerous books. On top of the bookcase sits a large, light-colored sculpture of two animals (possibly wolves or dogs) howling. Behind the sculpture is a wall covered in antiqued or distressed mirrored panels that reflect the ornate ceiling and other parts of the room. To the left of the bookcase, there is a tall blue and white porcelain vase and a chair with leopard-print upholstery. In the background, blue and white porcelain figurines are visible on a shelf.",
+    "layout": "Interior shot with a central focus on a bookcase and sculpture against a mirrored wall.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000993",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000993",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000993"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000993' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00000993"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates number EFTA00000993. The text on the book spines is visible but too small and varied to extract reliably without high-resolution crops.",
+  "file_path": "IMAGES\\0001\\EFTA00000993.pdf",
+  "document_id": "EFTA00000993",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:03:59.277045Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000982.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing the interior of a walk-in closet or storage area. The walls are lined with horizontal cedar wood planks. A metal clothing rod runs horizontally across the frame, holding several jackets and coats on wooden hangers. The garments include denim jackets, a white puffer coat, and several dark-colored jackets. Below the hanging clothes, several pairs of shoes and boots are visible on the floor, including blue suede shoes and light-colored winter boots. A white rectangular storage box with a glass front is mounted on the wall above the rod. To the right, a doorway leads to another room with white paneled walls and a wall-mounted candle sconce. A light switch is visible on the cedar wall near the door frame.",
+    "layout": "Interior shot of a closet space with garments and footwear.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "1 \nEFTA00000982",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "1 \nEFTA00000982",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000982"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000982"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Closet interior with clothing and shoes",
+    "date": null,
+    "references": [
+      "EFTA00000982"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text '1' and 'EFTA00000982' are likely administrative page numbering and Bates stamping added for document tracking by the House Oversight Committee.",
+  "file_path": "IMAGES\\0001\\EFTA00000982.pdf",
+  "document_id": "EFTA00000982",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:02:37.164923Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

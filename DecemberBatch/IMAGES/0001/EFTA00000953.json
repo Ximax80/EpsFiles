@@ -1,0 +1,73 @@
+{
+  "file_name": "EFTA00000953.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a built-in wooden cabinet or hutch with a marble countertop. On the countertop sits a black Yamaha AV receiver with a remote control on top. To the right of the receiver are several tiered serving stands (one with food items) and a wire rack. The background of the niche is a white marble slab. There are electrical outlets visible on the back wall. Below the counter are two wooden drawers with round knobs.",
+    "layout": "The image is a single photograph framed by the wooden structure of a cabinet.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "YAMAHA\nAVENTAGE\nEFTA00000953",
+    "text_regions": [
+      {
+        "region": "object_label",
+        "text": "YAMAHA",
+        "type": "printed"
+      },
+      {
+        "region": "object_label",
+        "text": "AVENTAGE",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000953",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Yamaha"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000953"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Digital watermark/bates stamp: EFTA00000953"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or office showing electronic equipment and serving ware",
+    "date": null,
+    "references": [
+      "EFTA00000953"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'YAMAHA' and 'AVENTAGE' are brand and model series markings on the electronic receiver. The number 'EFTA00000953' is a document identification number (likely a Bates stamp) added for record-keeping.",
+  "file_path": "IMAGES\\0001\\EFTA00000953.pdf",
+  "document_id": "EFTA00000953",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:59:15.749826Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

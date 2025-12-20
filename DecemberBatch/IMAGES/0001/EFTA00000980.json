@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000980.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a row of winter coats hanging on a metal rod inside a closet with wood-paneled walls and shelving. The coats include a bright red puffer jacket, a black puffer jacket, a white puffer jacket with a fur-trimmed hood, a dark navy or black jacket, a tan/camel colored coat, and another white jacket. Above the hanging rod is a wooden shelf containing folded blankets or linens in white and brown. The floor is dark wood, and the baseboard is a light tan color.",
+    "layout": "The image is a vertical photograph of a closet interior. A tracking number is printed in the bottom right corner.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000980",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000980",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000980"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Tracking number 'EFTA00000980' in bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Closet interior with winter outerwear",
+    "date": null,
+    "references": [
+      "EFTA00000980"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, identified by the EFTA prefix tracking number common in certain legal or investigative productions.",
+  "file_path": "IMAGES\\0001\\EFTA00000980.pdf",
+  "document_id": "EFTA00000980",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:02:22.092890Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

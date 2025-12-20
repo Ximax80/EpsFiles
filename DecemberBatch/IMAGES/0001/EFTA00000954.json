@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000954.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a section of a wall with various items. On the left, there is a black and white painting of a smiling child. The wall behind it has a light brown or beige color with decorative, stencil-like patterns resembling stylized leaves or branches. A white piece of paper with a large bold letter 'F' and a small grid/table below it is taped to the wall. To the right, a gold-colored curtain hangs vertically. In the bottom right foreground, a portion of a wooden chair or furniture piece is visible.",
+    "layout": "The image is a vertical shot focusing on a wall interior. The painting is in the lower-left, the 'F' document is centered, and the curtain is on the right.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "F\nEFTA00000954",
+    "text_regions": [
+      {
+        "region": "document_on_wall",
+        "text": "F",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000954",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000954"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000954' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior wall with painting and evidence/identification marker 'F'",
+    "date": null,
+    "references": [
+      "EFTA00000954"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 0.9,
+    "overall": 0.95
+  },
+  "notes": "The document taped to the wall appears to be an evidence marker or a placeholder labeled 'F'. The text below the 'F' on that paper is too small to read clearly but appears to be a form or table. The number 'EFTA00000954' is a Bates stamp used for document tracking.",
+  "file_path": "IMAGES\\0001\\EFTA00000954.pdf",
+  "document_id": "EFTA00000954",
+  "processing_metadata": {
+    "processed_at": "2025-12-19T23:59:22.711313Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000968.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a long, narrow interior hallway with white walls and dark wood flooring. Multiple white doors with brass-colored knobs are visible on both sides of the hallway. The hallway leads to another doorway in the distance, which appears to open into a darker room where a ladder or similar structure is partially visible. A ceiling light fixture with a gold-colored rim is visible in the foreground.",
+    "layout": "Portrait-oriented photograph with a text label in the bottom right corner.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000968",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000968",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000968"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000968"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a hallway",
+    "date": null,
+    "references": [
+      "EFTA00000968"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely taken for investigative or documentation purposes. The only text present is a Bates stamp identifier.",
+  "file_path": "IMAGES\\0001\\EFTA00000968.pdf",
+  "document_id": "EFTA00000968",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:01:00.645791Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

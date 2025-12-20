@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000969.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a long, narrow interior hallway in a residence. The foreground features white built-in cabinetry with a dark countertop on the left. On the countertop, there are two framed photographs, one of which has a face redacted with a black box. The hallway has polished wood flooring and white walls with decorative molding. Several white doors are visible along the hallway, some open and some closed. At the far end of the hallway, a dark wood door is visible. A circular ceiling light fixture with a gold-toned rim is mounted on the ceiling.",
+    "layout": "Interior architectural shot looking down a corridor.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000969",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000969",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000969"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000969' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence hallway",
+    "date": null,
+    "references": [
+      "EFTA00000969"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image contains a Bates stamp indicating it is part of a legal or investigative production. One face in a framed photo on the counter has been intentionally redacted.",
+  "file_path": "IMAGES\\0001\\EFTA00000969.pdf",
+  "document_id": "EFTA00000969",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:01:07.098128Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

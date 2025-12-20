@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000965.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a narrow, galley-style kitchen. The kitchen features white cabinetry, dark countertops, and light-colored hardwood flooring. On the left, there is a stainless steel sink, a range with a griddle, and a vent hood. On the right, a long counter with white cabinets underneath extends into the foreground, with a black lantern-style pendant light hanging above it. In the background, there is a smaller prep area with a sink, a water cooler, and more white cabinetry. Recessed lighting and a smoke detector are visible on the ceiling.",
+    "layout": "Interior kitchen view, portrait orientation, looking down the length of the room.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000965",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000965",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000965"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000965' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a kitchen",
+    "date": null,
+    "references": [
+      "EFTA00000965"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard photograph used as evidence or documentation, identified by the Bates numbering at the bottom.",
+  "file_path": "IMAGES\\0001\\EFTA00000965.pdf",
+  "document_id": "EFTA00000965",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:00:38.078893Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00000963.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A close-up photograph of a stainless steel dumbwaiter or small service elevator built into a white-painted wall. To the left of the metal door is a vertical control panel with several buttons and indicator lights. The dumbwaiter door is split horizontally, appearing to be a bi-parting or slide-up style door. There is a small circular peephole or handle in the upper section. At the bottom right, a portion of a metal cart or bin is visible.",
+    "layout": "The image is dominated by the central dumbwaiter unit, with a control panel on the left and a document reference number at the bottom right.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "PRESS\nTO\nTALK\nCAR\nHERE\nIN\nUSE\nDOOR\nOPEN\nEFTA00000963",
+    "text_regions": [
+      {
+        "region": "control_panel_labels",
+        "text": "PRESS\nTO\nTALK\nCAR\nHERE\nIN\nUSE\nDOOR\nOPEN",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00000963",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000963"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number: EFTA00000963"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Service elevator or dumbwaiter installation",
+    "date": null,
+    "references": [
+      "EFTA00000963"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.97
+  },
+  "notes": "The control panel contains several indicator lights and buttons labeled for operation. There is a small manufacturer's plate on the dumbwaiter door, but the text on it is too small to be legible.",
+  "file_path": "IMAGES\\0001\\EFTA00000963.pdf",
+  "document_id": "EFTA00000963",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:00:24.229924Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

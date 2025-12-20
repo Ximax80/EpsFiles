@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00000970.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or corridor. The scene shows white or off-white paneled walls and doorways. To the left, there is a dark hallway leading to another room where a light is visible. A white door with a circular porthole-style window and a brass handle is visible in the foreground. To the right, there is a partial view of a shelf or counter area containing items like a white bag and some orange-colored labels or signs on the wall.",
+    "layout": "Interior architectural shot with a perspective view down a hallway.",
+    "quality": "medium",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000970",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000970",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000970"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00000970"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or office",
+    "date": null,
+    "references": [
+      "EFTA00000970"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a standard interior photograph likely taken during a search or documentation process. The only text is the Bates stamp identifier at the bottom right.",
+  "file_path": "IMAGES\\0001\\EFTA00000970.pdf",
+  "document_id": "EFTA00000970",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:01:12.444035Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

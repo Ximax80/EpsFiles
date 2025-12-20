@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00000961.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle, eye-level photograph of a narrow, galley-style kitchen and breakfast bar area. The kitchen features white cabinetry, dark countertops (possibly granite or soapstone), and hardwood flooring. On the left, a curved breakfast bar with a white base and a single white modern barstool is visible. A large, ornate black lantern-style pendant light hangs over the bar. On the wall behind the bar, there is a decorative ceramic plate and a dark wood door with a circular porthole window. To the right, the main kitchen area includes a stainless steel range hood, a dark stovetop, and white upper and lower cabinets. A large white refrigerator is partially visible in the foreground on the right. A water cooler with a blue 'Poland Spring' bottle is in the bottom left foreground. A clock is mounted on the far wall above a window.",
+    "layout": "Interior architectural photograph showing a kitchen corridor.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00000961\nPoland Spring",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00000961",
+        "type": "typed"
+      },
+      {
+        "region": "object_label",
+        "text": "Poland Spring",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [
+      "Poland Spring"
+    ],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00000961"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00000961' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a kitchen",
+    "date": null,
+    "references": [
+      "EFTA00000961"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The image is a standard interior photograph likely used as evidence or documentation. The Bates stamp indicates it is part of a larger legal or investigative production.",
+  "file_path": "IMAGES\\0001\\EFTA00000961.pdf",
+  "document_id": "EFTA00000961",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:00:11.157232Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
