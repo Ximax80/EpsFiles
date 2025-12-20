@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00001214.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an open doorway leading into a kitchen area. The foreground shows a light-colored wall with a white door frame and a light wood floor with a parquet pattern. The door is a white, paneled double door, with one side open. Through the doorway, a kitchen is visible featuring white cabinetry, a dark countertop, a sink with a chrome faucet, a white paper towel roll, and light wood flooring. A small red 'FIRE' alarm or pull station is visible on the wall to the left of the door frame.",
+    "layout": "Interior architectural shot looking from one room into another.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "FIRE\nEFTA00001214",
+    "text_regions": [
+      {
+        "region": "margin_left",
+        "text": "FIRE",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001214",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001214"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00001214",
+      "Fire alarm label: FIRE"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00001214"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a standard evidentiary photograph, likely from a search or investigation, as indicated by the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0002\\EFTA00001214.pdf",
+  "document_id": "EFTA00001214",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:29:53.916444Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00001212.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior hallway or gallery space. The floor is light-colored wood planks. To the left are white-painted walls with two doorways. In the center-right, a large, open book sits on a minimalist metal stand. The book displays a black and white photograph with the word 'ЛЕНИН' (LENIN) visible. To the right is a wall composed of frosted glass panels with a metal frame. In the background, there is a set of white double doors with glass panes. The ceiling features a metal track lighting or structural system and an air vent.",
+    "layout": "Interior architectural shot with a vanishing point perspective towards the back doors.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "ЛЕНИН\nEFTA00001212",
+    "text_regions": [
+      {
+        "region": "object_text",
+        "text": "ЛЕНИН",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001212",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [
+      "Vladimir Lenin"
+    ],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001212"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Electronic footer: EFTA00001212"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence or office space featuring art/book display",
+    "date": null,
+    "references": [
+      "EFTA00001212"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 0.95,
+    "overall": 0.98
+  },
+  "notes": "The text 'ЛЕНИН' is Cyrillic for 'LENIN', appearing on a book that seems to be a photographic collection or biography. The document number EFTA00001212 is a discovery or evidence tag common in legal/congressional documentation.",
+  "file_path": "IMAGES\\0002\\EFTA00001212.pdf",
+  "document_id": "EFTA00001212",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:29:40.115249Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

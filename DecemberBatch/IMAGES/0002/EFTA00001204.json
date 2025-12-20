@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001204.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a cluttered storage area. In the foreground, there are two large white cardboard boxes. On top of the boxes sits a stack of folded beige or off-white fabric items. To the left is a large black soft-sided suitcase or bag. In the background, there are items wrapped in clear plastic sheeting, some secured with bright green tape or straps. A small grey circular object, possibly a cap or sensor, is visible in the middle ground.",
+    "layout": "The image is a vertical photograph with objects stacked from the bottom to the top of the frame.",
+    "quality": "medium",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001204",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001204",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001204"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001204' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Storage area contents",
+    "date": null,
+    "references": [
+      "EFTA00001204"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image appears to be an evidentiary photograph from an investigation, indicated by the Bates stamp at the bottom.",
+  "file_path": "IMAGES\\0002\\EFTA00001204.pdf",
+  "document_id": "EFTA00001204",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:28:39.366718Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

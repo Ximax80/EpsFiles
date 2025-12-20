@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001219.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle interior photograph of a modern, upscale living room or lounge area. The room features a large dark-framed sofa with white cushions, a low white coffee table with various items on it, and black leather armchairs in the background. The walls are decorated with framed black-and-white art and a dark figurative sculpture on a pedestal. In the foreground, there is a grey armchair with blue tubular arms and a bright turquoise and red circular table holding a lamp with a base shaped like a female figure. A white vent is visible on the ceiling.",
+    "layout": "Interior room shot with foreground, midground, and background elements; document ID at bottom right.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001219",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001219",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001219"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Document ID: EFTA00001219"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence or office",
+    "date": null,
+    "references": [
+      "EFTA00001219"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 0.95
+  },
+  "notes": "The image is a photograph included in a document set, likely for evidentiary or inventory purposes. There is a small blue tag on the lamp base that appears to have text, but it is too small and blurry to read reliably.",
+  "file_path": "IMAGES\\0002\\EFTA00001219.pdf",
+  "document_id": "EFTA00001219",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:30:27.178796Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001225.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a modern, high-end living or media room. The room features black leather armchairs, a large mirror reflecting more seating and a statue, a patterned rug, and high-end audio equipment including a large black speaker and a tall reddish-brown speaker tower. A mirrored side table holds a vintage-style telephone with a red cord. A framed black and white photograph is visible on the right wall.",
+    "layout": "Interior room shot with a large mirror on the left wall creating a sense of depth. Furniture and electronics are arranged throughout the space.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001225",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001225",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001225"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001225' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00001225"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document collection, identified by the Bates stamp EFTA00001225. The OCR provided in the prompt contained noise ('ft A 11,0•14 OA • •• 1l•••• •') which is not clearly legible as text in the image itself, likely being artifacts or misreadings of visual elements.",
+  "file_path": "IMAGES\\0002\\EFTA00001225.pdf",
+  "document_id": "EFTA00001225",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:31:10.766708Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

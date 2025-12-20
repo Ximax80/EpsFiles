@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001216.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph showing a set of white-framed French doors with glass panes. The doors lead to an outdoor area where a tall building is visible in the reflection and through the glass. The interior features light-colored wooden flooring, a small wooden step leading to the doors, and white paneled walls. A door handle and latch mechanism are visible on the left door. To the right, there is a white wall with a small rectangular access panel near the floor and a glimpse of a different wood flooring pattern (herringbone).",
+    "layout": "Interior architectural photograph showing a doorway and adjacent wall.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001216",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001216",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001216"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001216' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence",
+    "date": null,
+    "references": [
+      "EFTA00001216"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely part of a larger set of documentation. The text 'EFTA00001216' is a Bates stamp used for document identification and tracking.",
+  "file_path": "IMAGES\\0002\\EFTA00001216.pdf",
+  "document_id": "EFTA00001216",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:30:06.878319Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

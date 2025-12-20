@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001231.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a wooden staircase with blue carpeting leading down past a built-in bookshelf. To the right of the bookshelf is a large, ornate gold-framed piece of artwork. The walls and shelving are made of dark, polished wood with decorative inlay. Two candle-style light fixtures are mounted on either side of the bookshelf.",
+    "layout": "Interior architectural shot looking down a spiral or curved staircase.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001231",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001231",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001231"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001231' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior view of a residence showing a staircase, bookshelf, and artwork",
+    "date": null,
+    "references": [
+      "EFTA00001231"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text extraction is limited to the Bates stamp as the book titles on the shelves are too small and angled to be reliably transcribed. The artwork appears to be a child's drawing or a modern piece featuring a red circular target-like design with a symbol in the center.",
+  "file_path": "IMAGES\\0002\\EFTA00001231.pdf",
+  "document_id": "EFTA00001231",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:31:55.062424Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
