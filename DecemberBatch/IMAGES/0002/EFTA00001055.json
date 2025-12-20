@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00001055.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior shot of a room with ornate decor. The room features dark patterned wallpaper, a light-colored patterned carpet, and a large wooden doorway leading to a black marble-lined space. To the left is a tall wooden cabinet filled with various bottles and containers (likely toiletries or health products). Next to it is a small wooden table holding a digital clock (displaying 4:08), a telephone, a box of tissues, and other small items. To the right, a large, dark-framed painting of a reclining nude figure is hanging on the wall. A black speaker is visible on the floor near the table.",
+    "layout": "Interior room view with furniture and art.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "4:08\nEFTA00001055",
+    "text_regions": [
+      {
+        "region": "digital_clock",
+        "text": "4:08",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001055",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001055"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00001055 at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00001055"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text '4:08' is from a digital clock on the table. The alphanumeric string 'EFTA00001055' is a Bates stamp identifier commonly used in legal and government document production.",
+  "file_path": "IMAGES\\0002\\EFTA00001055.pdf",
+  "document_id": "EFTA00001055",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:11:16.856597Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

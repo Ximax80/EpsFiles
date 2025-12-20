@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00001102.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a doorway looking into a room. The room features pink walls, a patterned beige carpet, and several pieces of ornate furniture. There is a floral-patterned chaise longue with a red and green striped pillow on the left. In the center against the wall is a large, ornate wooden secretary desk or cabinet with intricate designs. To the left of the chaise is a lamp on a side table. Striped curtains (pink, yellow, and green) frame a window behind the chaise and another window to the right of the cabinet. A small white label with the letter 'W' is affixed to the pink wall next to the cabinet.",
+    "layout": "Interior room shot framed by a white doorframe in the foreground.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "W\nEFTA00001102",
+    "text_regions": [
+      {
+        "region": "wall label",
+        "text": "W",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001102",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001102"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Wall label 'W'",
+      "Electronic footer 'EFTA00001102'"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph with evidence marker",
+    "date": null,
+    "references": [
+      "EFTA00001102"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be part of an evidentiary collection, indicated by the 'W' marker on the wall and the EFTA prefix tracking number.",
+  "file_path": "IMAGES\\0002\\EFTA00001102.pdf",
+  "document_id": "EFTA00001102",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:16:42.286317Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

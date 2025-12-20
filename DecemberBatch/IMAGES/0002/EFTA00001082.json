@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001082.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior room viewed through a doorway. The room features a blue and white aesthetic with floral wallpaper, a large framed painting on the wall, and a dark blue reflective table. On the table sit two blue lamps. The floor has a white carpet with a blue grid pattern. A decorative vase sits on a pedestal in the background. The doorway frame is visible on the right side of the image.",
+    "layout": "Interior room shot framed by a doorway on the right.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001082",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001082",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001082"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001082' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00001082"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document production, identified by the Bates stamp.",
+  "file_path": "IMAGES\\0002\\EFTA00001082.pdf",
+  "document_id": "EFTA00001082",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:14:24.749339Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

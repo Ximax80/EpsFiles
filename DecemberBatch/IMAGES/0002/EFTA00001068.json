@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00001068.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing an interior doorway leading into a construction or renovation area. The foreground shows a light-colored, paneled door held open on the right and a stone-block wall on the left. The doorway is partially obscured by heavy grey plastic sheeting. Beyond the plastic, blue metal scaffolding poles and support structures are visible in a dimly lit hallway or room. The floor appears to be covered with protective material.",
+    "layout": "Vertical orientation photograph with a document reference number in the bottom right corner.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "r \nEFTA00001068",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001068",
+        "type": "printed"
+      },
+      {
+        "region": "top_left",
+        "text": "r",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001068"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates-style tracking number EFTA00001068"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior construction or renovation site",
+    "date": null,
+    "references": [
+      "EFTA00001068"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The image is a photograph used as evidence or documentation, likely part of a larger investigative file as indicated by the EFTA tracking number.",
+  "file_path": "IMAGES\\0002\\EFTA00001068.pdf",
+  "document_id": "EFTA00001068",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:12:48.333457Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "file_name": "EFTA00001065.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph of a luxurious interior room, likely a dressing room or walk-in closet. The room features ornate cream-colored cabinetry with gold-toned trim, a large mirror reflecting lamps, and an open closet door revealing shelves with folded linens. A white card with a bold black letter 'S' is taped to the cabinetry. In the foreground, a portion of a leather-topped ottoman or bench with decorative studs is visible. The floor is covered in a patterned beige carpet. A decorative gold chandelier hangs from the ceiling.",
+    "layout": "Interior room view with furniture and architectural details; document identifier at bottom right.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "S\nEFTA00001065",
+    "text_regions": [
+      {
+        "region": "label",
+        "text": "S",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001065",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001065"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "White label with printed letter 'S' taped to the cabinet",
+      "Bates stamp/identifier 'EFTA00001065' at bottom right"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence, possibly related to an investigation",
+    "date": null,
+    "references": [
+      "EFTA00001065"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be an evidentiary photo from an investigation, indicated by the 'S' marker and the EFTA bates stamp.",
+  "file_path": "IMAGES\\0002\\EFTA00001065.pdf",
+  "document_id": "EFTA00001065",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:12:27.380497Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

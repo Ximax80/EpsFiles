@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001058.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken through an open doorway looking into a room. The room appears to be a dressing room or a high-end salon space. Inside, there are two chairs: one white and one with a pink and white striped pattern. A patterned rug covers the floor. In the background, there are mirrored doors or panels and another chair. Two ornate, triangular-shaped chandeliers with candle-style bulbs hang from the ceiling. The doorway in the foreground has a cream-colored frame with decorative molding and a dark rectangular plate (possibly a light switch or door hardware) on the left side.",
+    "layout": "Portrait orientation, looking through a vertical doorway frame into an interior room.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001058",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001058",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001058"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001058' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room view",
+    "date": null,
+    "references": [
+      "EFTA00001058"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp at the bottom right. The interior appears to be a private residence or luxury commercial space.",
+  "file_path": "IMAGES\\0002\\EFTA00001058.pdf",
+  "document_id": "EFTA00001058",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:11:37.094511Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

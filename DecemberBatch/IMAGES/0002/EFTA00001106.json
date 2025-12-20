@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001106.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of a bedroom interior. The room features bright pink walls and a white ceiling with crown molding. A bed with white linens and a green velvet headboard is visible, adorned with two decorative patterned pillows. To the right of the bed is a circular side table covered with a multi-colored patterned cloth, topped with a large lamp with a pleated shade and several small decorative objects, including what appears to be a small elephant figurine. A green upholstered footstool or ottoman is partially visible in the lower-left corner. The floor is covered in a light-colored patterned carpet.",
+    "layout": "Interior room shot, portrait orientation.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001106",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001106",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001106"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00001106"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior bedroom photograph",
+    "date": null,
+    "references": [
+      "EFTA00001106"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a clear photograph with a Bates stamp identifier in the bottom right corner, typical of legal or investigative discovery documents.",
+  "file_path": "IMAGES\\0002\\EFTA00001106.pdf",
+  "document_id": "EFTA00001106",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:17:11.084955Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

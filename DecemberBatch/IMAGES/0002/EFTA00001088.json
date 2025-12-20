@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001088.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-end interior design photograph of a room featuring a blue and white floral wallpaper. Centered on the wall is a large, ornate gold-framed painting of a woman in a red setting with white birds. Below the painting is a dark blue, high-gloss console table. On the table sit two matching blue lamps with blue shades and a small blue decorative object. Flanking the table are two white fluted pedestals, each topped with a large, rustic stone or ceramic urn. The floor is covered in a cream-colored carpet with a blue grid pattern. In the foreground, a portion of a patterned ottoman or bench is visible. A blue chandelier hangs from the top of the frame.",
+    "layout": "Symmetrical interior composition centered on a large painting and console table.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001088",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001088",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001088"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001088' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room decor",
+    "date": null,
+    "references": [
+      "EFTA00001088"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph of an interior space, likely part of a real estate or design portfolio, labeled with a Bates stamp for documentation purposes.",
+  "file_path": "IMAGES\\0002\\EFTA00001088.pdf",
+  "document_id": "EFTA00001088",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:15:05.820468Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

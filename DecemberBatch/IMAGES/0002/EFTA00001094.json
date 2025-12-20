@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00001094.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a highly decorated room. The walls feature a light-colored wallpaper with large, hand-painted blue floral and leaf motifs. The floor is covered with a cream-colored carpet featuring a bold, dark blue grid pattern. To the left, there is a wicker armchair with blue and white striped cushions. To the right, a curved, white textured sofa is visible with decorative blue and white throw pillows. A white paneled door is partially open, revealing another room with similar blue floral wallpaper, a dark pedestal with a large vessel, and a patterned bench. A blue and white chevron-patterned curtain is visible on the far left.",
+    "layout": "Interior room view with a doorway leading to an adjacent space.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "Pt'\nEFTA00001094",
+    "text_regions": [
+      {
+        "region": "top_left",
+        "text": "Pt'",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001094",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001094"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001094' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00001094"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The text 'Pt'' at the top left is small and may be a partial scan artifact or a specific notation. The primary identifier is the Bates stamp at the bottom right.",
+  "file_path": "IMAGES\\0002\\EFTA00001094.pdf",
+  "document_id": "EFTA00001094",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:15:50.283371Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

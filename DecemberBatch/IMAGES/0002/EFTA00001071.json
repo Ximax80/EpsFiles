@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001071.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a terracotta-colored bust of a man with long curly hair and hands clasped in prayer. The bust sits on a pedestal in a corner with light-colored stone block walls. In the foreground, a large, pleated, light-colored lampshade with visible stitching along the edges is partially visible. The scene appears to be an interior space, possibly a basement or storage area, as plastic sheeting is visible in the lower right corner.",
+    "layout": "The photograph is in portrait orientation. The bust is positioned in the upper left quadrant, the lampshade in the lower left, and the stone wall occupies the right half of the frame.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001071",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001071",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001071"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001071' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Photograph of a religious or decorative bust and a lampshade in a stone-walled room",
+    "date": null,
+    "references": [
+      "EFTA00001071"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The text 'EFTA00001071' is a Bates stamp identifier used for document tracking in legal or investigative proceedings.",
+  "file_path": "IMAGES\\0002\\EFTA00001071.pdf",
+  "document_id": "EFTA00001071",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:13:08.360054Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

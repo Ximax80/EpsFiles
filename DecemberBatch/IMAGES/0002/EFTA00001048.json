@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00001048.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a staircase landing inside a building. On the wall, there are two fire extinguishers (one red, one black) mounted next to a sign that reads '3RD FLOOR'. There is a circular light fixture above the extinguishers and a smoke detector on the ceiling. To the left is a wooden handrail with blue metal balusters. The floor is carpeted in a dark grey grid pattern. A white framed map or document is visible on the right wall.",
+    "layout": "Interior architectural shot looking up a short flight of stairs toward a landing.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "3RD FLOOR\nEFTA00001048",
+    "text_regions": [
+      {
+        "region": "wall sign",
+        "text": "3RD FLOOR",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001048",
+        "type": "typed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "3rd Floor"
+    ],
+    "document_numbers": [
+      "EFTA00001048"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00001048"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior building documentation",
+    "date": null,
+    "references": [
+      "EFTA00001048"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely part of a site inspection or investigation. The text '3RD FLOOR' identifies the location within the building.",
+  "file_path": "IMAGES\\0002\\EFTA00001048.pdf",
+  "document_id": "EFTA00001048",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:10:24.865160Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

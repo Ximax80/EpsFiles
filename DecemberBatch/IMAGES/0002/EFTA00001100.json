@@ -1,0 +1,68 @@
+{
+  "file_name": "EFTA00001100.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a stairwell landing. The stairs have a blue metal railing with a wooden handrail. On the wall of the landing, two red fire extinguishers are mounted. Above the fire extinguishers is a small black sign with white text that reads '4TH FLOOR'. To the right, there is a framed document or map hanging on the wall. The floor is carpeted in a dark grey patterned material. A light fixture is visible at the top of the frame.",
+    "layout": "Vertical composition showing a staircase leading up to a landing.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "4TH FLOOR\nEFTA00001100",
+    "text_regions": [
+      {
+        "region": "wall sign",
+        "text": "4TH FLOOR",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001100",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [
+      "4TH FLOOR"
+    ],
+    "document_numbers": [
+      "EFTA00001100"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00001100"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of building stairwell",
+    "date": null,
+    "references": [
+      "EFTA00001100"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard evidentiary photograph, likely part of a site inspection or investigation. The text 'EFTA00001100' is a Bates stamp used for document tracking.",
+  "file_path": "IMAGES\\0002\\EFTA00001100.pdf",
+  "document_id": "EFTA00001100",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:16:29.246874Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

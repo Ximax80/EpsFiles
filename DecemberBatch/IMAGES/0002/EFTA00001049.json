@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00001049.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph taken from a doorway looking into a room or hallway. In the center of the frame is a life-sized statue of a Terracotta Warrior, viewed from the back and side. The statue is dark gray/black with a weathered texture. To the left, a large vertical painting is visible on the wall, depicting a nude figure with certain areas redacted by black boxes. The room has blue patterned carpeting and beige/tan walls. A circular light fixture is mounted on the ceiling. The photograph is framed by the white door jambs of the doorway from which it was taken.",
+    "layout": "Interior room shot through a doorway.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "fr\nEFTA00001049",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001049",
+        "type": "printed"
+      },
+      {
+        "region": "ocr_artifact",
+        "text": "fr",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001049"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp: EFTA00001049"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a residence featuring a Terracotta Warrior statue and artwork",
+    "date": null,
+    "references": [
+      "EFTA00001049"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 0.95,
+    "structured_data": 1.0,
+    "overall": 0.98
+  },
+  "notes": "The photograph contains a Bates stamp 'EFTA00001049' in the bottom right corner, indicating it is part of a legal or investigative production. The painting on the wall has been censored with black boxes.",
+  "file_path": "IMAGES\\0002\\EFTA00001049.pdf",
+  "document_id": "EFTA00001049",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:10:31.670123Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

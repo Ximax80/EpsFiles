@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001089.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-resolution photograph of a luxury bedroom. The room features a large bed with a dark wood headboard and white linens, positioned against a wall with blue and white floral wallpaper. A distinctive, large blue glass chandelier hangs from the ceiling. In front of the bed is a curved, cream-colored upholstered bench or sofa. The floor is covered with a white carpet featuring a bold blue grid pattern. Two dark wood nightstands with matching lamps flank the bed. To the left, a tall, dark wood door with decorative panels is partially visible.",
+    "layout": "Interior room shot, centered on the bed and chandelier.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001089",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001089",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001089"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001089' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a bedroom",
+    "date": null,
+    "references": [
+      "EFTA00001089"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph included in a document set, identified by the Bates stamp at the bottom right. No other text is present in the image.",
+  "file_path": "IMAGES\\0002\\EFTA00001089.pdf",
+  "document_id": "EFTA00001089",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:15:13.262580Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

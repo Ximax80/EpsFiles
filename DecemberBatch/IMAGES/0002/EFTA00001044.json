@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001044.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A high-angle photograph looking down a carpeted staircase. The stairs are covered in a grey patterned carpet. To the right is a blue-painted wooden banister with a natural wood handrail. On the landing wall, there are two framed black and white photographs: one smaller square frame and one larger rectangular frame depicting a canal scene (likely Venice). Above the larger frame is a circular, glowing wall-mounted light fixture. The walls are a neutral off-white or light grey color.",
+    "layout": "Interior architectural shot with a footer containing a document reference number.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001044",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001044",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001044"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number 'EFTA00001044' in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph of a staircase",
+    "date": null,
+    "references": [
+      "EFTA00001044"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a standard interior photograph likely used for evidence or documentation purposes, identified by the Bates-style numbering at the bottom.",
+  "file_path": "IMAGES\\0002\\EFTA00001044.pdf",
+  "document_id": "EFTA00001044",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:09:58.399301Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

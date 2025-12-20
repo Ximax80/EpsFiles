@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001087.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "An interior photograph of a highly decorated room. The room features blue and white floral wallpaper, a large blue glass chandelier, and heavy curtains with a blue and white chevron pattern flanking a solid beige curtain. A grey sofa with throw pillows is visible in the background. In the foreground, there is a daybed or chaise lounge with a rolled bolster pillow, featuring a geometric pattern. The floor is covered by a white rug with a blue grid pattern. A highly reflective blue surface (possibly a table) is in the bottom right foreground, reflecting the curtains.",
+    "layout": "Interior room shot with furniture and decorative elements.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001087",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001087",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001087"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp 'EFTA00001087' in the bottom right corner."
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photograph",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior design/room decor",
+    "date": null,
+    "references": [
+      "EFTA00001087"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a photograph of an interior space, likely part of a larger set of evidence or documentation given the Bates stamp.",
+  "file_path": "IMAGES\\0002\\EFTA00001087.pdf",
+  "document_id": "EFTA00001087",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:14:58.976294Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

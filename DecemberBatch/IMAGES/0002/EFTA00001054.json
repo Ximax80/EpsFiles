@@ -1,0 +1,66 @@
+{
+  "file_name": "EFTA00001054.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph of an interior room featuring a large, ornate wooden cabinet filled with various bottles and jars. To the left of the cabinet is a black speaker on a stand, a basket containing white towels, and a black subwoofer. To the right is a small wooden side table holding a telephone, a digital clock, and other small items. Another black speaker is visible behind the table. The wall is covered in a dark, patterned wallpaper, and the floor is carpeted with a beige, patterned rug.",
+    "layout": "The photograph is taken from a slightly low angle, showing a section of a room. The central focus is a three-section wooden display cabinet.",
+    "quality": "high",
+    "orientation": "portrait"
+  },
+  "text_extraction": {
+    "full_text": "4:09\nEFTA00001054",
+    "text_regions": [
+      {
+        "region": "digital clock display",
+        "text": "4:09",
+        "type": "printed"
+      },
+      {
+        "region": "footer",
+        "text": "EFTA00001054",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001054"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp EFTA00001054 in the bottom right corner"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior room photograph",
+    "date": null,
+    "references": [
+      "EFTA00001054"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The photograph appears to be an evidentiary photo from an investigation, indicated by the Bates stamp. The digital clock on the side table shows the time 4:09.",
+  "file_path": "IMAGES\\0002\\EFTA00001054.pdf",
+  "document_id": "EFTA00001054",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:11:10.142172Z",
+    "model": "gemini-3-flash-preview"
+  }
+}

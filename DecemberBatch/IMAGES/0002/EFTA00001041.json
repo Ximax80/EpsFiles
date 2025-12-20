@@ -1,0 +1,61 @@
+{
+  "file_name": "EFTA00001041.pdf",
+  "image_analysis": {
+    "type": "photograph",
+    "description": "A photograph showing a large taxidermy tiger lying on an ornate Persian-style rug in an interior room. The tiger is posed in a resting position with its head turned slightly to the left. In the background, there is a dark wood table with intricate carvings and turned legs, and light-colored, floor-length curtains. To the left, a portion of a blue upholstered chair with a gold-colored frame and a tassel is visible. The flooring appears to be dark wood parquet.",
+    "layout": "Landscape photograph with a document reference number in the bottom right corner.",
+    "quality": "high",
+    "orientation": "landscape"
+  },
+  "text_extraction": {
+    "full_text": "EFTA00001041",
+    "text_regions": [
+      {
+        "region": "footer",
+        "text": "EFTA00001041",
+        "type": "printed"
+      }
+    ]
+  },
+  "structured_data": {
+    "dates": [],
+    "people": [],
+    "organizations": [],
+    "locations": [],
+    "document_numbers": [
+      "EFTA00001041"
+    ],
+    "financial_amounts": [],
+    "contact_info": {
+      "phone_numbers": [],
+      "email_addresses": [],
+      "addresses": []
+    },
+    "signatures": [],
+    "stamps_or_markings": [
+      "Bates stamp/Reference number: EFTA00001041"
+    ]
+  },
+  "document_metadata": {
+    "document_type": "photo",
+    "sender": null,
+    "recipient": null,
+    "subject": "Interior photograph featuring a taxidermy tiger",
+    "date": null,
+    "references": [
+      "EFTA00001041"
+    ]
+  },
+  "confidence": {
+    "text_extraction": 1.0,
+    "structured_data": 1.0,
+    "overall": 1.0
+  },
+  "notes": "The image is a clear photograph likely used as evidence or documentation in an investigation, as indicated by the Bates-style numbering at the bottom.",
+  "file_path": "IMAGES\\0002\\EFTA00001041.pdf",
+  "document_id": "EFTA00001041",
+  "processing_metadata": {
+    "processed_at": "2025-12-20T00:09:38.303119Z",
+    "model": "gemini-3-flash-preview"
+  }
+}
