@@ -14,7 +14,7 @@ P25-12-19 15:02:44
 
 ### Processing Status
 
-- Total documents analyzed: 1381
+- Total documents analyzed: 1455
 - Named individuals identified: 55
 - Organizations found: 108
 - Document types: image_analysis
